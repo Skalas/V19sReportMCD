@@ -1,0 +1,6 @@
+* Introducción 
+
+* Herramienta de Visualización
+* API 
+* Docker
+* Arquitectura de la Aplicación
