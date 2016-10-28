@@ -1,6 +1,14 @@
+#+TITLE: INAI
+#+AUTHOR: Miguel Angel Escalante Serrato
+#+EMAIL:  escalas5@gmail.com
+#+LANGUAGE: es
+
 * Introducción 
 
 * Herramienta de Visualización
+
 * API 
+
 * Docker
+Para la API, que se diseñó se tomó en cuenta el hecho que no todos los sistemas son iguales y
 * Arquitectura de la Aplicación
