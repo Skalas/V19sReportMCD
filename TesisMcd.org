@@ -4,11 +4,35 @@
 #+LANGUAGE: es
 
 * Introducción 
+  El Instituto Nacional de Acceso a la Información (INAI antes IFAI) se funda en el año 2003 con el objetivo de garantizar el derecho de acceso de los ciudadanos a la información pública gubernamental (DAI) y a la privacidad de sus datos personales. Con la integración del Sistema Nacional de Transparencia (SNT) se debe conocer de manera integral toda la información que se a generaco a través del ejercicio del DAI para informar el diseño de éste. 
 
-* Herramienta de Visualización
+Para poder diseñar políticas basadas en evidencia, necesitamos diagnosticar el ejercicio del DAI. Recopilaremos información de los diferentes sistemas internos a través de los cuales el INAI facilita al ciudadano el ejercicio del DAI. Revisaremos los indicadores que el INAI usa para evaluar el ejercicio del DAI; aunado a esto se analizarán, definirán y evaluarán nuevos indicadores que complementen la información que actualmente se genera y usa; es necesario identificar las distintas fuentes de datos que existen dentor de los registros administrativos que permitirían hacer evaluaciones nuevas. En el ejercicio se requiere un mapeo completo de las fuentes de información, detección de vacíos en la información y definir una nueva metodología que permita evaluar el ejercicio del DAI e identificar áreas de oportunidad. 
 
-* API 
+Con el diagnóstico propuesto se emitirán propuestas y requerimientos para incorporar a las herramientas o plataformas tecnológicas del INAI, de tal forma que nos permitan recopilar y generar nueva información de manera automática de las distintas fuentes de información. Se busca también que los datos recopilados y actualizados se pongan a disposición del público en general. 
+El ejercicio viene en un momento muy oportuno ya que se aprueba la Ley General de Transparencia, misma que camia las funciones y atribuciones legales al Instituto. Con las nuevas obligaciones generadas, el Instituto tiene que generar nuevos sistemas para facilitar el ejercicio del DAI. 
 
-* Docker
-Para la API, que se diseñó se tomó en cuenta el hecho que no todos los sistemas son iguales y
-* Arquitectura de la Aplicación
+Se revisaron las distintas fuentes de datos a las que tuvimos acceso: Solicitudes, Recursos de Revisión, registros de las herramientas que tiene el INAI para facilitar el ejercicio del DAI.
+
+* Marco Conceptual
+** Resumen
+** Glosario
+*** Derecho de Acceso a la Información
+*** Sujetos Obligados
+*** Sistemas del Inai
+**** POT
+**** Infomex
+**** HCOM
+* Arquitectura
+** Glosario
+** Requerimientos
+** Herramienta de visualización
+* Procesamiento
+** Fuentes de Datos
+** ETL's
+** Esquema de la base de datos
+* API
+** Endpoints
+* Empaquetamiento
+** Instalación
+** Docker
+** Configuración
