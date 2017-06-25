@@ -1,28 +1,43 @@
-#+TITLE: CC
+#+TITLE: Implementación de un Producto de Datos
 #+AUTHOR: Miguel Angel Escalante Serrato
 #+EMAIL:  escalas5@gmail.com
 #+LANGUAGE: es
+#+LATEX_HEADER: \bibliographystyle{plain}
+#+LATEX_HEADER: \bibliography{bibliografia.bib}
 
-* Introducción 
-Cultura Colectiva es 
-* Producto de Datos
-Cultura Colectiva es un proyecto que ha crecido mucho y busca crecer más, para esto buscan herramientas que les ayuden a generar la inteligencia necesaria para adaptarse de manera más rápida y eficiente a las distintas tendencias que van surgiendo. Dados los nuevos retos que van surgiendo, se crea el equipo de Ciencia de Datos dentro de la compañía, cuyo objetivo es, en principio, generar un producto de datos para ayudar a la toma de decisiones en el día a día de la empresa. 
+* Introducción - (Problema)
 
-** Objetivo
-El objetivo en la etapa inicial del proyecto es de entender el número de clicks que se dan a los posts en Facebook y con ello generar una herramienta que evalúe nuevos títulos con base en la información histórica de los mismos. 
+Cultura Colectiva es una /startup/ mexicana que comienza a principios de 2013. Es una empresa dedicada a la generación de contenido tanto escrito, visual y audiovisual, actualmente son de las principales plataformas de comunicación con la generación /milenial/, en países de habla hispana. 
 
+Actualmente tienen más de 20 millones de seguidores en Facebook, más de 59.9 millones de visitas por mes a la página web. La plataforma principal de distribución que tienen es Facebook, por lo que gran parte del trabajo que se presenta en este documento tiene que ver sólo con datos extraídos de Facebook. 
+
+Cultura Colectiva es una empresa que se ha distinguido por analizar la información de sus usuarios para maximizar su audiencia y mejorar los contenidos. Conforme han crecido, este análisis se ha ido complejizando cada vez más, ahí es donde nace la necesidad de automatizar los procesos e implementar un flujo de análisis automatizado. Con esto en mente se buscó crear un equipo que se dedique a esta automatización e implementación de productos de datos dentro de Cultura Colectiva. 
+
+El problema original se puede resumir en: "Maximizar el número de visitas a la página web de Cultura Colectiva". Sin embargo con el aprendizaje que se ha obtenido de los meses de trabajo nos hemos dado cuenta que no es suficiente buscar la maximización del número de visitas. Hay que tomar en cuenta otras dimensiones del problema, calidad de contenido, tipo de contenido, distribución son dimensiones que se irán agregando a la visión de modelado y optimización.
 
 * Arquitectura
+** Origen
+   Hay distintas fuentes de datos a considerar para todos los productos de datos que tenemos en mente para Cultura Colectiva. La base más importante es la de Facebook, seguida de Google Analytics. Para toda la parte de monetización tenemos distintas bases de datos como /Double Click for Publishers/ (DFP), /Add Exchange/ (ADX) y más. 
 
-** Requerimientos
-** Herramienta de visualización
-* Procesamiento
-** Fuentes de Datos
-** ETL's
-** Esquema de la base de datos
-* API
-** Endpoints
+Por el momento todos los datos recabados vienen de la base de datos de Facebook con distintas métricas de cada una de las publicaciones que se hacen. Esta base definitivamente limita la visibilidad que se pueda tener del fenómeno, sin embargo el tráfico de la página web proviene approximandamente en un 80% de Facebook. 
+
+*** Facebook 
+La base de datos de Facebook es accesible mediante una herramienta llama [[https://developers.facebook.com/docs/graph-api/][/GraphAPI/ ]]\cite{graphapi}, 
+
+
+** Transformación
+** Consulta e Indexado 
+* Productos de Datos
+** API
+*** Endpoints
 * Empaquetamiento
 ** Instalación
 ** Docker
 ** Configuración
+* Modelo
+* Resultados cool
+* Aprendizaje
+* Trabajo futuro 
+* Conclusiones 
+
+
