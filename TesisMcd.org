@@ -7,9 +7,9 @@
 
 * Introducción 
 
-
+  
 * Ingesta de datos
-
+  
 Descargamos el catálogo del INEGI:
 
 #+BEGIN_SRC bash 
