@@ -7,14 +7,42 @@
 
 * Introducción 
 
-  
-* Ingesta de datos
-  
-Descargamos el catálogo del INEGI:
+* Bibliografía Consultada
+** Simpson’s paradox in Covid-19 case fatality rates: a mediation analysis of age-related causal effects
 
-#+BEGIN_SRC bash 
-wget -O data.zip http://internet.contenidos.inegi.org.mx/contenidos/Productos/prod_serv/contenidos/espanol/bvinegi/productos/geografia/marcogeo/889463674658_s.zip 
-mkdir -p data/raw/
-unzip data.zip -d data/raw/
+*** Dataset: https://github.com/Juliusvk/Covid19-age-related-causal-effects/tree/master/datasets
+   
+** BAYESIANISM AND CAUSALITY, OR, WHY I AM ONLY A HALF-BAYESIAN
+Arguments pro bayesianism: 
+- Silly to ignore what we know (Mantiene)
+- natural and useful to cast what we know in the language of probabilities (Not sure)
+- If we are wrong, data will let us know eventually (False)
 
-#+END_SRC
+What we are looking for in statistical analysis is to infer parameters of a distribution. with the parameters we can know things of the events.
+Causal analysis takes into account the data generation process. 
+
+We cannot convert statistical knowledge into causal knowledge.
+
+Examples of statistical concepts:
+- correlation
+- Regression
+- Dependence
+- Conditional independence
+- Association
+- likelihood
+- Collapsibility
+- risk ratio
+Examples of causal concepts: 
+- Randomization
+- influence
+- effect
+- cofounding
+- disturbance
+- spurious correlation
+- instrumental variables
+- interventions
+- explanation
+- attribution.
+
+                                                                                                                                                                                                                             
+* 
