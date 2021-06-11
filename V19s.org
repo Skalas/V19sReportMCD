@@ -1,0 +1,10 @@
+#+Author: Miguel Angel Escalante Serrato
+#+Title: V19s
+* Contexto
+** 19 Septiempre 2019
+
+* Problema
+* Baseline
+* Solución implementada
+* Comparativa
+* Conclusiones y Recomendaciones
