@@ -2,9 +2,37 @@
 #+Title: V19s
 * Contexto
 ** 19 Septiempre 2019
-
++ El 19 de septiembre del 2019 un sismo ocurrió en la Ciudad de México,
++ hubo varios daños
++ la respuesta gubernamental
++ Ayuda sociedad civil
++ Falta de información
++ Captura de información
++ MApa de sergio
 * Problema
++ Se trabó el mapa
++ Esto implicó que se empezaron a tomar capturas en papel y lápiz
++ Automatizar la entrada de información
++ Generar un mapeo de toda la información
++ Confiabilidad de la información
++ VErificación de la información
 * Baseline
++ Ushahidi
++ OpenStreetMap
++ buscar un par de ejemplos más.
 * Solución implementada
++ Mapa de arquitectura
++ Limpieza de datos
++ Código en python
++ Conexión con google sheets
 * Comparativa
+
 * Conclusiones y Recomendaciones
++ Tiempo de actualización
++ Simpleza en la actualización
++ MAlentendido en datos personales
++ Arreglo de mapa
++ Migración a Google Crisis Map
++ Screenshot del mapa
++ Google
++ Sociedad civil
