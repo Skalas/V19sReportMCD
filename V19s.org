@@ -1,15 +1,36 @@
 #+Author: Miguel Angel Escalante Serrato
 #+Title: V19s
+\newpage
+* Introducción
+Después del sismo de 19 de Septiembre de 2019,
 * Contexto
 ** 19 Septiempre 2019
-+ El 19 de septiembre del 2019 un sismo ocurrió en la Ciudad de México,
-+ hubo varios daños
+
+El 19 de septiembre de 2019 se suscitó un sismo de magnitud 7,1\footnote{nota de cnn.} grados en la escala Richter, que si bien fue menor al sismo sucitado unos días antes en la Ciudad de México\footnote{el 7 de septiembre con magnitud 8,1 en la escala Richter }, tuvo repercusiones que se hicieron inmediatamente presentes.
+
+Los daños generados en toda la ciudad fueron importantes, con edificios afectados en las delegaciones Cuauhtémoc, Benito Juárez, Tlalpan, Iztapalapa, Xochimilco y Coyoacán; esto sin tomar en cuenta las afectaciones  generadas en las entidades aledañas a la Ciudad de México. Los daños abarcaron desde pequeñas afectaciones a los edificios, hasta derrumbes de unidades habitacionales completas.
+
+Dada la densidad poblacional de la zona, y el rango de afectaciones que se presentaron, fue difícil hacer una primer evaluación de lo ocurrido, las redes telefónicas y de transporte, colapsaron por el incremento repentino de la demanda. Como ciudadano se tenía total incertidumbre, no había manera de ver si nuestros hogares estaban de pie aún, tampoco si los seres queridos estarían bien, la falta de información y la impotencia fueron un factor importante en cómo se vivieron las siguientes horas. La mayor parte de la población regresó a sus respectivos hogares, ya fuera en auto, motocicleta, bicicleta o caminando; todos regresaron a sus casas.
+
+
+
+Lo que llegaba por medio de grupos de Whatsapp fue información a pedazos, videos alarmantes de diferentes situaciones, personas evacuando edificios muy altos con un paneo de la ciudad envuelta en  humo y polvo, tanques estacionarios explotando, edificios derrumbándose. La generación de información fue impresionante e inmediata.
+
+La mayor parte de la población tiene en sus bolsillos dispositivos para grabar y transmitir videos en tiempo real, por supuesto en el momento el problema principal era la falta de red telefónica para transmitirlo. Conforme avanzaba el día había momentos en los que se podía percibir señal y así salían y llegaban mensajes.
+
+** Captura de información
+
 + la respuesta gubernamental
 + Ayuda sociedad civil
 + Falta de información
 + Captura de información
 + MApa de sergio
+
 * Problema
+
+El mapa tenía como entrada capturas manuales de diferentes amigos y conocidos de Sergio Beltrán.  Conforme fue creciendo la cantidad de información recabada, fue ganando más confianza general, y más personas aportaron a el mapeo de los diferentes puntos. El crecimiento en el número de usuarios agregando puntos de información de manera desorganizada, eventualmente rebasó la capacidad de la herramienta,
+Al principio el mapa tenía diferentes orígenes de información, en concreto: diferentes personas, cercanas al autor, agregaban puntos de información para seguir creciendo la sábana de información recabada; sin embargo, la tecnología usada no estuvo diseñada para recibir tal cantidad de información ni para la cantidad de usuarios  usuarios concurrentes.
+
 + Se trabó el mapa
 + Esto implicó que se empezaron a tomar capturas en papel y lápiz
 + Automatizar la entrada de información
