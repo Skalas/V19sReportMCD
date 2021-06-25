@@ -1,30 +1,34 @@
+
 #+Author: Miguel Angel Escalante Serrato
 #+Title: V19s
+#+LATEX_HEADER: \documentclass[12pt,spanish,oneside]{book}
+#+LATEX_HEADER: \parskip=10pt
+#+LATEX_HEADER: \parindent=0in
 \newpage
 * Introducción
 Después del sismo de 19 de Septiembre de 2019,
 * Contexto
 ** 19 Septiempre 2019
-
-El 19 de septiembre de 2019 se suscitó un sismo de magnitud 7,1\footnote{nota de cnn.} grados en la escala Richter, que si bien fue menor al sismo sucitado unos días antes en la Ciudad de México\footnote{el 7 de septiembre con magnitud 8,1 en la escala Richter }, tuvo repercusiones que se hicieron inmediatamente presentes.
+El 19 de septiembre de 2019 se suscitó un sismo de magnitud 7,1 \cite{cnn} grados en la escala Richter, que si bien fue menor al sismo sucitado unos días antes en la Ciudad de México\footnote{el 7 de septiembre con magnitud 8,1 en la escala Richter }, tuvo repercusiones que se hicieron inmediatamente presentes.
 
 Los daños generados en toda la ciudad fueron importantes, con edificios afectados en las delegaciones Cuauhtémoc, Benito Juárez, Tlalpan, Iztapalapa, Xochimilco y Coyoacán; esto sin tomar en cuenta las afectaciones  generadas en las entidades aledañas a la Ciudad de México. Los daños abarcaron desde pequeñas afectaciones a los edificios, hasta derrumbes de unidades habitacionales completas.
 
-Dada la densidad poblacional de la zona, y el rango de afectaciones que se presentaron, fue difícil hacer una primer evaluación de lo ocurrido, las redes telefónicas y de transporte, colapsaron por el incremento repentino de la demanda. Como ciudadano se tenía total incertidumbre, no había manera de ver si nuestros hogares estaban de pie aún, tampoco si los seres queridos estarían bien, la falta de información y la impotencia fueron un factor importante en cómo se vivieron las siguientes horas. La mayor parte de la población regresó a sus respectivos hogares, ya fuera en auto, motocicleta, bicicleta o caminando; todos regresaron a sus casas.
+Dada la densidad poblacional de la zona, y el rango de afectaciones que se presentaron, fue difícil hacer una primer evaluación de lo ocurrido. Como ciudadano se tenía total incertidumbre, no había manera de ver si nuestros hogares estaban de pie aún, tampoco si los seres queridos estarían bien, la falta de información y la impotencia fueron un factor importante en cómo se vivieron las siguientes horas. La mayor parte de la población regresó a sus respectivos hogares, ya fuera en auto, motocicleta, bicicleta o caminando todos regresaron a sus casas. Las redes telefónicas y de transporte, colapsaron por el incremento repentino de la demanda. Poco a poco las diferentes redes fueron aliviando los bloqueos y fue regresando la luz y el internet a las personas.
 
+** Respuesta gubernamental
 
-
-Lo que llegaba por medio de grupos de Whatsapp fue información a pedazos, videos alarmantes de diferentes situaciones, personas evacuando edificios muy altos con un paneo de la ciudad envuelta en  humo y polvo, tanques estacionarios explotando, edificios derrumbándose. La generación de información fue impresionante e inmediata.
-
-La mayor parte de la población tiene en sus bolsillos dispositivos para grabar y transmitir videos en tiempo real, por supuesto en el momento el problema principal era la falta de red telefónica para transmitirlo. Conforme avanzaba el día había momentos en los que se podía percibir señal y así salían y llegaban mensajes.
+Ante eventos de esta magnitud, la respuesta de los actores gubernamentales es de muchas maneras desconectada e impredecible, muchas líneas de comunicación están poco articuladas y la información llega a diferentes niveles de detalle y precisión. \cite{coord}
 
 ** Captura de información
 
-+ la respuesta gubernamental
-+ Ayuda sociedad civil
-+ Falta de información
-+ Captura de información
-+ MApa de sergio
+La mayor parte de la población tiene en sus bolsillos dispositivos para grabar y transmitir videos en tiempo real, por supuesto en el momento el problema principal era la falta de red telefónica para transmitirlo. Conforme avanzaba el día había momentos en los que se podía percibir señal y así salían y llegaban mensajes. Lo que llegaba por medio de grupos de Whatsapp fue información a pedazos, videos alarmantes de diferentes situaciones, personas evacuando edificios muy altos con un paneo de la ciudad envuelta en  humo y polvo, tanques estacionarios explotando, edificios derrumbándose. La generación de información fue inmediata y en gran cantidad.
+
+
+El problema principal con tal generación de información es que no tenía ningún orden mensajes reenviados vía mensajes de WhatsApp, publicaciones en Facebook e Instagram, todos sin ninguna información adicional de lo que estaba pasando. Lo que más tuvo foco y atención fueron los videos más escandalosos. Ante este problema Sergio Beltrán, arquitecto de profesión quien utilizaba mapeos de la ciudad para su trabajo, tuvo la idea de utilizar MyMaps de Google, para comenzar a puntear la información recibida en un mapa público.
+
+
+Al publicarlo el mapa, varios ex-compañeros de Sergio se ofrecieron como voluntarios para seguir agregando información. Conforme la red de colaboradores y usuarios creció, también la carga que tuvo la plataforma para mantener activo el mapa; tuvo alrededor de 1M de visitas durante el 19 de septiembre.  En la madrugada del 20 de septiembre el mapa se trabó para efectos de edición, sin embargo no para efectos de consulta; aún se podía ver la información pero ya no era posible actualizar el mapa.
+
 
 * Problema
 
@@ -57,3 +61,14 @@ Al principio el mapa tenía diferentes orígenes de información, en concreto: d
 + Screenshot del mapa
 + Google
 + Sociedad civil
+
+\newpage
+* Bibliografía
+
+ \begin{thebibliography}{1}
+
+
+\bibitem{cnn} CNN Español {\em 19 de septiembre, la fecha fatídica que dejó huella entre los mexicanos.} 19 septiembre 2019: https://cnnespanol.cnn.com/2019/09/19/cientos-de-muertos-miles-de-damnificados-y-millones-de-dolares-en-perdidas-asi-fue-el-terremoto-del-19s-en-mexico/
+\bibitem{coord} Ann Majchrzak, Sirkka L. Jarvenpaa, Andrea B. Hollingshead {\em Coordinating Expertise Among Emergent Groups Responding to Disasters.} 2007: Organization Science 18 (1) 147-161 https://doi.org/10.1287/orsc.1060.0228.
+
+ \end{thebibliography}
