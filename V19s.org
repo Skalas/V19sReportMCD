@@ -17,7 +17,7 @@ Dada la densidad poblacional de la zona, y el rango de afectaciones que se prese
 
 ** Respuesta gubernamental
 
-Ante eventos de esta magnitud, la respuesta de los actores gubernamentales es de muchas maneras desconectada e impredecible, muchas líneas de comunicación están poco articuladas y la información llega a diferentes niveles de detalle y precisión. \cite{coord}
+Ante eventos de esta magnitud, la respuesta de los actores gubernamentales es de muchas maneras desconectada e impredecible. Muchas líneas de comunicación están poco articuladas y la información llega a diferentes niveles de detalle y precisión\cite{coord}. Ante esto las poblaciones urbanas tienden a organizarse en grupos emergentes autoorganizados
 
 ** Captura de información
 
@@ -27,7 +27,7 @@ La mayor parte de la población tiene en sus bolsillos dispositivos para grabar 
 El problema principal con tal generación de información es que no tenía ningún orden mensajes reenviados vía mensajes de WhatsApp, publicaciones en Facebook e Instagram, todos sin ninguna información adicional de lo que estaba pasando. Lo que más tuvo foco y atención fueron los videos más escandalosos. Ante este problema Sergio Beltrán, arquitecto de profesión quien utilizaba mapeos de la ciudad para su trabajo, tuvo la idea de utilizar MyMaps de Google, para comenzar a puntear la información recibida en un mapa público.
 
 
-Al publicarlo el mapa, varios ex-compañeros de Sergio se ofrecieron como voluntarios para seguir agregando información. Conforme la red de colaboradores y usuarios creció, también la carga que tuvo la plataforma para mantener activo el mapa; tuvo alrededor de 1M de visitas durante el 19 de septiembre.  En la madrugada del 20 de septiembre el mapa se trabó para efectos de edición, sin embargo no para efectos de consulta; aún se podía ver la información pero ya no era posible actualizar el mapa.
+Al publicar el mapa, varios ex-compañeros de Sergio se ofrecieron como voluntarios para seguir agregando información. Conforme la red de colaboradores y usuarios creció, también la carga que tuvo la plataforma para mantener activo el mapa; tuvo alrededor de 1M de visitas durante el 19 de septiembre.  En la madrugada del 20 de septiembre el mapa se trabó para efectos de edición, sin embargo no para efectos de consulta; aún se podía ver la información pero ya no era posible actualizar el mapa.
 
 
 * Problema
