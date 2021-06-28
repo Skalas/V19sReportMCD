@@ -17,7 +17,7 @@ Dada la densidad poblacional de la zona, y el rango de afectaciones que se prese
 
 ** Respuesta gubernamental
 
-Ante eventos de esta magnitud, la respuesta de los actores gubernamentales es de muchas maneras desconectada e impredecible. Muchas líneas de comunicación están poco articuladas y la información llega a diferentes niveles de detalle y precisión\cite{coord}. Ante esto las poblaciones urbanas tienden a organizarse en grupos emergentes autoorganizados
+Ante eventos de esta magnitud, la respuesta de los actores gubernamentales es de muchas maneras desconectada e impredecible. Muchas líneas de comunicación están poco articuladas y la información llega a diferentes niveles de detalle y precisión\cite{coord}. Ante esto las poblaciones urbanas tienden a generar grupos emergentes auto organizados que responden a necesidades particulares de las situaciones,
 
 ** Captura de información
 
