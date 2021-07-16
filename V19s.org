@@ -6,7 +6,8 @@
 #+LATEX_HEADER: \parindent=0in
 \newpage
 * Introducción
-Después del sismo de 19 de Septiembre de 2019,
+Después del sismo de 19 de Septiembre de 2019
+\newpage
 * Contexto
 ** 19 Septiempre 2019
 El 19 de septiembre de 2019 se suscitó un sismo de magnitud 7,1 \cite{cnn} grados en la escala Richter, que si bien fue menor al sismo sucitado unos días antes en la Ciudad de México\footnote{el 7 de septiembre con magnitud 8,1 en la escala Richter }, tuvo repercusiones que se hicieron inmediatamente presentes.
@@ -17,7 +18,7 @@ Dada la densidad poblacional de la zona, y el rango de afectaciones que se prese
 
 ** Respuesta gubernamental
 
-Ante eventos de esta magnitud, la respuesta de los actores gubernamentales es de muchas maneras desconectada e impredecible. Muchas líneas de comunicación están poco articuladas y la información llega a diferentes niveles de detalle y precisión\cite{coord}. Ante esto las poblaciones urbanas tienden a generar grupos emergentes auto organizados que responden a necesidades particulares de las situaciones,
+Ante eventos de esta magnitud, la respuesta de los actores gubernamentales es de muchas maneras desconectada e impredecible. Muchas líneas de comunicación están poco articuladas y la información llega a diferentes niveles de detalle y precisión\cite{coord}. Ante esto las poblaciones urbanas tienden a generar grupos emergentes auto organizados que responden a necesidades particulares de las situaciones, estos grupos tienden a ser altamente heterogéneos
 
 ** Captura de información
 
@@ -27,31 +28,56 @@ La mayor parte de la población tiene en sus bolsillos dispositivos para grabar 
 El problema principal con tal generación de información es que no tenía ningún orden mensajes reenviados vía mensajes de WhatsApp, publicaciones en Facebook e Instagram, todos sin ninguna información adicional de lo que estaba pasando. Lo que más tuvo foco y atención fueron los videos más escandalosos. Ante este problema Sergio Beltrán, arquitecto de profesión quien utilizaba mapeos de la ciudad para su trabajo, tuvo la idea de utilizar MyMaps de Google, para comenzar a puntear la información recibida en un mapa público.
 
 
-Al publicar el mapa, varios ex-compañeros de Sergio se ofrecieron como voluntarios para seguir agregando información. Conforme la red de colaboradores y usuarios creció, también la carga que tuvo la plataforma para mantener activo el mapa; tuvo alrededor de 1M de visitas durante el 19 de septiembre.  En la madrugada del 20 de septiembre el mapa se trabó para efectos de edición, sin embargo no para efectos de consulta; aún se podía ver la información pero ya no era posible actualizar el mapa.
+Al publicar el mapa, varios ex-compañeros de Sergio se ofrecieron como voluntarios para seguir agregando información. Conforme la red de colaboradores y usuarios creció, también la carga que tuvo la plataforma para mantener activo el mapa; tuvo alrededor de 1M de visitas durante el 19 de septiembre.  En la madrugada del 20 de septiembre el mapa dejó de funcionar  para efectos de edición, sin embargo no para efectos de consulta; aún se podía ver la información pero ya no era posible actualizar el mapa.
 
-
+\newpage
 * Problema
 
-El mapa tenía como entrada capturas manuales de diferentes amigos y conocidos de Sergio Beltrán.  Conforme fue creciendo la cantidad de información recabada, fue ganando más confianza general, y más personas aportaron a el mapeo de los diferentes puntos. El crecimiento en el número de usuarios agregando puntos de información de manera desorganizada, eventualmente rebasó la capacidad de la herramienta,
-Al principio el mapa tenía diferentes orígenes de información, en concreto: diferentes personas, cercanas al autor, agregaban puntos de información para seguir creciendo la sábana de información recabada; sin embargo, la tecnología usada no estuvo diseñada para recibir tal cantidad de información ni para la cantidad de usuarios  usuarios concurrentes.
+El mapa tenía como entrada capturas manuales de diferentes amigos y conocidos de Sergio Beltrán.  Conforme fue creciendo la cantidad de información recabada, fue ganando más confianza general, y más personas aportaron a el mapeo de los diferentes puntos. El crecimiento en el número de usuarios agregando puntos de información de manera desorganizada, eventualmente rebasó la capacidad de la herramienta. El mapa dejó de permitir nuevas cargas de información. No olvidemos que la herramienta MyMaps está diseñada para uso personal en la plataforma de Google.
 
-+ Se trabó el mapa
-+ Esto implicó que se empezaron a tomar capturas en papel y lápiz
-+ Automatizar la entrada de información
-+ Generar un mapeo de toda la información
-+ Confiabilidad de la información
-+ VErificación de la información
+Ante la situación del mapa detenido aunado a las peticiones de información y recursos que llegaban al colectivo, los voluntarios tomaron por iniciativa capturar lo que llegaba en papel. Esto hizo altamente problemática el manejo de toda la información que se seguía generando, ya que posteriormente a escribirlos en papel, había que encontrar la manera de digitalizarlos, para que después se pudiera compartir la información.
+
+El objetivo principal de la plataforma fue encontrar una manera de capturar todos los puntos de información que llegaran al colectivo, digitalizarlos y hacerlos disponibles a diferentes actores. Se propuso implementar una automatización de la ingesta de datos, para luego publicarla en el mapa ya mencionado, de tal forma que hubiera una fuente de información de todo lo recabado y lo que se estaba por recabar; una de las decisiones tomadas fue el hecho de tomar en cuenta todas las fuentes confiables\footnote{Con esto nos referimos a fuentes de información con instituciones más grandes detrás.} de información que se encontraran para agregar  a las sábanas de información del mapa.
+
+** Verificación de información
+
+Uno de las principales problemáticas enfrentadas conforme fue creciendo el movimiento, fue el hecho que la población no tiene el entrenamiento para reportar incidentes o puntos de información, por lo que se encontró con una serie de puntos de información falsos. Se verificaron como falsos al atender el problema reportado para encontrar que no existía tal problema. Al automatizar la entrada de información, estos puntos tenían el riesgo de aumentar bastante.
+
+El mecanismo pensado para verificar la información reportada por los ciudadanos fue el generar una capa de verificación humana, esto es, para cada punto reportado, un voluntario del colectivo se aproximaba al lugar para verificar que el hecho de hecho estuviera ocurriendo. Con ello, se generó una fuente de información mucho más confiable que los reportes en bruto de todos los ciudadanos.
+
+
+
+
+\newpage
 * Baseline
 + Ushahidi
 + OpenStreetMap
 + buscar un par de ejemplos más.
+  \newpage
 * Solución implementada
+Para enumerar las distintas soluciones que se implementaron durante este ejercicio, hablaremos de partes del flujo de la información: *ingesta*, *procesamiento*, *inteligencia* y *visualización* de la información. Cada una de estas partes tiene distintas etapas conforme fueron evolucionando las necesidades de la crisis humanitaria.
+
+** Ingesta
+
+El primer punto a resolver dentro de todos los problemas que surgieron fue el migrar de las hojas de papel de nuevo a un medio electrónico que pudiera ser masificable y fácil de distribuir.
+
+*** Formulario
+
+Lo primero que vino a la mesa, fue hacer una app (ya fuera móvil o para navegador) que conectara con una base de datos y pudiera hacer ediciones, verificaciones, agregar puntos de información. Sin embargo el problema fue la restricción de tiempo, además del hecho que en ese momento los voluntarios con los que se contaban  no tenían la experiencia necesaria como para desarrollar tal herramienta con la velocidad requerida.
+
+Ante las limitantes de tiempo y buscando ser flexible para poder distribuir nuestro método de ingesta a una gran cantidad de personas, buscamos una herramienta que tuviera la capacidad de capturar el volumen necesario. Se tomó la decisión de usar  Google Forms. Esta herramienta tiene todo lo necesario para hacer una ingesta rápida de información, tiene campos de selección de opciones, texto libre, checkboxes, se pueden cargar imágenes, etc. Esto aunado al hecho que cuando una persona llena una de estos formularios, la información automáticamente se ve reflejada en una base de datos en Google Sheets. Es una plataforma que tiene la capacidad de ingestar toda la información junto con la robustez de los servicios de Google.
+
+La información que inicialmente queríamos recibir tenía que ver con los sitios de derrumbe y encontrar los distintos bienes que pudieran faltar o sobrar en cada uno de ellos. Inmediatamente surgió la necesidad de tener información de centros de acopio y albergues. Con ello nos dimos cuenta que teníamos que generar más de un flujo de ingesta de información. Se hicieron tres formularios para recibir información de sitios con daños, albergues y centros de acopio.
+
+
+
 + Mapa de arquitectura
 + Limpieza de datos
 + Código en python
 + Conexión con google sheets
+  \newpage
 * Comparativa
-
+\newpage
 * Conclusiones y Recomendaciones
 + Tiempo de actualización
 + Simpleza en la actualización
@@ -62,6 +88,7 @@ Al principio el mapa tenía diferentes orígenes de información, en concreto: d
 + Google
 + Sociedad civil
 
+\newpage
 \newpage
 * Bibliografía
 
