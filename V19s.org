@@ -142,7 +142,9 @@ En ese momento la organización humana se simplificó de tal forma que sólo hab
 El problema con trabajar con recursos humanos son las necesidades fisiológicas como el descanso. Conforme pasaron las horas y eventualmente los días, este equipo se enfrentó con el cansancio y la falta de horas de sueño. Por un lado, se volvieron indispensables y, por otro, eso fue profundamente problemático tanto de manera interna como externa. El estrés al que este equipo estuvo sujeto era impresionante y eventualmente tuvieron que descansar. En este momento se volvió mucho más evidente la necesidad de generar un sistema robusto y redundante; ya sea con una herramienta automatizada o un equipo de personas que puedan suplir a las personas dentro de las redes de confianza. Cuidar la salud tanto física como mental de los voluntarios es fundamental en un esfuerzo como =#Verificado19s=.
 
 ** Visualización
-Todo el movimiento =#Verificado19s= inició con un mapa y evolucionó a un sistema de gestión de recursos necesarios para el rescate de las víctimas de la crisis humanitaria que enfrentó México. El énfasis que quiero dar es que a pesar de la opinión que un mapa es una manera muy básica e incompleta de transmitir información, es una de las maneras más sencillas y claras para que la ciudadanía pueda acceder a ella.
+
+Todo el movimiento =#Verificado19s= inició con un mapa y evolucionó a un sistema de gestión de recursos necesarios para el rescate de las víctimas de la crisis humanitaria que enfrentó México. ~El énfasis que quiero dar es que a pesar de la opinión que un mapa es una manera muy básica e incompleta de transmitir información, es una de las maneras más sencillas y claras para que la ciudadanía pueda acceder a ella.~
+
 *** Diversidad de Fuentes
 En ese momento había distintos equipos capturando información de la misma índole que =#Verificado19s=. Conforme se contactaron a estos equipos y brindaron el acceso a su base de datos, se tomó la decisión de publicar la información de todas las fuentes que estuvieran abiertas. Las primeras fuentes externas en cargarse fueron:
 + Manos a la obra
@@ -165,12 +167,12 @@ Conforme se hizo la migración se encontraron distintos problemas que bloquearon
 + Conexión con la base de datos.
 El problema con el Crisis Map, desde mi perspectiva es que es una herramienta interna de Google[2]. Se tuvo el apoyo de los equipos de Google y en particular de el equipo de Chile que lo usó durante su respuesta al sismo de Valparaíso de 2017. Y aún con el apoyo de los equipos de Google y el de =#Verificado19s=, tomó 3 días la migración.
 
-** todo
+** TODO
 + Mapa de arquitectura
 + Limpieza de datos
 + Código en python
 + Conexión con google sheets
- \newpage
+  \newpage
 * Comparativa
 \newpage
 * Caso Ideal
