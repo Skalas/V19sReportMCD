@@ -28,7 +28,7 @@ Al publicar el mapa, varios ex-compañeros de Beltrán se ofrecieron como volunt
 
 \newpage
 
-* TODO Problema
+* Problema
 
 El mapa tenía como entrada capturas manuales de diferentes amigos y conocidos de Sergio Beltrán.  Conforme la cantidad de información recabada fue creciendo, la confianza general aumento. Y con esto, más personas aportaron al mapeo de los diferentes puntos. El crecimiento del número de usuarios al agregar puntos de información de manera desorganizada eventualmente rebasó la capacidad de la herramienta. El mapa dejó de permitir nuevas cargas de información. Esto se explica pues la herramienta de la plataform de Google,  MyMaps, está diseñada para uso personal.
 
