@@ -3,6 +3,7 @@
 #+LATEX_HEADER: \documentclass[12pt,spanish,oneside]{book}
 #+LATEX_HEADER: \parskip=10pt
 #+LATEX_HEADER: \parindent=0in
+
 \newpage
 * Introducción
 ** 19 Septiempre 2019
@@ -12,10 +13,6 @@ Los daños generados en toda la ciudad fueron importantes, con edificios afectad
 
 Dada la densidad poblacional de la zona, y el rango de afectaciones que se presentaron, fue difícil hacer una primer evaluación de lo ocurrido. Como ciudadano se tenía total incertidumbre, no había manera de ver si nuestros hogares estaban de pie aún, tampoco si los seres queridos estarían bien, la falta de información y la impotencia fueron un factor importante en cómo se vivieron las siguientes horas. La mayor parte de la población regresó a sus respectivos hogares, ya fuera en auto, motocicleta, bicicleta o caminando todos regresaron a sus casas. Las redes telefónicas y de transporte, colapsaron por el incremento repentino de la demanda. Poco a poco las diferentes redes fueron aliviando los bloqueos y fue regresando la luz y el internet a las personas.
 
-** Respuesta gubernamental
-
-Ante eventos de esta magnitud, la respuesta de los actores gubernamentales es de muchas maneras desconectada e impredecible. Muchas líneas de comunicación están poco articuladas y la información llega a diferentes niveles de detalle y precisión\cite{coord}. Ante esto las poblaciones urbanas tienden a generar grupos emergentes auto organizados que responden a necesidades particulares de las situaciones, estos grupos tienden a ser altamente heterogéneos
-
 ** Captura de información
 
 La mayor parte de la población tiene en sus bolsillos dispositivos para grabar y transmitir videos en tiempo real, por supuesto en el momento el problema principal era la falta de red telefónica para transmitirlo. Conforme avanzaba el día había momentos en los que se podía percibir señal y así salían y llegaban mensajes. Lo que llegaba por medio de grupos de Whatsapp fue información a pedazos, videos alarmantes de diferentes situaciones, personas evacuando edificios muy altos con un paneo de la ciudad envuelta en  humo y polvo, tanques estacionarios explotando, edificios derrumbándose. La generación de información fue inmediata y en gran cantidad.
@@ -23,10 +20,24 @@ La mayor parte de la población tiene en sus bolsillos dispositivos para grabar 
 
 El problema principal con tal generación de información es que no tenía ningún orden mensajes reenviados vía mensajes de WhatsApp, publicaciones en Facebook e Instagram, todos sin ninguna información adicional de lo que estaba pasando. Lo que más tuvo foco y atención fueron los videos más escandalosos. Ante este problema Sergio Beltrán, arquitecto de profesión quien utilizaba mapeos de la ciudad para su trabajo, tuvo la idea de utilizar MyMaps de Google, para comenzar a puntear la información recibida en un mapa público.
 
-
 Al publicar el mapa, varios ex-compañeros de Sergio se ofrecieron como voluntarios para seguir agregando información. Conforme la red de colaboradores y usuarios creció, también la carga que tuvo la plataforma para mantener activo el mapa; tuvo alrededor de 1M de visitas durante el 19 de septiembre.  En la madrugada del 20 de septiembre el mapa dejó de funcionar  para efectos de edición, sin embargo no para efectos de consulta; aún se podía ver la información pero ya no era posible actualizar el mapa.
 
-\newpage
+** Grupos emergentes auto-organizados
+
+Ante eventos de esta magnitud, la efectividad de la respuesta a la emergencia, depende en parte, de la velocidad y magnitud de la misma. Una respuesta muy fuerte ante desastres puede salvar muchas vidas; sin embargo hay recursos limitados dentro del gobierno. Los actores gubernamentales no pueden ayudar a todas las personas que lo requieren en el momento adecuado \cite{flood}.
+
+Los desastres estimulan respuestas espontáneas (y previas a que las organizaciones formales se puedan mobilizar), a través de grupos voluntarios auto-organizados, conformados por individuos dentro y fuera de las comunidades afectadas por el desastre. Estos grupos espontáneos y "Emergentes"  son una característica común de los deastres \cite{emergentgroups}. La respuesta de los actores gubernamentales es de muchas maneras desconectada e impredecible. Muchas líneas de comunicación están poco articuladas y la información llega a diferentes niveles de detalle y precisión\cite{coord}.
+
+El voluntariado, a través de individuos y grupos emergentes, es un recurso importante para la respuesta ante la emergencia. Es muy probable que dado el crecimiento de los centros urbanos, la  poblacion, aunado al incremento en la densidad  y proximidad de poblaciones urbanas este cobre una mayor importancia. La población local es fundamental para la respuesta ante los desastres \cite{coord}.
+
+** Mapeo de información
+
+Empatar las necesidades de ayuda y los esfuerzos de rescate a tiempo de manera efectiva es de los retos más importantes de la respuesta humanitaria. Gobiernos, organizaciones humanitarias, tienen una demanda explicita de información relevante, accionable y encontrrable. Sin embargo la información es de los recursos más perecederos\cite{bigdatahum}, ya que la información deja de ser relevante, muchas veces, antes de haber tomado alguna acción. De hecho lo que usualmente consideramos como "rápido" es lento: los medios de información usualmente son acusados de sensacionalismo en las crísis y también de reportar información falsa, fuera de tiempo y repetitiva. Los reporteros tienden a ser ajenos a las comunidades locales y sus condiciones\cite{networkshum}.
+
+Se puede definir un mapa comunitario como un conjunto de servicios via un proveedor internacional y/o una comunidad en línea que recolecta, analyza y mapea información crítica alrededor de poblaciones que fueron afectadas por algún desastre. \cite{crowdsourced} Dentro del sector humanitario el mapeo comunitario ha revolucionado la manera en que se percibe la respuesta a la crísis, en concreto, gracias a la habilitación a las comunidades afectadas por algún desastre para definir la manera en la que reciben ayuda \cite{harvardhuman}.
+
+Se han discutido las virtudes y limitaciones de mapas comunitarios para su uso en projectos no-gubernamentales y humanitarios. Sin embargo, el terremoto del 2010 en Haití,  trajo al frente el proceso de mapeo comunitario de crisis. Durante y después del sismo la población de Haití hacía pedidos de ayuda usando redes sociales y tecnologías móbiles, este esfuerzo fue coordinado por \textit{Humanitarian Open Street Map} y \textit{Ushahidi} usando \textit{OpenStreetMap} \cite{crowdsourced}.
+
 
 * Problema
 
@@ -43,13 +54,9 @@ Al momento de comenzar la colaboración se tuvieron que resolver diferentes tema
 
 El objetivo principal de la plataforma fue encontrar una manera de capturar todos los puntos que llegaran al colectivo, digitalizarlos y hacerlos disponibles a diferentes actores. Se propuso implementar una automatización de la ingesta de datos, para luego publicarla en el mapa ya mencionado, de tal forma que hubiera una fuente de información de todo lo recabado y lo que se estaba por recabar; una de las decisiones tomadas fue el hecho de tomar en cuenta todas las fuentes confiables\footnote{Con esto nos referimos a fuentes de información con instituciones reconocidas respaldándolas.} de información que se encontraran para agregar  a las sábanas de información del mapa.
 
-** Verificación de información
-
-Uno de las principales problemáticas enfrentadas conforme fue creciendo el movimiento, fue el hecho que la población no tiene el entrenamiento para reportar incidentes o puntos de información, por lo que se encontró con una serie de puntos de información falsos. Se verificaron como falsos al atender el problema reportado para encontrar que no existía tal problema. Al automatizar la entrada de información, estos puntos tenían el riesgo de aumentar bastante.
+Uno de las principales problemáticas enfrentadas conforme fue creciendo el movimiento, fue el hecho que la población no tiene el entrenamiento para reportar incidentes o puntos de información, se vuelve evidente tras encontrar diversos reportes falsos; se verificaron como falsos al atender el problema reportado para encontrar que no existía tal problema. Al automatizar la cantidad entradas reportadas, estos puntos tenían el riesgo de aumentar bastante.
 
 El mecanismo pensado para verificar la información reportada por los ciudadanos fue el generar una capa de verificación humana, esto es, para cada punto reportado, un voluntario del colectivo se aproximaba al lugar para verificar que el hecho de hecho estuviera ocurriendo. Con ello, se generó una fuente de información mucho más confiable que los reportes en bruto de todos los ciudadanos.
-
-
 
 
 \newpage
@@ -190,7 +197,18 @@ El problema con el Crisis Map, desde mi perspectiva es que es una herramienta in
  \begin{thebibliography}{1}
 
 
-\bibitem{cnn} CNN Español {\em 19 de septiembre, la fecha fatídica que dejó huella entre los mexicanos.} 19 septiembre 2019: https://cnnespanol.cnn.com/2019/09/19/cientos-de-muertos-miles-de-damnificados-y-millones-de-dolares-en-perdidas-asi-fue-el-terremoto-del-19s-en-mexico/
-\bibitem{coord} Ann Majchrzak, Sirkka L. Jarvenpaa, Andrea B. Hollingshead {\em Coordinating Expertise Among Emergent Groups Responding to Disasters.} 2007: Organization Science 18 (1) 147-161 https://doi.org/10.1287/orsc.1060.0228.
+\bibitem{cnn} CNN Español {\em 19 de septiembre, la fecha fatídica que dejó huella entre los mexicanos.} 19 septiembre 2019: \url{https://cnnespanol.cnn.com/2019/09/19/cientos-de-muertos-miles-de-damnificados-y-millones-de-dolares-en-perdidas-asi-fue-el-terremoto-del-19s-en-mexico/}
+\bibitem{coord} Ann Majchrzak, Sirkka L. Jarvenpaa, Andrea B. Hollingshead {\em Coordinating Expertise Among Emergent Groups Responding to Disasters.} 2007: Organization Science 18 (1) 147-161 \url{https://doi.org/10.1287/orsc.1060.0228}.
 
+\bibitem{flood} Department for Environment, Food and Rural Affairs, Flood Risk Management Division, {\em Spontaneous volunteers: Involving citizens in the response and recovery to flood emergencies.} London. Retrieved from \url{http://randd.defra.gov.uk/Document.aspx?Document=13013_FD2666_FinalReport_SpontaneousVolunteers.pdf}
+
+\bibitem{emergentgroups} Twigg J, Mosel I. {\em Emergent groups and spontaneous volunteers in urban disaster response. Environment and Urbanization.}  2017;29(2):443-458. \url{doi:10.1177/0956247817721413}.
+
+\bibitem{harvardhuman} Harvard Humanitarian Initiative (2011) {\em Disaster relief 2.0: the future of information sharing in humanitarian emergencies.} UN Foundation and Vodafone Foundation Technology Partnership, Washington, D.C. and Berkshire.
+
+\bibitem{crowdsourced} Hunt, Amelia, and Doug Specht. {\em Crowdsourced mapping in crisis zones: collaboration, organisation and impact.} Journal of International Humanitarian Action 4.1 (2019): 1-11.
+
+\bibitem{networkshum} Chernobrov, Dmitry. {\em Digital volunteer networks and humanitarian crisis reporting.} Digital Journalism 6.7 (2018): 928-944.
+
+\bibitem{bigdatahum} Meier, Patrick. 2015a. {\em Digital Humanitarians: How Big Data is Changing the Face of Humanitarian Response.} Boca Raton, FL: CRC Press.
  \end{thebibliography}
