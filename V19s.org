@@ -34,7 +34,14 @@ El mapa tenía como entrada capturas manuales de diferentes amigos y conocidos d
 
 Ante la situación del mapa detenido aunado a las peticiones de información y recursos que llegaban al colectivo, los voluntarios tomaron por iniciativa capturar lo que llegaba en papel. Esto hizo altamente problemática el manejo de toda la información que se seguía generando, ya que posteriormente a escribirlos en papel, había que encontrar la manera de digitalizarlos, para que después se pudiera compartir la información.
 
-El objetivo principal de la plataforma fue encontrar una manera de capturar todos los puntos de información que llegaran al colectivo, digitalizarlos y hacerlos disponibles a diferentes actores. Se propuso implementar una automatización de la ingesta de datos, para luego publicarla en el mapa ya mencionado, de tal forma que hubiera una fuente de información de todo lo recabado y lo que se estaba por recabar; una de las decisiones tomadas fue el hecho de tomar en cuenta todas las fuentes confiables\footnote{Con esto nos referimos a fuentes de información con instituciones respaldándolas.} de información que se encontraran para agregar  a las sábanas de información del mapa.
+Al momento de comenzar la colaboración se tuvieron que resolver diferentes temas, en concreto:
+
+1. Sobrecarga del mapa
+2. Ingesta de información.
+3. Unificación entrada de información
+4. Unificación de salida de información.
+
+El objetivo principal de la plataforma fue encontrar una manera de capturar todos los puntos que llegaran al colectivo, digitalizarlos y hacerlos disponibles a diferentes actores. Se propuso implementar una automatización de la ingesta de datos, para luego publicarla en el mapa ya mencionado, de tal forma que hubiera una fuente de información de todo lo recabado y lo que se estaba por recabar; una de las decisiones tomadas fue el hecho de tomar en cuenta todas las fuentes confiables\footnote{Con esto nos referimos a fuentes de información con instituciones reconocidas respaldándolas.} de información que se encontraran para agregar  a las sábanas de información del mapa.
 
 ** Verificación de información
 
