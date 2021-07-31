@@ -29,26 +29,27 @@ Al publicar el mapa, varios ex-compañeros de Beltrán se ofrecieron como volunt
 
 \newpage
 
-* Problema
+* TODO Problema
 
-El mapa tenía como entrada capturas manuales de diferentes amigos y conocidos de Sergio Beltrán.  Conforme fue creciendo la cantidad de información recabada, fue ganando más confianza general, y más personas aportaron a el mapeo de los diferentes puntos. El crecimiento en el número de usuarios agregando puntos de información de manera desorganizada, eventualmente rebasó la capacidad de la herramienta. El mapa dejó de permitir nuevas cargas de información. No olvidemos que la herramienta MyMaps está diseñada para uso personal en la plataforma de Google.
+El mapa tenía como entrada capturas manuales de diferentes amigos y conocidos de Sergio Beltrán.  Conforme la cantidad de información recabada fue creciendo, la confianza general aumento. Y con esto, más personas aportaron al mapeo de los diferentes puntos. El crecimiento del número de usuarios al agregar puntos de información de manera desorganizada eventualmente rebasó la capacidad de la herramienta. El mapa dejó de permitir nuevas cargas de información. Esto se explica pues la herramienta de la plataform de Google,  MyMaps, está diseñada para uso personal.
 
-Ante la situación del mapa detenido aunado a las peticiones de información y recursos que llegaban al colectivo, los voluntarios tomaron por iniciativa capturar lo que llegaba en papel. Esto hizo altamente problemática el manejo de toda la información que se seguía generando, ya que posteriormente a escribirlos en papel, había que encontrar la manera de digitalizarlos, para que después se pudiera compartir la información.
+Ante tal situación y aunado a las peticiones de información y recursos que llegaban al colectivo, los voluntarios tomaron por iniciativa capturar lo que llegaba en papel. Esto hizo problemático el manejo de todas las capturas que se seguían recabando, ya que posteriormente a escribirlos en papel, había que encontrar la manera de digitalizarlos. Todo esto para poder compartir la información. 
 
-El objetivo principal de la plataforma fue encontrar una manera de capturar todos los puntos de información que llegaran al colectivo, digitalizarlos y hacerlos disponibles a diferentes actores. Se propuso implementar una automatización de la ingesta de datos, para luego publicarla en el mapa ya mencionado, de tal forma que hubiera una fuente de información de todo lo recabado y lo que se estaba por recabar; una de las decisiones tomadas fue el hecho de tomar en cuenta todas las fuentes confiables\footnote{Con esto nos referimos a fuentes de información con instituciones respaldándolas.} de información que se encontraran para agregar  a las sábanas de información del mapa.
+El objetivo principal fue encontrar una manera de capturar todos los puntos de información que llegaran al colectivo, digitalizarlos y volverlos disponibles a diferentes actores. Se propuso implementar una automatización de la ingesta de datos, para luego publicarla en el mapa previamente mencionado, de tal forma que hubiera una fuente de información con todo lo recabado y lo que se estaba por recabar. Una de las decisiones tomadas fue el hecho de tomar en cuenta todas las fuentes confiables\footnote{Con esto nos referimos a fuentes de información con instituciones respaldándolas.} de información que se encontraran para agregar a las sábanas de información del mapa.
 
 ** Verificación de información
 
-Uno de las principales problemáticas enfrentadas conforme fue creciendo el movimiento, fue el hecho que la población no tiene el entrenamiento para reportar incidentes o puntos de información, por lo que se encontró con una serie de puntos de información falsos. Se verificaron como falsos al atender el problema reportado para encontrar que no existía tal problema. Al automatizar la entrada de información, estos puntos tenían el riesgo de aumentar bastante.
+Uno de las principales problemas enfrentados conforme fue creciendo el movimiento, fue el hecho que la población no tiene el entrenamiento para reportar incidentes o puntos de información. Por lo que se encontró una serie de puntos de información falsos. Estos eventos se verificaron como falsos al momento de atender los  reportes y encontrar que no existía tal problema. Al automatizar la entrada de información, estos puntos tenían el riesgo de aumentar bastante.
 
-El mecanismo pensado para verificar la información reportada por los ciudadanos fue el generar una capa de verificación humana, esto es, para cada punto reportado, un voluntario del colectivo se aproximaba al lugar para verificar que el hecho de hecho estuviera ocurriendo. Con ello, se generó una fuente de información mucho más confiable que los reportes en bruto de todos los ciudadanos.
+El mecanismo pensado para verificar la información reportada por los ciudadanos fue el generar una capa de verificación humana. Esto es, para cada punto reportado, un voluntario del colectivo se aproximaba al lugar para verificar que el hecho efectivamente estuviera ocurriendo. Con ello, se generó una fuente de información mucho más confiable que los reportes en bruto de todos los ciudadanos.
 
 
 
 
 \newpage
 
-* Solución implementada
+* TODO Solución implementada
+
 Para enumerar las distintas soluciones que se implementaron durante este ejercicio, hablaremos de partes del flujo de la información: *ingesta*, *procesamiento*, *inteligencia* y *visualización* de la información. Cada una de estas partes tiene distintas etapas conforme fueron evolucionando las necesidades de la crisis humanitaria.
 
 ** Ingesta
@@ -167,7 +168,7 @@ El problema con el Crisis Map, desde mi perspectiva es que es una herramienta in
 * Comparativa
 \newpage
 * Caso Ideal
-* TODO Conclusiones
+* Conclusiones
 + Tiempo de actualización
 + Simpleza en la actualización
 + MAlentendido en datos personales
