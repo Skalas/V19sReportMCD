@@ -49,7 +49,7 @@ El mecanismo pensado para verificar la información reportada por los ciudadanos
 
 * TODO Solución implementada
 
-Para enumerar las distintas soluciones que se implementaron durante este ejercicio, hablaremos de los pasos del flujo de la información: *ingesta*, *procesamiento*, *inteligencia* y *visualización*. ~Cada uno de estas partes tiene distintas etapas conforme fueron evolucionando las necesidades de la crisis humanitaria.~
+Para enumerar las distintas soluciones que se implementaron durante este ejercicio, hablaremos de los pasos del flujo de la información: *ingesta*, *procesamiento*, *inteligencia* y *visualización*.
 
 ** Ingesta
 
@@ -59,22 +59,26 @@ El primer punto a resolver dentro de todos los problemas que surgieron fue el mi
 
 Lo primero que vino a la mesa, fue hacer una app (ya fuera móvil o para navegador) que conectara con una base de datos y pudiera hacer ediciones, verificaciones, agregar puntos de información. Sin embargo el problema fue la restricción de tiempo, además del hecho que en ese momento los voluntarios con los que se contaban no tenían la experiencia necesaria como para desarrollar tal herramienta con la velocidad requerida.
 
-Ante las limitantes de tiempo y buscando la flexibilidad para poder distribuir nuestro método de ingesta a una gran cantidad de personas, se buscó una herramienta que tuviera la capacidad de capturar el volumen necesario. Se tomó la decisión de usar Google Forms (~cita~). Esta herramienta tiene todo lo necesario para hacer una ingesta rápida de información. Tiene campos de selección de opciones, texto libre, /checkboxes/, carga de imágenes, etc. La información ingerida en estos formatos automáticamente se puede ver reflejada en una base de datos en Google Sheets (~cita~). La última, una plataforma que tiene la capacidad de guardar toda la información junto con la robustez de los servicios de Google en un formato de tabla (~cita a definición de tabla~).
+Ante las limitantes de tiempo y buscando la flexibilidad para poder distribuir nuestro método de ingesta a una gran cantidad de personas, se buscó una herramienta que tuviera la capacidad de capturar el volumen necesario. Se tomó la decisión de usar Google Forms\footnote{https://www.google.com/forms/about/.}. Esta herramienta tiene todo lo necesario para hacer una ingesta rápida de información. Tiene campos de selección de opciones, texto libre, /checkboxes/, carga de imágenes, etc. La información ingerida en estos formatos automáticamente se puede ver reflejada en una base de datos en Google Sheets\footnote{https://www.google.com/sheets/about/.}. La última, una plataforma que tiene la capacidad de guardar toda la información junto con la robustez de los servicios de Google en el formato de tabla (unidad de almacenamiento básica en un modelo relacional, \cite{codd}).
 
 La información que inicialmente se pensaba recibir tenía que ver con los sitios de derrumbe para encontrar los distintos bienes que pudieran faltar o sobrar en cada uno de ellos. Inmediatamente surgió la necesidad de tener la ubicación de centros de acopio y albergues. Con ello nos dimos cuenta que teníamos que generar más de un flujo de ingesta de información. Se hicieron tres formularios para recibir información de sitios con daños, albergues y centros de acopio.
 
-*** TODO Verificación de Información
+*** Verificación de Información
 
-Conforme llegó información a las brokers[1], reportaron que muchos de los incidentes que existían en la base de datos, no existían o era mucho menor a lo que se decía en el reporte de Google Forms.
+La necesidad de verificar la información se hizo más evidente y lo que se implementó fue una capa de verificación intermedia. Gracias a todos los voluntarios, el foco que obtuvo la herramienta y el mapa que se viralizó, existían equipos grandes de voluntarios en distintas modalidades de transporte: a pie, en bicicleta o motocicleta.
 
-La necesidad de verificar la información se hizo más evidente y lo que se implementó fue una capa de verificación intermedia; gracias a todos los voluntarios, el foco que obtuvo la herramienta y el mapa que se viralizó, existían equipos grandes de voluntarios a pie, en bicicleta o motocicleta.
+Todos los voluntarios eran un par de ojos que ayudaron a visitar cada lugar reportado y verificar si el incidente fue verdadero. Con esto también surgió la necesidad de definir lo que significa que algo esté verificado. La definición que se acordó entre el equipo fue
 
-Todos los voluntarios eran un par de ojos que ayudaron a ir personalmente a cada lugar reportado y verificar si el incidente fue verdadero. Con esto también surge la necesidad de definir lo que significa que algo esté verificado. La definición que se acordó entre el equipo fue: para que un evento esté verificado se requiere que se cumpla al menos una de las siguientes condiciones:
+#+begin_quote
 
-+ Fue visto con los ojos de la persona que reporta.
-+ Al menos dos personas de confianza del reportante lo hayan visto con sus ojos.
+Para que un evento esté verificado se requiere que se cumpla al menos una de las siguientes condiciones:
 
-Desde el punto de vista de la información que llegaba, se dejaron los mismos formularios públicos, pero se agregaron otros tres formularios sólo para los verificadores. Los segundos formularios son los que finalmente se publicaban en el mapa y con los que los brokers trabajaron.
++ El evento fue  visto con los ojos de la persona que reporta.
++ Al menos dos personas de confianza del reportante lo han presenciado.
+
+#+end_quote
+
+Desde el punto de vista de la información que llegaba, se dejaron los mismos formularios públicos, pero se agregaron otros tres formularios sólo para los verificadores. Los segundos formularios son los que finalmente se publicaban en el mapa y con los que el colectivo trabajó.
 
 *** Unificación
 
@@ -82,7 +86,7 @@ La última iteración de los formularios fue una unificación de los tres format
 
 Los enlaces de los distintos formularios fueron publicados a través de redes sociales. En cuanto se tuvo una página web, los enlaces fueron migrados junto con instrucciones de cómo ser llenados. Esto con el objetivo de mayor claridad y tener un proceso de captura mas sencillo.
 
-*** Procesamiento
+** Procesamiento
 
 La información que se obtuvo durante todo el tiempo que estuvo activo =#Verificado19s=, era de naturaleza delicada. Pues en la captura se incluyeron teléfono, nombre y ubicación de la persona que reportaba. Mismos que son sensibles y  no podían ser publicados en ningún momento.
 
@@ -90,7 +94,7 @@ La información que se obtuvo durante todo el tiempo que estuvo activo =#Verific
 
 Google Forms, fue una herramienta vital para la solución que se concretó. Sin embargo, tuvo ciertas limitantes en las entradas que podrían ser registradas por los formularios. En particular, no se puede hacer la captura de la ubicación del teléfono con el que se está haciendo el formulario, esto añade un grado de complejidad no previsto y con alta probabilidad de error durante el proceso de captura. 
 
-La estimación de la ubicación se realizó a través de la interfaz de programación de aplicaciones (API, por sus siglas en inglés) de Google Maps (~cita~). Se mandaba a ésta la dirección con atributos: calle, número, colonia y ciudad. La API responde con las coordenadas estimadas para una dirección dada y con ello un punto geográfico que podemos visualizar y registrar en un mapa.
+La estimación de la ubicación se realizó a través de la interfaz de programación de aplicaciones (API, por sus siglas en inglés) de Google Maps\footnote{https://www.google.com/maps/about/#!/.}. Se mandaba a ésta la dirección con atributos: calle, número, colonia y ciudad. La API responde con las coordenadas estimadas para una dirección dada y con ello un punto geográfico que podemos visualizar y registrar en un mapa.
 
 Uno de los problemas con este acercamiento es que cuando la información estaba incompleta, la API daba coordenadas bastante lejanas al punto. Un ejemplo de esto es la calle de Escocia en la colonia Del Valle. En dicha dirección hubo dos derrumbes y cuando se reportó con la información incompleta, se recibió de la API coordenadas en el país de Escocia. 
 
@@ -120,7 +124,7 @@ Por otro lado, un problema adicional fue que distintos voluntarios reportaron el
 
 Conforme pasó el tiempo, la información en el mapa dejó de ser relevante para efectos prácticos. Se decidió hacer un filtro temporal de un día a los puntos reportados. Lo que significa que  en cuanto se reportaba un incidente, se tenían que seguir haciendo reportes diarios para que los puntos no desaparecieran del mapa.
 
-*** Inteligencia
+** Inteligencia
 
 Al final del día 20 de septiembre, ya se tenía una primer versión del ETL funcionando.  Se cargaba de forma manual al mapa final en MyMaps. Con la información que se iba recabando se tenía lo suficiente como para hacer una solución bastante robusta con el objetivo de parear la información de la oferta (recursos) con la de demanda (sitios necesitados).
 
@@ -192,6 +196,7 @@ El problema con el Crisis Map, desde mi perspectiva es que es una herramienta in
  \begin{thebibliography}{1}
 
 \bibitem{cnn} CNN Español {\em 19 de septiembre, la fecha fatídica que dejó huella entre los mexicanos.} 19 septiembre 2017: https://cnnespanol.cnn.com/2019/09/19/cientos-de-muertos-miles-de-damnificados-y-millones-de-dolares-en-perdidas-asi-fue-el-terremoto-del-19s-en-mexico/. Fecha de consulta: 20 de abril de 2021.
+\bibitem{codd} Codd, E. F. {\em A Relational Model of Data for Large Shared Data Banks.} 1970:  Communications of the ACM. 13 (6): 377–387. doi:10.1145/362384.362685.
 \bibitem{coord} Ann Majchrzak, Sirkka L. Jarvenpaa, and Andrea B. Hollingshead. {\em Coordinating Expertise Among Emergent Groups
 Responding to Disasters.} 2007: Organization Science 18 (1) 147-161 https://doi.org/10.1287/orsc.1060.0228.
 \bibitem{mymap} Ikeda, Yoshiyasu, Yosuke Yoshioka, and Yasuhiko Kitamura. {\em Intercultural collaboration support system using disaster safety map and machine translation.} 2010: Culture and Computing 100-112. Springer, Berlin, Heidelberg, 2010.
