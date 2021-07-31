@@ -4,14 +4,13 @@
 #+LATEX_HEADER: \parskip=10pt
 #+LATEX_HEADER: \parindent=0in
 \newpage
-* TODO Introducción
+* Introducción
 
 El 19 de septiembre de 2017 se suscitó un sismo de magnitud 7,1 grados en la escala Richter \cite{cnn}, que si bien fue menor al sismo suscitado unos días antes en la Ciudad de México\footnote{el 7 de septiembre con magnitud 8,1 en la escala Richter.}, tuvo repercusiones que se hicieron inmediatamente presentes.
 
-Los daños generados en toda la ciudad fueron importantes, con edificios afectados en las delegaciones Cuauhtémoc, Benito Juárez, Tlalpan, Iztapalapa, Xochimilco y Coyoacán (~falta poner cita de esto~); esto sin tomar en cuenta las afectaciones  generadas en las entidades aledañas a la Ciudad de México. Los daños abarcaron desde pequeñas afectaciones a los edificios, hasta derrumbes de unidades habitacionales completas.
+Los daños generados en toda la ciudad fueron importantes, con edificios afectados en las delegaciones Cuauhtémoc, Benito Juárez, Tlalpan, Iztapalapa, Xochimilco y Coyoacán \cite{ap19s}; esto sin tomar en cuenta las afectaciones  generadas en las entidades aledañas a la Ciudad de México. Los daños abarcaron desde pequeñas afectaciones a los edificios, hasta derrumbes de unidades habitacionales completas.
 
-
-Dada la densidad poblacional de la zona, y el rango de afectaciones que se presentaron, fue difícil hacer una primer evaluación de lo ocurrido. Las redes telefónicas y de transporte, colapsaron por el incremento repentino de la demanda (~cita~). Los ciudadanos tenían total incertidumbre, no había manera de ver si sus hogares aún estaban de pie. Tampoco si sus seres queridos estarían bien. La falta de información y la impotencia fueron un factor importante en cómo se vivieron las siguientes horas. La mayor parte de la población regresó a sus respectivos hogares. Ya fuera en auto, motocicleta, bicicleta o caminando, todos regresaron a sus casas. Poco a poco las diferentes redes fueron aliviando, los bloqueos informáticos cesaron y fue regresando la luz y el internet a las personas.
+Dada la densidad poblacional de la zona, y el rango de afectaciones que se presentaron, fue difícil hacer una primer evaluación de lo ocurrido. Las redes telefónicas y de transporte, colapsaron por el incremento repentino de la demanda \cite{telcom19s}. Los ciudadanos tenían total incertidumbre, no había manera de ver si sus hogares aún estaban de pie. Tampoco si sus seres queridos estarían bien. La falta de información y la impotencia fueron un factor importante en cómo se vivieron las siguientes horas. La mayor parte de la población regresó a sus respectivos hogares. Ya fuera en auto, motocicleta, bicicleta o caminando, todos regresaron a sus casas. Poco a poco las diferentes redes fueron aliviando, los bloqueos informáticos cesaron y fue regresando la luz y el internet a las personas \cite{ift}.
 
 ** Respuesta gubernamental
 
@@ -22,7 +21,7 @@ Ante eventos de esta magnitud, la respuesta de los actores gubernamentales suele
 Por medio de dispositivos móviles, la mayor parte de la población tiene en sus bolsillos herramientas para grabar y transmitir videos en tiempo real. Por supuesto, en el momento el problema principal fue la falta de red telefónica para transmitirlos. Conforme avanzaba el día había momentos en los que se podía percibir señal que facilitaba el flujo de mensajes. Mismos que llegaban por medio de grupos de /Whatsapp/. La información estaba fragmentada. Había videos alarmantes de diferentes situaciones: personas evacuando edificios con un paneo\footnote{Vistazo previo que se hace con una cámara sobre algo antes de fijar el objetivo.} de la ciudad envuelta en  humo y polvo; tanques estacionarios explotando; edificios derrumbándose. La generación de información fue inmediata y en grandes cantidades.
 
 
-El problema principal con tal generación de información es que no tenía ningún orden. Se compartían mensajes reenviados vía /WhatsApp/, publicaciones en /Facebook/ e /Instagram/. Todos sin ninguna información adicional de lo que estaba pasando. La  atención se concentró en los videos más escandalosos (~cita~). Ante este problema Sergio Beltrán, arquitecto de profesión quien utilizaba mapeos de la ciudad para su trabajo, tuvo la idea de utilizar MyMaps de Google (~cita~), para comenzar a puntear la información recibida en un mapa público.
+El problema principal con tal generación de información es que no tenía ningún orden. Se compartían mensajes reenviados vía /WhatsApp/, publicaciones en /Facebook/ e /Instagram/. Todos sin ninguna información adicional de lo que estaba pasando. La  atención se concentró en los videos más escandalosos\footnote{Una búsqueda realizada por el término =video sismo 19 de septiembre= arroja resultados con alrededor un millón y medio de visualizaciones por resultado.}. Ante este problema Sergio Beltrán, arquitecto de profesión quien utilizaba mapeos de la ciudad para su trabajo, tuvo la idea de utilizar MyMaps de Google\cite{mymap}, para comenzar a puntear la información recibida en un mapa público.
 
 
 Al publicar el mapa, varios ex-compañeros de Beltrán se ofrecieron como voluntarios para seguir agregando información. Conforme la red de colaboradores y usuarios creció, también la carga que tuvo la plataforma para mantener activo el mapa. El 19 de septiembre el sitió recibió alrededor de un millón de visitas. El problema fue que en la madrugada del 20 de septiembre el mapa dejó de funcionar. No se podía editar más. Sin embargo,  aún se podía ver la información pero ya no era posible actualizar el mapa.
@@ -192,8 +191,14 @@ El problema con el Crisis Map, desde mi perspectiva es que es una herramienta in
 
  \begin{thebibliography}{1}
 
-
-\bibitem{cnn} CNN Español {\em 19 de septiembre, la fecha fatídica que dejó huella entre los mexicanos.} 19 septiembre 2019: https://cnnespanol.cnn.com/2019/09/19/cientos-de-muertos-miles-de-damnificados-y-millones-de-dolares-en-perdidas-asi-fue-el-terremoto-del-19s-en-mexico/
-\bibitem{coord} Ann Majchrzak, Sirkka L. Jarvenpaa, Andrea B. Hollingshead {\em Coordinating Expertise Among Emergent Groups Responding to Disasters.} 2007: Organization Science 18 (1) 147-161 https://doi.org/10.1287/orsc.1060.0228.
+\bibitem{cnn} CNN Español {\em 19 de septiembre, la fecha fatídica que dejó huella entre los mexicanos.} 19 septiembre 2017: https://cnnespanol.cnn.com/2019/09/19/cientos-de-muertos-miles-de-damnificados-y-millones-de-dolares-en-perdidas-asi-fue-el-terremoto-del-19s-en-mexico/. Fecha de consulta: 20 de abril de 2021.
+\bibitem{coord} Ann Majchrzak, Sirkka L. Jarvenpaa, and Andrea B. Hollingshead. {\em Coordinating Expertise Among Emergent Groups
+Responding to Disasters.} 2007: Organization Science 18 (1) 147-161 https://doi.org/10.1287/orsc.1060.0228.
+\bibitem{mymap} Ikeda, Yoshiyasu, Yosuke Yoshioka, and Yasuhiko Kitamura. {\em Intercultural collaboration support system using disaster safety map and machine translation.} 2010: Culture and Computing 100-112. Springer, Berlin, Heidelberg, 2010.
+\bibitem{ap19s} Animal Político {\em Lo que el \#19S nos dejó: las víctimas, daños y damnificados en México.} 19 de octubre, 2017:
+https://www.animalpolitico.com/2017/10/cifras-oficiales-sismo-19s/. Fecha de consulta: 20 de abril de 2021.
+\bibitem{telcom19s} El Economista {\em ¿Por qué fallaron las líneas telefónicas tras el sismo del 19 de septiembre de 2017?} 20 de septiembre de 2017: https://www.eleconomista.com.mx/empresas/Por-que-fallaron-las-lineas-telefonicas-tras-el-sismo-del-19-de-septiembre-de-2017-20170920-0091.html. Fecha de consulta: 20 de abril de 2021.
+\bibitem{ift} Instituto Federal de Telecomunicaciones. {\em A 72 horas del sismo, 98\% de las redes públicas de telecomunicaciones se encuentran en funcionamiento.} 22 de septiembre de 2017:
+http://www.ift.org.mx/comunicacion-y-medios/comunicados-ift/es/72-horas-del-sismo-98-de-las-redes-publicas-de-telecomunicaciones-se-encuentran-en-funcionamiento. Fecha de consulta: 20 de abril de 2021.
 
  \end{thebibliography}
