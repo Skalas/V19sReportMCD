@@ -7,7 +7,7 @@
 \newpage
 * Introducción
 
-El 19 de septiembre de 2017 se suscitó un sismo de magnitud 7,1 grados en la escala Richter \cite{cnn}, que si bien fue menor al sismo suscitado unos días antes en la Ciudad de México\footnote{el 7 de septiembre con magnitud 8,1 en la escala Richter.}, tuvo repercusiones que se hicieron inmediatamente presentes.
+El 19 de septiembre de 2017 se suscitó un sismo de magnitud 7,1 grados en la escala Richter \cite{cnn}, que si bien fue menor al sismo suscitado unos días antes en la Ciudad de México\footnote{El 7 de septiembre con magnitud 8,1 en la escala Richter.}, tuvo repercusiones que se hicieron inmediatamente presentes.
 
 Los daños generados en toda la ciudad fueron importantes, con edificios afectados en las delegaciones Cuauhtémoc, Benito Juárez, Tlalpan, Iztapalapa, Xochimilco y Coyoacán \cite{ap19s}; esto sin tomar en cuenta las afectaciones  generadas en las entidades aledañas a la Ciudad de México. Los daños abarcaron desde pequeñas afectaciones a los edificios, hasta derrumbes de unidades habitacionales completas.
 
@@ -23,12 +23,11 @@ El problema principal con tal generación de información es que no tenía ning�
 
 Al publicar el mapa, varios ex-compañeros de Beltrán se ofrecieron como voluntarios para seguir agregando información. Conforme la red de colaboradores y usuarios creció, también la carga que tuvo la plataforma para mantener activo el mapa. El 19 de septiembre el sitió recibió alrededor de un millón de visitas. El problema fue que en la madrugada del 20 de septiembre el mapa dejó de funcionar. No se podía editar más. Sin embargo,  aún se podía ver la información pero ya no era posible actualizar el mapa.
 
-
 ** Grupos emergentes auto-organizados
 
 Ante eventos de esta magnitud, la efectividad de la respuesta a la emergencia, depende en parte, de la velocidad y magnitud de la misma. Una respuesta muy fuerte ante desastres puede salvar muchas vidas; sin embargo hay recursos limitados dentro del gobierno. Los actores gubernamentales no pueden ayudar a todas las personas que lo requieren en el momento adecuado \cite{flood}.
 
-Los desastres estimulan respuestas espontáneas (y previas a que las organizaciones formales se puedan mobilizar), a través de grupos voluntarios auto-organizados, conformados por individuos dentro y fuera de las comunidades afectadas por el desastre. Estos grupos espontáneos y "Emergentes"  son una característica común de los deastres \cite{emergentgroups}. La respuesta de los actores gubernamentales es de muchas maneras desconectada e impredecible. Muchas líneas de comunicación están poco articuladas y la información llega a diferentes niveles de detalle y precisión\cite{coord}.
+Los desastres estimulan respuestas espontáneas (y previas a que las organizaciones formales se puedan mobilizar), a través de grupos voluntarios auto-organizados, conformados por individuos dentro y fuera de las comunidades afectadas por el desastre. Estos grupos espontáneos y "emergentes"  son una característica común de los deastres \cite{emergentgroups}. La respuesta de los actores gubernamentales es de muchas maneras desconectada e impredecible. Muchas líneas de comunicación están poco articuladas y la información llega a diferentes niveles de detalle y precisión\cite{coord}.
 
 El voluntariado, a través de individuos y grupos emergentes, es un recurso importante para la respuesta ante la emergencia. Es muy probable que dado el crecimiento de los centros urbanos, la  poblacion, aunado al incremento en la densidad  y proximidad de poblaciones urbanas este cobre una mayor importancia. La población local es fundamental para la respuesta ante los desastres \cite{coord}.
 
@@ -39,7 +38,6 @@ Empatar las necesidades de ayuda y los esfuerzos de rescate a tiempo de manera e
 Se puede definir un mapa comunitario como un conjunto de servicios via un proveedor internacional y/o una comunidad en línea que recolecta, analyza y mapea información crítica alrededor de poblaciones que fueron afectadas por algún desastre. \cite{crowdsourced} Dentro del sector humanitario el mapeo comunitario ha revolucionado la manera en que se percibe la respuesta a la crísis, en concreto, gracias a la habilitación a las comunidades afectadas por algún desastre para definir la manera en la que reciben ayuda \cite{harvardhuman}.
 
 Se han discutido las virtudes y limitaciones de mapas comunitarios para su uso en projectos no-gubernamentales y humanitarios. Sin embargo, el terremoto del 2010 en Haití,  trajo al frente el proceso de mapeo comunitario de crisis. Durante y después del sismo la población de Haití hacía pedidos de ayuda usando redes sociales y tecnologías móbiles, este esfuerzo fue coordinado por \textit{Humanitarian Open Street Map} y \textit{Ushahidi} usando \textit{OpenStreetMap} \cite{crowdsourced}.
-
 
 * Problema
 
@@ -217,30 +215,30 @@ El problema con el Crisis Map, desde mi perspectiva es que es una herramienta in
 
  \begin{thebibliography}{1}
 
+\bibitem{ap19s} Animal Político {\em Lo que el \#19S nos dejó: las víctimas, daños y damnificados en México.} 19 de octubre, 2017:
+https://www.animalpolitico.com/2017/10/cifras-oficiales-sismo-19s/. Fecha de consulta: 20 de abril de 2021.
+
 \bibitem{cnn} CNN Español {\em 19 de septiembre, la fecha fatídica que dejó huella entre los mexicanos.} 19 septiembre 2017: https://cnnespanol.cnn.com/2019/09/19/cientos-de-muertos-miles-de-damnificados-y-millones-de-dolares-en-perdidas-asi-fue-el-terremoto-del-19s-en-mexico/. Fecha de consulta: 20 de abril de 2021.
 
 \bibitem{codd} Codd, E. F. {\em A Relational Model of Data for Large Shared Data Banks.} 1970:  Communications of the ACM. 13 (6): 377–387. doi:10.1145/362384.362685.
 
+\bibitem{crowdsourced} Hunt, Amelia, and Doug Specht. {\em Crowdsourced mapping in crisis zones: collaboration, organisation and impact.} Journal of International Humanitarian Action 4.1 (2019): 1-11.
+
 \bibitem{coord} Ann Majchrzak, Sirkka L. Jarvenpaa, and Andrea B. Hollingshead. {\em Coordinating Expertise Among Emergent Groups
 Responding to Disasters.} 2007: Organization Science 18 (1) 147-161 https://doi.org/10.1287/orsc.1060.0228.
 
-\bibitem{mymap} Ikeda, Yoshiyasu, Yosuke Yoshioka, and Yasuhiko Kitamura. {\em Intercultural collaboration support system using disaster safety map and machine translation.} 2010: Culture and Computing 100-112. Springer, Berlin, Heidelberg, 2010.
+\bibitem{harvardhuman} Harvard Humanitarian Initiative (2011) {\em Disaster relief 2.0: the future of information sharing in humanitarian emergencies.} UN Foundation and Vodafone Foundation Technology Partnership, Washington, D.C. and Berkshire.
 
-\bibitem{ap19s} Animal Político {\em Lo que el \#19S nos dejó: las víctimas, daños y damnificados en México.} 19 de octubre, 2017:
-https://www.animalpolitico.com/2017/10/cifras-oficiales-sismo-19s/. Fecha de consulta: 20 de abril de 2021.
+\bibitem{emergentgroups} Twigg J, Mosel I. {\em Emergent groups and spontaneous volunteers in urban disaster response. Environment and Urbanization.}  2017;29(2):443-458. \url{doi:10.1177/0956247817721413}.
 
-\bibitem{telcom19s} El Economista {\em ¿Por qué fallaron las líneas telefónicas tras el sismo del 19 de septiembre de 2017?} 20 de septiembre de 2017: https://www.eleconomista.com.mx/empresas/Por-que-fallaron-las-lineas-telefonicas-tras-el-sismo-del-19-de-septiembre-de-2017-20170920-0091.html. Fecha de consulta: 20 de abril de 2021.
+\bibitem{flood} Department for Environment, Food and Rural Affairs, Flood Risk Management Division, {\em Spontaneous volunteers: Involving citizens in the response and recovery to flood emergencies.} London. Retrieved from \url{http://randd.defra.gov.uk/Document.aspx?Document=13013_FD2666_FinalReport_SpontaneousVolunteers.pdf}
 
 \bibitem{ift} Instituto Federal de Telecomunicaciones. {\em A 72 horas del sismo, 98\% de las redes públicas de telecomunicaciones se encuentran en funcionamiento.} 22 de septiembre de 2017:
 http://www.ift.org.mx/comunicacion-y-medios/comunicados-ift/es/72-horas-del-sismo-98-de-las-redes-publicas-de-telecomunicaciones-se-encuentran-en-funcionamiento. Fecha de consulta: 20 de abril de 2021.
 
-\bibitem{flood} Department for Environment, Food and Rural Affairs, Flood Risk Management Division, {\em Spontaneous volunteers: Involving citizens in the response and recovery to flood emergencies.} London. Retrieved from \url{http://randd.defra.gov.uk/Document.aspx?Document=13013_FD2666_FinalReport_SpontaneousVolunteers.pdf}
+\bibitem{mymap} Ikeda, Yoshiyasu, Yosuke Yoshioka, and Yasuhiko Kitamura. {\em Intercultural collaboration support system using disaster safety map and machine translation.} 2010: Culture and Computing 100-112. Springer, Berlin, Heidelberg, 2010.
 
-\bibitem{emergentgroups} Twigg J, Mosel I. {\em Emergent groups and spontaneous volunteers in urban disaster response. Environment and Urbanization.}  2017;29(2):443-458. \url{doi:10.1177/0956247817721413}.
-
-\bibitem{harvardhuman} Harvard Humanitarian Initiative (2011) {\em Disaster relief 2.0: the future of information sharing in humanitarian emergencies.} UN Foundation and Vodafone Foundation Technology Partnership, Washington, D.C. and Berkshire.
-
-\bibitem{crowdsourced} Hunt, Amelia, and Doug Specht. {\em Crowdsourced mapping in crisis zones: collaboration, organisation and impact.} Journal of International Humanitarian Action 4.1 (2019): 1-11.
+\bibitem{telcom19s} El Economista {\em ¿Por qué fallaron las líneas telefónicas tras el sismo del 19 de septiembre de 2017?} 20 de septiembre de 2017: https://www.eleconomista.com.mx/empresas/Por-que-fallaron-las-lineas-telefonicas-tras-el-sismo-del-19-de-septiembre-de-2017-20170920-0091.html. Fecha de consulta: 20 de abril de 2021.
 
 \bibitem{networkshum} Chernobrov, Dmitry. {\em Digital volunteer networks and humanitarian crisis reporting.} Digital Journalism 6.7 (2018): 928-944.
 
