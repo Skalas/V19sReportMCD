@@ -6,21 +6,23 @@
 
 \newpage
 * Introducción
-** 19 Septiempre 2019
-El 19 de septiembre de 2019 se suscitó un sismo de magnitud 7,1 \cite{cnn} grados en la escala Richter, que si bien fue menor al sismo sucitado unos días antes en la Ciudad de México\footnote{el 7 de septiembre con magnitud 8,1 en la escala Richter }, tuvo repercusiones que se hicieron inmediatamente presentes.
 
-Los daños generados en toda la ciudad fueron importantes, con edificios afectados en las delegaciones Cuauhtémoc, Benito Juárez, Tlalpan, Iztapalapa, Xochimilco y Coyoacán; esto sin tomar en cuenta las afectaciones  generadas en las entidades aledañas a la Ciudad de México. Los daños abarcaron desde pequeñas afectaciones a los edificios, hasta derrumbes de unidades habitacionales completas.
+El 19 de septiembre de 2017 se suscitó un sismo de magnitud 7,1 grados en la escala Richter \cite{cnn}, que si bien fue menor al sismo suscitado unos días antes en la Ciudad de México\footnote{el 7 de septiembre con magnitud 8,1 en la escala Richter.}, tuvo repercusiones que se hicieron inmediatamente presentes.
 
-Dada la densidad poblacional de la zona, y el rango de afectaciones que se presentaron, fue difícil hacer una primer evaluación de lo ocurrido. Como ciudadano se tenía total incertidumbre, no había manera de ver si nuestros hogares estaban de pie aún, tampoco si los seres queridos estarían bien, la falta de información y la impotencia fueron un factor importante en cómo se vivieron las siguientes horas. La mayor parte de la población regresó a sus respectivos hogares, ya fuera en auto, motocicleta, bicicleta o caminando todos regresaron a sus casas. Las redes telefónicas y de transporte, colapsaron por el incremento repentino de la demanda. Poco a poco las diferentes redes fueron aliviando los bloqueos y fue regresando la luz y el internet a las personas.
+Los daños generados en toda la ciudad fueron importantes, con edificios afectados en las delegaciones Cuauhtémoc, Benito Juárez, Tlalpan, Iztapalapa, Xochimilco y Coyoacán \cite{ap19s}; esto sin tomar en cuenta las afectaciones  generadas en las entidades aledañas a la Ciudad de México. Los daños abarcaron desde pequeñas afectaciones a los edificios, hasta derrumbes de unidades habitacionales completas.
+
+Dada la densidad poblacional de la zona, y el rango de afectaciones que se presentaron, fue difícil hacer una primer evaluación de lo ocurrido. Las redes telefónicas y de transporte, colapsaron por el incremento repentino de la demanda \cite{telcom19s}. Los ciudadanos tenían total incertidumbre, no había manera de ver si sus hogares aún estaban de pie. Tampoco si sus seres queridos estarían bien. La falta de información y la impotencia fueron un factor importante en cómo se vivieron las siguientes horas. La mayor parte de la población regresó a sus respectivos hogares. Ya fuera en auto, motocicleta, bicicleta o caminando, todos regresaron a sus casas. Poco a poco las diferentes redes fueron aliviando, los bloqueos informáticos cesaron y fue regresando la luz y el internet a las personas \cite{ift}.
 
 ** Captura de información
 
-La mayor parte de la población tiene en sus bolsillos dispositivos para grabar y transmitir videos en tiempo real, por supuesto en el momento el problema principal era la falta de red telefónica para transmitirlo. Conforme avanzaba el día había momentos en los que se podía percibir señal y así salían y llegaban mensajes. Lo que llegaba por medio de grupos de Whatsapp fue información a pedazos, videos alarmantes de diferentes situaciones, personas evacuando edificios muy altos con un paneo de la ciudad envuelta en  humo y polvo, tanques estacionarios explotando, edificios derrumbándose. La generación de información fue inmediata y en gran cantidad.
+Por medio de dispositivos móviles, la mayor parte de la población tiene en sus bolsillos herramientas para grabar y transmitir videos en tiempo real. Por supuesto, en el momento el problema principal fue la falta de red telefónica para transmitirlos. Conforme avanzaba el día había momentos en los que se podía percibir señal que facilitaba el flujo de mensajes. Mismos que llegaban por medio de grupos de /Whatsapp/. La información estaba fragmentada. Había videos alarmantes de diferentes situaciones: personas evacuando edificios con un paneo\footnote{Vistazo previo que se hace con una cámara sobre algo antes de fijar el objetivo.} de la ciudad envuelta en  humo y polvo; tanques estacionarios explotando; edificios derrumbándose. La generación de información fue inmediata y en grandes cantidades.
 
 
-El problema principal con tal generación de información es que no tenía ningún orden mensajes reenviados vía mensajes de WhatsApp, publicaciones en Facebook e Instagram, todos sin ninguna información adicional de lo que estaba pasando. Lo que más tuvo foco y atención fueron los videos más escandalosos. Ante este problema Sergio Beltrán, arquitecto de profesión quien utilizaba mapeos de la ciudad para su trabajo, tuvo la idea de utilizar MyMaps de Google, para comenzar a puntear la información recibida en un mapa público.
+El problema principal con tal generación de información es que no tenía ningún orden. Se compartían mensajes reenviados vía /WhatsApp/, publicaciones en /Facebook/ e /Instagram/. Todos sin ninguna información adicional de lo que estaba pasando. La  atención se concentró en los videos más escandalosos\footnote{Una búsqueda realizada por el término =video sismo 19 de septiembre= arroja resultados con alrededor un millón y medio de visualizaciones por resultado.}. Ante este problema Sergio Beltrán, arquitecto de profesión quien utilizaba mapeos de la ciudad para su trabajo, tuvo la idea de utilizar MyMaps de Google\cite{mymap}, para comenzar a puntear la información recibida en un mapa público.
 
-Al publicar el mapa, varios ex-compañeros de Sergio se ofrecieron como voluntarios para seguir agregando información. Conforme la red de colaboradores y usuarios creció, también la carga que tuvo la plataforma para mantener activo el mapa; tuvo alrededor de 1M de visitas durante el 19 de septiembre.  En la madrugada del 20 de septiembre el mapa dejó de funcionar  para efectos de edición, sin embargo no para efectos de consulta; aún se podía ver la información pero ya no era posible actualizar el mapa.
+
+Al publicar el mapa, varios ex-compañeros de Beltrán se ofrecieron como voluntarios para seguir agregando información. Conforme la red de colaboradores y usuarios creció, también la carga que tuvo la plataforma para mantener activo el mapa. El 19 de septiembre el sitió recibió alrededor de un millón de visitas. El problema fue que en la madrugada del 20 de septiembre el mapa dejó de funcionar. No se podía editar más. Sin embargo,  aún se podía ver la información pero ya no era posible actualizar el mapa.
+
 
 ** Grupos emergentes auto-organizados
 
@@ -41,18 +43,24 @@ Se han discutido las virtudes y limitaciones de mapas comunitarios para su uso e
 
 * Problema
 
-El mapa tenía como entrada capturas manuales de diferentes amigos y conocidos de Sergio Beltrán.  Conforme fue creciendo la cantidad de información recabada, fue ganando más confianza general, y más personas aportaron a el mapeo de los diferentes puntos. El crecimiento en el número de usuarios agregando puntos de información de manera desorganizada, eventualmente rebasó la capacidad de la herramienta. El mapa dejó de permitir nuevas cargas de información. No olvidemos que la herramienta MyMaps está diseñada para uso personal en la plataforma de Google.
+El mapa tenía como entrada capturas manuales de diferentes amigos y conocidos de Sergio Beltrán.  Conforme la cantidad de información recabada fue creciendo, la confianza general aumento. Y con esto, más personas aportaron al mapeo de los diferentes puntos. El crecimiento del número de usuarios al agregar puntos de información de manera desorganizada eventualmente rebasó la capacidad de la herramienta. El mapa dejó de permitir nuevas cargas de información. Esto se explica pues la herramienta de la plataform de Google,  MyMaps, está diseñada para uso personal.
 
-Ante la situación del mapa detenido aunado a las peticiones de información y recursos que llegaban al colectivo, los voluntarios tomaron por iniciativa capturar lo que llegaba en papel. Esto hizo altamente problemática el manejo de toda la información que se seguía generando, ya que posteriormente a escribirlos en papel, había que encontrar la manera de digitalizarlos, para que después se pudiera compartir la información.
+Ante tal situación y aunado a las peticiones de información y recursos que llegaban al colectivo, los voluntarios tomaron por iniciativa capturar lo que llegaba en papel. Esto hizo problemático el manejo de todas las capturas que se seguían recabando, ya que posteriormente a escribirlos en papel, había que encontrar la manera de digitalizarlos. Todo esto para poder compartir la información. 
+
+El objetivo principal fue encontrar una manera de capturar todos los puntos de información que llegaran al colectivo, digitalizarlos y volverlos disponibles a diferentes actores. Se propuso implementar una automatización de la ingesta de datos, para luego publicarla en el mapa previamente mencionado, de tal forma que hubiera una fuente de información con todo lo recabado y lo que se estaba por recabar. Una de las decisiones tomadas fue el hecho de tomar en cuenta todas las fuentes confiables\footnote{Con esto nos referimos a fuentes de información con instituciones respaldándolas.} de información que se encontraran para agregar a las sábanas de información del mapa.
 
 Al momento de comenzar la colaboración se tuvieron que resolver diferentes temas, en concreto:
+
 
 1. Sobrecarga del mapa
 2. Ingesta de información.
 3. Unificación entrada de información
 4. Unificación de salida de información.
 
-El objetivo principal de la plataforma fue encontrar una manera de capturar todos los puntos que llegaran al colectivo, digitalizarlos y hacerlos disponibles a diferentes actores. Se propuso implementar una automatización de la ingesta de datos, para luego publicarla en el mapa ya mencionado, de tal forma que hubiera una fuente de información de todo lo recabado y lo que se estaba por recabar; una de las decisiones tomadas fue el hecho de tomar en cuenta todas las fuentes confiables\footnote{Con esto nos referimos a fuentes de información con instituciones reconocidas respaldándolas.} de información que se encontraran para agregar  a las sábanas de información del mapa.
+Uno de las principales problemas enfrentados conforme fue creciendo el movimiento, fue el hecho que la población no tiene el entrenamiento para reportar incidentes o puntos de información. Por lo que se encontró una serie de puntos de información falsos. Estos eventos se verificaron como falsos al momento de atender los  reportes y encontrar que no existía tal problema. Al automatizar la entrada de información, estos puntos tenían el riesgo de aumentar bastante.
+
+El mecanismo pensado para verificar la información reportada por los ciudadanos fue el generar una capa de verificación humana. Esto es, para cada punto reportado, un voluntario del colectivo se aproximaba al lugar para verificar que el hecho efectivamente estuviera ocurriendo. Con ello, se generó una fuente de información mucho más confiable que los reportes en bruto de todos los ciudadanos.
+
 
 Uno de las principales problemáticas enfrentadas conforme fue creciendo el movimiento, fue el hecho que la población no tiene el entrenamiento para reportar incidentes o puntos de información, se vuelve evidente tras encontrar diversos reportes falsos; se verificaron como falsos al atender el problema reportado para encontrar que no existía tal problema. Al automatizar la cantidad entradas reportadas, estos puntos tenían el riesgo de aumentar bastante.
 
@@ -61,107 +69,120 @@ El mecanismo pensado para verificar la información reportada por los ciudadanos
 
 \newpage
 
-* Solución implementada
-Para enumerar las distintas soluciones que se implementaron durante este ejercicio, hablaremos de partes del flujo de la información: *ingesta*, *procesamiento*, *inteligencia* y *visualización* de la información. Cada una de estas partes tiene distintas etapas conforme fueron evolucionando las necesidades de la crisis humanitaria.
+* TODO Solución implementada
+
+Para enumerar las distintas soluciones que se implementaron durante este ejercicio, hablaremos de los pasos del flujo de la información: *ingesta*, *procesamiento*, *inteligencia* y *visualización*.
 
 ** Ingesta
 
-El primer punto a resolver dentro de todos los problemas que surgieron fue el migrar de las hojas de papel de nuevo a un medio electrónico que pudiera ser masificable y fácil de distribuir.
+El primer punto a resolver dentro de todos los problemas que surgieron fue el migrar de las hojas de papel a un medio electrónico que pudiera ser escalable y fácil de distribuir.
 
 *** Formulario
 
-Lo primero que vino a la mesa, fue hacer una app (ya fuera móvil o para navegador) que conectara con una base de datos y pudiera hacer ediciones, verificaciones, agregar puntos de información. Sin embargo el problema fue la restricción de tiempo, además del hecho que en ese momento los voluntarios con los que se contaban  no tenían la experiencia necesaria como para desarrollar tal herramienta con la velocidad requerida.
+Lo primero que vino a la mesa, fue hacer una app (ya fuera móvil o para navegador) que conectara con una base de datos y pudiera hacer ediciones, verificaciones, agregar puntos de información. Sin embargo el problema fue la restricción de tiempo, además del hecho que en ese momento los voluntarios con los que se contaban no tenían la experiencia necesaria como para desarrollar tal herramienta con la velocidad requerida.
 
-Ante las limitantes de tiempo y buscando ser flexible para poder distribuir nuestro método de ingesta a una gran cantidad de personas, buscamos una herramienta que tuviera la capacidad de capturar el volumen necesario. Se tomó la decisión de usar  Google Forms. Esta herramienta tiene todo lo necesario para hacer una ingesta rápida de información, tiene campos de selección de opciones, texto libre, checkboxes, se pueden cargar imágenes, etc. Esto aunado al hecho que cuando una persona llena una de estos formularios, la información automáticamente se ve reflejada en una base de datos en Google Sheets. Es una plataforma que tiene la capacidad de ingestar toda la información junto con la robustez de los servicios de Google.
+Ante las limitantes de tiempo y buscando la flexibilidad para poder distribuir nuestro método de ingesta a una gran cantidad de personas, se buscó una herramienta que tuviera la capacidad de capturar el volumen necesario. Se tomó la decisión de usar Google Forms\footnote{https://www.google.com/forms/about/.}. Esta herramienta tiene todo lo necesario para hacer una ingesta rápida de información. Tiene campos de selección de opciones, texto libre, /checkboxes/, carga de imágenes, etc. La información ingerida en estos formatos automáticamente se puede ver reflejada en una base de datos en Google Sheets\footnote{https://www.google.com/sheets/about/.}. La última, una plataforma que tiene la capacidad de guardar toda la información junto con la robustez de los servicios de Google en el formato de tabla (unidad de almacenamiento básica en un modelo relacional, \cite{codd}).
 
-La información que inicialmente queríamos recibir tenía que ver con los sitios de derrumbe y encontrar los distintos bienes que pudieran faltar o sobrar en cada uno de ellos. Inmediatamente surgió la necesidad de tener información de centros de acopio y albergues. Con ello nos dimos cuenta que teníamos que generar más de un flujo de ingesta de información. Se hicieron tres formularios para recibir información de sitios con daños, albergues y centros de acopio.
+La información que inicialmente se pensaba recibir tenía que ver con los sitios de derrumbe para encontrar los distintos bienes que pudieran faltar o sobrar en cada uno de ellos. Inmediatamente surgió la necesidad de tener la ubicación de centros de acopio y albergues. Con ello nos dimos cuenta que teníamos que generar más de un flujo de ingesta de información. Se hicieron tres formularios para recibir información de sitios con daños, albergues y centros de acopio.
 
 *** Verificación de Información
 
-Conforme llegó información a las brokers[1], reportaron que muchos de los incidentes que existían en la base de datos, no existían o era mucho menor a lo que se decía en el reporte de Google Forms.
+La necesidad de verificar la información se hizo más evidente y lo que se implementó fue una capa de verificación intermedia. Gracias a todos los voluntarios, el foco que obtuvo la herramienta y el mapa que se viralizó, existían equipos grandes de voluntarios en distintas modalidades de transporte: a pie, en bicicleta o motocicleta.
 
-La necesidad de verificar la información se hizo más evidente y lo que se implementó fue una capa de verificación intermedia; gracias a todos los voluntarios, el foco que obtuvo la herramienta y el mapa que se viralizó, existían equipos muy grandes de voluntarios a pie, en bicicleta o motocicleta.
+Todos los voluntarios eran un par de ojos que ayudaron a visitar cada lugar reportado y verificar si el incidente fue verdadero. Con esto también surgió la necesidad de definir lo que significa que algo esté verificado. La definición que se acordó entre el equipo fue
 
-Todos los voluntarios eran un par de ojos que ayudaron a ir personalmente a cada lugar reportado y verificar si el incidente fue verdadero. Con esto también surge la necesidad de definir lo que significa que algo esté verificado. La definición que se acordó entre el equipo fue: para que un evento esté verificado se requiere que se cumpla al menos una de las siguientes condiciones:
+#+begin_quote
 
-+ Fue visto con los ojos de la persona que reporta.
-+  Al menos dos personas de confianza del reportante lo hayan visto con sus ojos.
+Para que un evento esté verificado se requiere que se cumpla al menos una de las siguientes condiciones:
 
-Desde el punto de vista de la información que llegaba, se dejaron los mismos formularios públicos, pero se agregaron otros tres formularios sólo para los verificadores. Los segundos formularios son los que finalmente se publicaban en el mapa y con los que los brokers trabajaron.
++ El evento fue  visto con los ojos de la persona que reporta.
++ Al menos dos personas de confianza del reportante lo han presenciado.
+
+#+end_quote
+
+Desde el punto de vista de la información que llegaba, se dejaron los mismos formularios públicos, pero se agregaron otros tres formularios sólo para los verificadores. Los segundos formularios son los que finalmente se publicaban en el mapa y con los que el colectivo trabajó.
 
 *** Unificación
 
-La última iteración de los formularios fue una unificación de los tres formularios a un sólo punto de entrada, ya que tener tres diferentes enlaces para cada tipo de información complicaba y ponía barreras para el flujo de la información. En este último formulario se agregan además otros dos tipos de puntos de información, transportes y voluntarios. Con esto se agrega una capa de capacidad para que los sitios tuvieran aún más capacidad de recibir ayuda.
+La última iteración de los formularios fue una unificación de los tres formatos en un punto de entrada.  El objetivo es aliviar la necesidad de tener tres diferentes enlaces para cada tipo de información. Esto incorporaba una capa adicional de complejidad y entablaba barreras para el flujo de la información. En el formulario unificado, se agregaron además otros dos tipos de puntos de información: transportes y voluntarios. Mismos que brindaron una mayor capacidad de proveer ayuda. 
 
+Los enlaces de los distintos formularios fueron publicados a través de redes sociales. En cuanto se tuvo una página web, los enlaces fueron migrados junto con instrucciones de cómo ser llenados. Esto con el objetivo de mayor claridad y tener un proceso de captura mas sencillo.
 
-Los enlaces de los distintos formularios fueron publicados a través de redes sociales. En cuanto se tuvo una página web, los enlaces fueron migrados junto con instrucciones de cómo ser llenados, para que fuera mucho más claro y sencillo el proceso de agregar información.
+** Procesamiento
 
-*** Procesamiento
-
-La información que se obtuvo durante todo el tiempo que estuvo activo #Verificado19s, era de naturaleza delicada de los problemas que buscaba subsanar. Los datos que se recolectaron como teléfono, nombre y ubicación de la persona que reporta son datos sensibles que no podían ser publicados en ningún momento.
+La información que se obtuvo durante todo el tiempo que estuvo activo =#Verificado19s=, era de naturaleza delicada. Pues en la captura se incluyeron teléfono, nombre y ubicación de la persona que reportaba. Mismos que son sensibles y  no podían ser publicados en ningún momento.
 
 *** Ubicación
 
-Google Forms, fue una herramienta vital para la solución que se concretó, sin embargo tuvo ciertas limitantes en las entradas que podrían ser registradas por los formularios. No se puede hacer la captura de la ubicación del teléfono con el que se está haciendo el formulario, esto implica una capa de complejidad y de error en el proceso de la información.
+Google Forms, fue una herramienta vital para la solución que se concretó. Sin embargo, tuvo ciertas limitantes en las entradas que podrían ser registradas por los formularios. En particular, no se puede hacer la captura de la ubicación del teléfono con el que se está haciendo el formulario, esto añade un grado de complejidad no previsto y con alta probabilidad de error durante el proceso de captura. 
 
-La estimación de la ubicación se hizo a través de la API de Google Maps, a la cual se mandaba la dirección: calle, número, colonia y ciudad. La API responde con las coordenadas estimadas para esa dirección, y con ello un punto que podemos plasmar en un mapa.
+La estimación de la ubicación se realizó a través de la interfaz de programación de aplicaciones (API, por sus siglas en inglés) de Google Maps\footnote{https://www.google.com/maps/about/#!/.}. Se mandaba a ésta la dirección con atributos: calle, número, colonia y ciudad. La API responde con las coordenadas estimadas para una dirección dada y con ello un punto geográfico que podemos visualizar y registrar en un mapa.
 
-Uno de los problemas con este acercamiento es que cuando la información estaba incompleta, la API daba puntos bastante lejanos al punto. Un ejemplo de esto, en la calle de Escocia en la colonia Del Valle hubo dos derrumbes y cuando se reportó con la información incompleta, la API nos mandó puntos en el país Escocia.
+Uno de los problemas con este acercamiento es que cuando la información estaba incompleta, la API daba coordenadas bastante lejanas al punto. Un ejemplo de esto es la calle de Escocia en la colonia Del Valle. En dicha dirección hubo dos derrumbes y cuando se reportó con la información incompleta, se recibió de la API coordenadas en el país de Escocia. 
 
-Para eliminar el problema de los datos fuera de las áreas demarcadas y por el corto tiempo que se tenía, se decidió eliminar los puntos que no estuvieran cercanos a la Ciudad de México. Cuando se incorporaron los reportes de los demás estados de la república con problemas originados por el sismo, se tuvo que ampliar el filtro, para poder tener visibilidad de los mismos.
+Para eliminar el problema de los datos que la API identificaba fuera de las áreas demarcadas, aunado al corto tiempo que se tenía, se decidió eliminar los puntos lejanos a la Ciudad de México. El criterio fue utilizar la demarcación regional del resultado de la API. El mismo filtro fue aplicado cuando se incorporaron los reportes de los demás estados de la república. 
+
 *** Datos Personales
 
-Para publicar la información al mapa se requiere que no haya datos personales dentro de los puntos de información; en concreto, buscamos borrar el nombre y el teléfono de las personas que reportaron incidentes. Esto en conjunto con la geolocalización de las direcciones dió pie al primer ETL que se generó para #Verificado19s.
+Para poder publicar la información al mapa se requiere que no haya datos personales dentro de los puntos de información; en concreto, buscamos borrar el nombre y el teléfono de las personas que reportaron incidentes. Esto en conjunto con la geolocalización de las direcciones dió pie al primer proceso de extracción, transformación y carga (ETL, por sus siglas en el inglés) que se generó para =#Verificado19s=.
 
-Se acordó que los números de los albergues y centros de acopio serían publicados, sin embargo hubo voluntarios que siguieron dando sus números personales. Al ser publicada esta información, tuvimos quejas inmediatas y eliminamos esas entradas de la base de datos inmediatamente.
+En particular, se acordó que sólo los números telefónicos de los albergues y centros de acopio serían publicados. Sin embargo, aún hubo voluntarios que siguieron dando sus números personales. El problema fue que al ser publicada esta información se recibieron quejas inmediatas y se tuvieron que eliminar esas entradas de la base de datos.
 
-Uno de los puntos importantes a tomar en cuenta para futuras implementaciones es precisamente esto, tomar todas las precauciones para que los datos de los voluntarios no sean expuestos, comprometiendo así tanto el crecimiento como la credibilidad del movimiento.
+Este último punto es uno de los puntos importantes a tomar en cuenta para futuras replicaciones en situaciones de emergencia. Es decir,  tomar todas las precauciones para que los datos de los voluntarios no sean expuestos, comprometiendo así tanto el crecimiento como la credibilidad del movimiento.
+
 *** Actualización
-El fenómeno que se observa durante la respuesta al sismo cambia cada minuto, por lo que tener un mecanismo de actualización de las distintas necesidades se vuelve fundamental. Cada punto cambia dependiendo los nuevos descubrimientos o la llegada de recursos que fueron necesarios en algún otro punto.
 
-En redes sociales se encontró un problema fundamental con la publicación de las necesidades que se presentaron, publicaciones con fecha del 19 de septiembre seguían teniendo eco el 23 de septiembre. La falta de una hora y fecha de publicación entorpece también la optimización de recursos.
+El fenómeno que se observó durante la respuesta al sismo evolucionó cada minuto. Por lo que tener un mecanismo de actualización de las distintas necesidades se volvió parte fundamental. Cada punto cambiaba dependiendo de nuevos descubrimientos o la llegada de recursos que fueron necesarios en alguna otra ubicación.
 
-Google forms a diferencia de una aplicación de manejo de información, no tiene manera de actualizar alguna entrada determinada. Por lo que se tuvo que encontrar una manera de que esto se resolviera.
+En particular, en redes sociales se encontró un problema fundamental con la publicación de las necesidades que se presentaron. Las publicaciones con fecha del 19 de septiembre seguían teniendo eco el 23 de septiembre. La falta de una hora y fecha de publicación entorpeció también la optimización de recursos.
 
-Se tomó la decisión de hacer actualizaciones de los distintos puntos con una nueva entrada de los formularios, esto es para cada actualización se llena uno nuevo con la misma ubicación con la información de las distintas necesidades actualizada. Si se quería borrar algún punto, se tenía que mandar un formulario con las necesidades vacías y los mismos datos de ubicación.
+Google Forms a diferencia de una aplicación que permitiera manejo de información, no tiene manera de actualizar alguna entrada determinada. Por lo que se tuvo que encontrar una manera de que esto se resolviera.
 
-El sistema de actualización tiene muchas fallas que son evidentes, por ejemplo, se volvió muy tedioso volver a escribir toda la información geográfica para actualizar los datos. Además de los errores de dedo que podían cometer con el poco tiempo que tenían los voluntarios. Esto generó bastantes problemas de punteo ya que todos los voluntarios fueron suceptibles a este fallo y la capa verificadora tampoco ayudó.
+Se tomó la decisión de hacer actualizaciones de los distintos puntos con una nueva entrada en los formularios. Esto con el objetivo para que con cada actualización se llenara un  nuevo registro con la misma ubicación. La diferencia es que tenía  la información de las distintas necesidades de manera actualizada. Si se quería borrar algún punto, se tenía que mandar un formulario con las necesidades vacías y los mismos datos de ubicación.
 
-Otro problema es que hay distintos voluntarios reportando el mismo sitio, la última entrada reportada era la que se quedaría como final. Con la capa de verificación este problema era mucho menor, ya que las necesidades más importantes venían de los verificadores cercanos.
+El sistema de actualización planteado posee muchas fallas que son evidentes. Por ejemplo, era tedioso volver a escribir toda la información geográfica para actualizar los datos. Además, los errores de captura que se  podía cometer con la urgencia para los voluntarios eran abundantes. Esto generó problemas de punteo ya que todos los voluntarios fueron suceptibles a este fallo y la capa verificadora tampoco tenía un mecanismo para identificarlos.
 
-Conforme pasa el tiempo, la información presente en el mapa deja de ser relevante para efectos prácticos. Se decidió hacer un filtro temporal de un día a los puntos reportados, esto es en cuanto se reportaba un incidente, se tenían que seguir haciendo reportes diarios para que los puntos no desaparecieran del mapa.
-*** Inteligencia
-Al final del día 20 de septiembre, ya teníamos una primer versión del ETL funcionando, que se cargaba de forma manual al mapa final en MyMaps. Con la información que se fue recabando se tenía lo suficiente como para hacer una solución bastante robusta para parear la información de la oferta con la de demanda.
+Por otro lado, un problema adicional fue que distintos voluntarios reportaron el mismo sitio. Con la capa de verificación este problema fue mucho menor, ya que las necesidades más importantes venían de los verificadores cercanos.
+
+Conforme pasó el tiempo, la información en el mapa dejó de ser relevante para efectos prácticos. Se decidió hacer un filtro temporal de un día a los puntos reportados. Lo que significa que  en cuanto se reportaba un incidente, se tenían que seguir haciendo reportes diarios para que los puntos no desaparecieran del mapa.
+
+** Inteligencia
+
+Al final del día 20 de septiembre, ya se tenía una primer versión del ETL funcionando.  Se cargaba de forma manual al mapa final en MyMaps. Con la información que se iba recabando se tenía lo suficiente como para hacer una solución bastante robusta con el objetivo de parear la información de la oferta (recursos) con la de demanda (sitios necesitados).
 
 
-El problema que aparece al tratar de hacer este modelo, es que no se tenía una manera fidedigna de tratar los sitios de desastre y centros de acopio como puntos de información editables de tal forma que pudieran ser actualizados o borrados. No podíamos delimitar el sitio 1 y accionar con respecto a ese sitio. Lo que sí se tenía era una serie de reportes con ligeros cambios en la dirección reportada, además de las variaciones que había en el mismo sitio.
+El problema que apareció al tratar de hacer este modelo, es que no se tenía una manera fidedigna de tratar los sitios de desastre y centros de acopio como puntos de información editables de tal forma que pudieran ser actualizados o borrados. No se podía delimitar el sitio $k$ y accionar con respecto a éste. Lo que sí se tenía era una serie de reportes con ligeros cambios en la dirección reportada. Además de las variaciones que había en dicho sitio.
 
 
-Durante la madrugada del 21 de septiembre, una consultora se puso en contacto con el equipo. Ellos comentaron que el problema de unificar puntos y poder editarlos era análogo a una herramienta que tenían hecha para otro propósito. El compromiso fue que en cuestión de 12 horas, podían adaptar su aplicación para que funcionara para las necesidades de #Verificado19s. Conforme pasó el tiempo, fueron retrasando la entrega poco a poco. Al final del día 24 de septiembre, aún quedó pendiente la entrega del compromiso que tenían con nosotros.
+Durante la madrugada del 21 de septiembre, una consultora se puso en contacto con el equipo. Ellos comentaron que el problema de unificar puntos y poder editarlos era análogo a una herramienta que tenían hecha para otro propósito. El compromiso fue que en cuestión de 12 horas, se podía adaptar su aplicación para que funcionara para las necesidades de =#Verificado19s=. Conforme pasó el tiempo, fueron retrasando la entrega. Para el final del 24 de septiembre, aún quedó pendiente la entrega del compromiso que se tenía con =#Verificado19s=.
 
-En el momento se tomó la decisión de esperar esta herramienta y con esa base de datos, poder automatizar el pareo de oferta y demanda. Conforme pasó el tiempo esta necesidad se fue erosionando, ya que la optimización de los voluntarios fue más rápida y contundente ante las necesidades.
+En el momento se tomó la decisión de esperar esta herramienta para poder automatizar el pareo de oferta y demanda. Conforme pasó el tiempo esta necesidad se fue erosionando, ya que la optimización de los voluntarios fue más rápida y contundente ante las necesidades.
+
 *** Coordinación Logística
 
-Las voluntarias que estuvieron a cargo de unir las necesidades y los recursos les llamamos brokers, fueron un equipo de 3 personas. Cada una de ellas, a través de grupos de confianza en WhatsApp y Telegram, se encargó de ir buscando para cada necesidad reportada alguien que pudiera suplir el material requerido.
+Las voluntarias que estuvieron a cargo de unir las necesidades y los recursos les llamamos /brokers/, fueron un equipo de 3 personas. Cada una de ellas, a través de grupos de confianza en /WhatsApp/ y /Telegram/, se encargó de ir buscando para cada necesidad reportada alguien que pudiera suplir el material requerido.
 
-En este momento la organización humana se simplificó de tal forma que sólo había un encargado por sitio de derrumbe de reportar todo lo que se necesitaba al momento. Estas brokers fueron centrales en el movimiento ya que gracias a ellas se agilizó bastante la velocidad con lo que se entregaron los materiales.
+En ese momento la organización humana se simplificó de tal forma que sólo había un encargado por sitio de derrumbe para reportar todo lo que se necesitaba al momento. Estas /brokers/ fueron centrales en el movimiento ya que gracias a ellas se agilizó bastante la velocidad con lo que se entregaron los materiales.
 
-El problema con trabajar con humanos es que tenemos la mala costumbre de dormir. Conforme pasaron las horas y eventualmente los días, este equipo se enfrentó con el cansancio y la falta de horas de sueño. Se volvieron indispensables y eso fue profundamente problemático tanto internamente como externamente. El estrés al que este equipo estuvo sujeto era impresionante y eventualmente tuvieron que descansar. En este momento es que se vuelve mucho más evidente la necesidad de generar un sistema robusto y redundante; ya sea con una herramienta automatizada o un equipo de personas que puedan suplir a las personas dentro de las redes de confianza. Cuidar la salud tanto física como mental de los voluntarios es fundamental.
+El problema con trabajar con recursos humanos son las necesidades fisiológicas como el descanso. Conforme pasaron las horas y eventualmente los días, este equipo se enfrentó con el cansancio y la falta de horas de sueño. Por un lado, se volvieron indispensables y, por otro, eso fue profundamente problemático tanto de manera interna como externa. El estrés al que este equipo estuvo sujeto era impresionante y eventualmente tuvieron que descansar. En este momento se volvió mucho más evidente la necesidad de generar un sistema robusto y redundante; ya sea con una herramienta automatizada o un equipo de personas que puedan suplir a las personas dentro de las redes de confianza. Cuidar la salud tanto física como mental de los voluntarios es fundamental en un esfuerzo como =#Verificado19s=.
+
 ** Visualización
-Todo el movimiento #Verificado19s inició con un mapa y evolucionó a un sistema de gestión de recursos necesarios para el rescate de las víctimas de la crisis humanitaria que enfrentó México. El énfasis que quiero dar es que a pesar de la opinión que un mapa es una manera muy básica e incompleta de transmitir información, es una de las maneras más sencillas y claras para que la ciudadanía pueda acceder a ella.
+
+Todo el movimiento =#Verificado19s= inició con un mapa y evolucionó a un sistema de gestión de recursos necesarios para el rescate de las víctimas de la crisis humanitaria que enfrentó México. ~El énfasis que quiero dar es que a pesar de la opinión que un mapa es una manera muy básica e incompleta de transmitir información, es una de las maneras más sencillas y claras para que la ciudadanía pueda acceder a ella.~
+
 *** Diversidad de Fuentes
-En ese momento había distintos equipos capturando información de la misma índole que #Verificado19s. Conforme se contactaron a estos equipos y brindaron el acceso a su base de datos, se tomó la decisión de publicar la información de todas las fuentes que estuvieran abiertas. Las primeras fuentes externas en cargarse fueron:
+En ese momento había distintos equipos capturando información de la misma índole que =#Verificado19s=. Conforme se contactaron a estos equipos y brindaron el acceso a su base de datos, se tomó la decisión de publicar la información de todas las fuentes que estuvieran abiertas. Las primeras fuentes externas en cargarse fueron:
 + Manos a la obra
 + Coordinación de Estrategia Digital Nacional
 + Descifra
 + Waze
 
-La insistencia de tener todas las capas arriba fue para solidificar a #Verificado19s como una plataforma unificadora y no sólo una más en respuesta al desastre. Todas las bases de datos que se recibieron se fueron añadiendo a los puntos del mapa original, sin embargo todo se tenía que unificar en una única capa. Cada punto en la capa se etiquetaba con el origen del dato y la información de cada punto.
+La insistencia de tener todas las capas arriba fue para solidificar a =#Verificado19s= como una plataforma unificadora y no sólo una más en respuesta al desastre. Todas las bases de datos que se recibieron se fueron añadiendo a los puntos del mapa original, sin embargo todo se tenía que unificar en una única capa. Cada punto en la capa se etiquetaba con el origen del dato y la información de cada punto.
 
 El primer mapa, fue hecho y publicado en la plataforma MyMaps de Google. Tras la insistencia del equipo de Google a migrar a una plataforma más robusta, se tomó la decisión de hacer una migración al Google Crisis Map.
 ** Crisis Map
 Google Crisis Map es una herramienta hecha para que los usuarios encuentren y usen información crítica de la emergencia que están enfrentando. Las principales características del mapa por lo cual se tomó la decisión de migrar la información son:
-+  Actualización más rápida.
++ Actualización más rápida.
 + Automatización y conexión con base de datos.
 + Capas de información filtrables.
 + Escalabilidad.
@@ -169,9 +190,9 @@ Conforme se hizo la migración se encontraron distintos problemas que bloquearon
 + Problemas de Encoding
 + TTL (Time-to-live)
 + Conexión con la base de datos.
-El problema con el Crisis Map, desde mi perspectiva es que es una herramienta interna de Google[2]. Se tuvo el apoyo de los equipos de Google y en particular de el equipo de Chile que lo usó durante su respuesta al sismo de Valparaíso de 2017. Y aún con el apoyo de los equipos de Google y el de #Verificado19s, tomó 3 días la migración.
+El problema con el Crisis Map, desde mi perspectiva es que es una herramienta interna de Google[2]. Se tuvo el apoyo de los equipos de Google y en particular de el equipo de Chile que lo usó durante su respuesta al sismo de Valparaíso de 2017. Y aún con el apoyo de los equipos de Google y el de =#Verificado19s=, tomó 3 días la migración.
 
-** todo
+** TODO
 + Mapa de arquitectura
 + Limpieza de datos
 + Código en python
@@ -196,9 +217,16 @@ El problema con el Crisis Map, desde mi perspectiva es que es una herramienta in
 
  \begin{thebibliography}{1}
 
-
-\bibitem{cnn} CNN Español {\em 19 de septiembre, la fecha fatídica que dejó huella entre los mexicanos.} 19 septiembre 2019: \url{https://cnnespanol.cnn.com/2019/09/19/cientos-de-muertos-miles-de-damnificados-y-millones-de-dolares-en-perdidas-asi-fue-el-terremoto-del-19s-en-mexico/}
-\bibitem{coord} Ann Majchrzak, Sirkka L. Jarvenpaa, Andrea B. Hollingshead {\em Coordinating Expertise Among Emergent Groups Responding to Disasters.} 2007: Organization Science 18 (1) 147-161 \url{https://doi.org/10.1287/orsc.1060.0228}.
+\bibitem{cnn} CNN Español {\em 19 de septiembre, la fecha fatídica que dejó huella entre los mexicanos.} 19 septiembre 2017: https://cnnespanol.cnn.com/2019/09/19/cientos-de-muertos-miles-de-damnificados-y-millones-de-dolares-en-perdidas-asi-fue-el-terremoto-del-19s-en-mexico/. Fecha de consulta: 20 de abril de 2021.
+\bibitem{codd} Codd, E. F. {\em A Relational Model of Data for Large Shared Data Banks.} 1970:  Communications of the ACM. 13 (6): 377–387. doi:10.1145/362384.362685.
+\bibitem{coord} Ann Majchrzak, Sirkka L. Jarvenpaa, and Andrea B. Hollingshead. {\em Coordinating Expertise Among Emergent Groups
+Responding to Disasters.} 2007: Organization Science 18 (1) 147-161 https://doi.org/10.1287/orsc.1060.0228.
+\bibitem{mymap} Ikeda, Yoshiyasu, Yosuke Yoshioka, and Yasuhiko Kitamura. {\em Intercultural collaboration support system using disaster safety map and machine translation.} 2010: Culture and Computing 100-112. Springer, Berlin, Heidelberg, 2010.
+\bibitem{ap19s} Animal Político {\em Lo que el \#19S nos dejó: las víctimas, daños y damnificados en México.} 19 de octubre, 2017:
+https://www.animalpolitico.com/2017/10/cifras-oficiales-sismo-19s/. Fecha de consulta: 20 de abril de 2021.
+\bibitem{telcom19s} El Economista {\em ¿Por qué fallaron las líneas telefónicas tras el sismo del 19 de septiembre de 2017?} 20 de septiembre de 2017: https://www.eleconomista.com.mx/empresas/Por-que-fallaron-las-lineas-telefonicas-tras-el-sismo-del-19-de-septiembre-de-2017-20170920-0091.html. Fecha de consulta: 20 de abril de 2021.
+\bibitem{ift} Instituto Federal de Telecomunicaciones. {\em A 72 horas del sismo, 98\% de las redes públicas de telecomunicaciones se encuentran en funcionamiento.} 22 de septiembre de 2017:
+http://www.ift.org.mx/comunicacion-y-medios/comunicados-ift/es/72-horas-del-sismo-98-de-las-redes-publicas-de-telecomunicaciones-se-encuentran-en-funcionamiento. Fecha de consulta: 20 de abril de 2021.
 
 \bibitem{flood} Department for Environment, Food and Rural Affairs, Flood Risk Management Division, {\em Spontaneous volunteers: Involving citizens in the response and recovery to flood emergencies.} London. Retrieved from \url{http://randd.defra.gov.uk/Document.aspx?Document=13013_FD2666_FinalReport_SpontaneousVolunteers.pdf}
 
@@ -211,4 +239,4 @@ El problema con el Crisis Map, desde mi perspectiva es que es una herramienta in
 \bibitem{networkshum} Chernobrov, Dmitry. {\em Digital volunteer networks and humanitarian crisis reporting.} Digital Journalism 6.7 (2018): 928-944.
 
 \bibitem{bigdatahum} Meier, Patrick. 2015a. {\em Digital Humanitarians: How Big Data is Changing the Face of Humanitarian Response.} Boca Raton, FL: CRC Press.
- \end{thebibliography}
+\end{thebibliography}
