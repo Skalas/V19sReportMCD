@@ -168,7 +168,7 @@ El problema con trabajar con recursos humanos son las necesidades fisiológicas 
 
 ** Visualización
 
-Todo el movimiento =#Verificado19s= inició con un mapa y evolucionó a un sistema de gestión de recursos necesarios para el rescate de las víctimas de la crisis humanitaria que enfrentó México. ~El énfasis que quiero dar es que a pesar de la opinión que un mapa es una manera muy básica e incompleta de transmitir información, es una de las maneras más sencillas y claras para que la ciudadanía pueda acceder a ella.~
+Todo el movimiento =#Verificado19s= inició con un mapa y evolucionó a un sistema de gestión de recursos necesarios para el rescate de las víctimas de la crisis humanitaria que enfrentó México. El énfasis de haber utilizado una herramienta de visualización de esta naturaleza es que a pesar de la opinión que un mapa es una manera muy básica e incompleta de transmitir información, es una de las maneras más sencillas y claras para que la ciudadanía pueda acceder a ella en una situación de crisis.
 
 *** Diversidad de Fuentes
 En ese momento había distintos equipos capturando información de la misma índole que =#Verificado19s=. Conforme se contactaron a estos equipos y brindaron el acceso a su base de datos, se tomó la decisión de publicar la información de todas las fuentes que estuvieran abiertas. Las primeras fuentes externas en cargarse fueron:
@@ -218,13 +218,19 @@ El problema con el Crisis Map, desde mi perspectiva es que es una herramienta in
  \begin{thebibliography}{1}
 
 \bibitem{cnn} CNN Español {\em 19 de septiembre, la fecha fatídica que dejó huella entre los mexicanos.} 19 septiembre 2017: https://cnnespanol.cnn.com/2019/09/19/cientos-de-muertos-miles-de-damnificados-y-millones-de-dolares-en-perdidas-asi-fue-el-terremoto-del-19s-en-mexico/. Fecha de consulta: 20 de abril de 2021.
+
 \bibitem{codd} Codd, E. F. {\em A Relational Model of Data for Large Shared Data Banks.} 1970:  Communications of the ACM. 13 (6): 377–387. doi:10.1145/362384.362685.
+
 \bibitem{coord} Ann Majchrzak, Sirkka L. Jarvenpaa, and Andrea B. Hollingshead. {\em Coordinating Expertise Among Emergent Groups
 Responding to Disasters.} 2007: Organization Science 18 (1) 147-161 https://doi.org/10.1287/orsc.1060.0228.
+
 \bibitem{mymap} Ikeda, Yoshiyasu, Yosuke Yoshioka, and Yasuhiko Kitamura. {\em Intercultural collaboration support system using disaster safety map and machine translation.} 2010: Culture and Computing 100-112. Springer, Berlin, Heidelberg, 2010.
+
 \bibitem{ap19s} Animal Político {\em Lo que el \#19S nos dejó: las víctimas, daños y damnificados en México.} 19 de octubre, 2017:
 https://www.animalpolitico.com/2017/10/cifras-oficiales-sismo-19s/. Fecha de consulta: 20 de abril de 2021.
+
 \bibitem{telcom19s} El Economista {\em ¿Por qué fallaron las líneas telefónicas tras el sismo del 19 de septiembre de 2017?} 20 de septiembre de 2017: https://www.eleconomista.com.mx/empresas/Por-que-fallaron-las-lineas-telefonicas-tras-el-sismo-del-19-de-septiembre-de-2017-20170920-0091.html. Fecha de consulta: 20 de abril de 2021.
+
 \bibitem{ift} Instituto Federal de Telecomunicaciones. {\em A 72 horas del sismo, 98\% de las redes públicas de telecomunicaciones se encuentran en funcionamiento.} 22 de septiembre de 2017:
 http://www.ift.org.mx/comunicacion-y-medios/comunicados-ift/es/72-horas-del-sismo-98-de-las-redes-publicas-de-telecomunicaciones-se-encuentran-en-funcionamiento. Fecha de consulta: 20 de abril de 2021.
 
