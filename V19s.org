@@ -3,6 +3,8 @@
 #+LATEX_HEADER: \documentclass[12pt,spanish,oneside]{book}
 #+LATEX_HEADER: \parskip=10pt
 #+LATEX_HEADER: \parindent=0in
+#+LATEX_HEADER: \usepackage[spanish,mexico]{babel}
+#+LATEX_HEADER: \usepackage{url}
 
 \newpage
 * Introducción
@@ -40,7 +42,6 @@ Se puede definir un mapa comunitario como un conjunto de servicios via un provee
 
 Se han discutido las virtudes y limitaciones de mapas comunitarios para su uso en projectos no-gubernamentales y humanitarios. Sin embargo, el terremoto del 2010 en Haití,  trajo al frente el proceso de mapeo comunitario de crisis. Durante y después del sismo la población de Haití hacía pedidos de ayuda usando redes sociales y tecnologías móbiles, este esfuerzo fue coordinado por \textit{Humanitarian Open Street Map} y \textit{Ushahidi} usando \textit{OpenStreetMap} \cite{crowdsourced}.
 
-
 * Problema
 
 El mapa tenía como entrada capturas manuales de diferentes amigos y conocidos de Sergio Beltrán.  Conforme la cantidad de información recabada fue creciendo, la confianza general aumento. Y con esto, más personas aportaron al mapeo de los diferentes puntos. El crecimiento del número de usuarios al agregar puntos de información de manera desorganizada eventualmente rebasó la capacidad de la herramienta. El mapa dejó de permitir nuevas cargas de información. Esto se explica pues la herramienta de la plataform de Google,  MyMaps, está diseñada para uso personal.
@@ -51,7 +52,6 @@ El objetivo principal fue encontrar una manera de capturar todos los puntos de i
 
 Al momento de comenzar la colaboración se tuvieron que resolver diferentes temas, en concreto:
 
-
 1. Sobrecarga del mapa
 2. Ingesta de información.
 3. Unificación entrada de información
@@ -61,11 +61,9 @@ Uno de las principales problemas enfrentados conforme fue creciendo el movimient
 
 El mecanismo pensado para verificar la información reportada por los ciudadanos fue el generar una capa de verificación humana. Esto es, para cada punto reportado, un voluntario del colectivo se aproximaba al lugar para verificar que el hecho efectivamente estuviera ocurriendo. Con ello, se generó una fuente de información mucho más confiable que los reportes en bruto de todos los ciudadanos.
 
-
 Uno de las principales problemáticas enfrentadas conforme fue creciendo el movimiento, fue el hecho que la población no tiene el entrenamiento para reportar incidentes o puntos de información, se vuelve evidente tras encontrar diversos reportes falsos; se verificaron como falsos al atender el problema reportado para encontrar que no existía tal problema. Al automatizar la cantidad entradas reportadas, estos puntos tenían el riesgo de aumentar bastante.
 
 El mecanismo pensado para verificar la información reportada por los ciudadanos fue el generar una capa de verificación humana, esto es, para cada punto reportado, un voluntario del colectivo se aproximaba al lugar para verificar que el hecho de hecho estuviera ocurriendo. Con ello, se generó una fuente de información mucho más confiable que los reportes en bruto de todos los ciudadanos.
-
 
 \newpage
 
@@ -198,8 +196,47 @@ El problema con el Crisis Map, desde mi perspectiva es que es una herramienta in
 + Código en python
 + Conexión con google sheets
   \newpage
-* Comparativa
+* Mapeos en Crísis Humanitarias
+** Ushahidi
+
+Ushahidi es una compañía de tecnología sin fines de lucro fundada en Nairobi, Kenia en resupesta a la violencia y a las violaciones a derechos humanos durante las elecciones del 2008. El significado de la palabra es "testimonio" en Swahili\cite{ushahidi}.  La respuesta a la ola de violencia fue un mapa público colaborativo, donde Kenianos alrededor del país mandaron mensajes de texto o correos electrónicos reportando lo que atestiguaron. Estos reportes se agregaron a un mapa en línea que en conjunto compiló una imagen más completa que cualquier otra organización\cite{guardianusha}.
+
+El código de Ushahidi es libre y abierto, lo que significa que es fácilmente accesible para cualquiera que lo quiera usar, por ello, la plataforma de Ushahidi ha sido usada para rastrear avistamientos de leones y elefantes, durante la guerra de 2009 en Gaza y como respuesta al terremoto de enero del 2010 en Haití\cite{guardianusha}.
+
+
+
+La plataforma de Ushahidi, es un esfuerzo muy similar en sus orígenes a la solución implementada en ~#Verificado19s~, ambas soluciones hacen uso de un grupo de voluntarios que con sus teléfonos móviles proveen información para un ente centralizador que luego publica la información en un mapa en línea.
+
+Sin embargo cuando fue considerada como solución, el precio por el despliegue en ese momento era alrededor de 500 USD por mes\cite{previouscost} y no contábamos con recursos monetarios líquidos en ese momento.  Ushahidi evolucionó a una empresa que hace despliegues de la plataforma con costo\cite{costeushahidi}.  El código abierto fue consultado y resultó ser demasiado complejo para el equipo que se tenía disponible. El estimado que se tuvo de implementación era mucho más de una semana, por lo que no se hizo un despliegue de Ushahidi.
+
+La recolección de información por parte de Ushahidi es mucho más diversa: recolecta información de SMS's, correos electrónicos, página web, aplicaciones móbiles y Twitter. Por otro lado la capa de recolección de  ~#Verificado19s~, fue mucho más limitada: sólo se recibían puntos de información através de los Google Forms.
+
+La principal diferencia entre lo que Ushahidi ofrece y lo que se construyó en ~#Verificado19s~, es que Ushahidi provee capacidad de mapeo de información sin poder verificar los puntos. La capa de verificación fue un componente fundamental en la herramienta implementada en el colectivo.  Por lo demás, la plataforma de Ushahidi es una evolución de una idea similar a ~#Verificado19s~.
+
 \newpage
+** Humanitarian OpenStreetMap
+
+
+OpenStreetMap(OSM) es un mapa editable y libre del mundo entero, está siendo poco a poco construído por voluntarios alrededor del mundo. Fue fundado en el 2004 en University College London (UCL) por Steve Coast\cite{chilton}. Permite el el acceso gratuito a toda la información a todos los niveles del mapa. Es un proyecto comunitario de mapeo, usan un formato estilo ~wiki~ para editar y agregar información, por lo que es un proyecto que crece y aunque aún no está terminado, han hecho avances impresionantes. Diferentes individuos, gobiernos, y compañías han hecho uso de los datos provistos para diferentes aplicaciones, es una alternativa muy viable a los principales proveedores de mapas\cite{osmwiki}.
+
+Humanitarian OpenStreetMap Team (HOT) es una comunidad construída con voluntarios, líderes locales y profesionales para ayudar a través de la generación de mapas. Trabajan en generar mapeos abiertos para revolucionar el manejo de desastres y reducir riesgos\cite{hotosmorg}.  El objetivo de HOT, es generar la información necesaria en los casos donde no existe un mapeo confiable del terreno y de las necesidades que se requieren en cada uno de los sitios de desastre.
+
+Este objetivo fue mucho más evidente durante el terremoto de Haití en 2010, de hecho gracias a este incidente es que el equipo de HOT se formaliza como una ONG\cite{sorden2014}. El mapa de Google Maps, del áre de Puerto Príncipe, estaba muy incompleto. Esto obstaculizó bastante el encontrar nombres de calles, más aún direcciones completas cuando se trataba de ubicar puntos en un mapa\cite{meier2012}.
+
+Alrededor de 600 voluntarios de diferentes países, tomaron imágenes satelitales y registraron el mapeo de las zonas en las capas públicas de OSM\cite{meier2012}. Además del mapeo remoto por parte de los voluntarios, el equipo de HOT organizó y facilitó sesiones de trabajo para capacitar a alrededor de 70 personas en el uso y manejo de OSM así como del Sistema de Información Geográfica (GIS, por sus siglas en inglés). Estas sesiones ayudaron a tejer una red de comunicación entre OSM y el equipo que requería la infomación en campo\cite{soden2014}.
+
+Gracias a los esfuerzos de los voluntarios de HOT, OSM se volvió el mapa más detallado que existía de la zona afectada por el Terremoto\cite{soden2014}. A pesar de que es difícil medir el uso de los mapas en la respuesta, sabemos lo siguiente: OCHA y UNICEF usaron la información del OSM.\cite{batty2010}.
+
+Aunados a los esfuerzos de mapeo del equipo de HOT, también hubo un despliegue de la herramienta Ushahidi, así como un tercer despliegue: Mision4636. Gracias al apoyo de Digicel, cualquiera en Haití podía mandar un mensaje de texto al número 4636 de manera gratuita para comunicar sus necesidades más urgentes y ubicación\cite{meier2012}.
+
+Esta triada de herramientas ayudó a que se pudieran atender de mejor manera los requerimientos de la crisis humanitaria a la que la población de Haití estuvo sometida. Esto pone en evidencia el papel central que pueden tomar las nuevas tecnologías en apoyar la respuesta humanitaria\cite{meier2012}.
+
+La diferencia fundamental entre HOT y ~#Verificado19s~, es que en el caso de la Ciudad de México, es que el mapeo existente, tanto en Google Maps como en OST es bastante fidedigno ya que es una zona urbana bastante densa. No fue necesario hacer un levantamiento desde cero de la ciudad, porque ya existía. El objetivo fundamental es diferente mientras que HOT con OST, buscan mejorar el mapeo de calles y edificios, ~#Verificado19s~ buscaba capturar la mayor cantidad de reportes posibles por parte de ciudadanos para mapearlos y hacer evidentes las necesidades que se reportaban.
+
+
+
+
+
 * Caso Ideal
 * Conclusiones
 + Tiempo de actualización
@@ -212,37 +249,6 @@ El problema con el Crisis Map, desde mi perspectiva es que es una herramienta in
 + Sociedad civil
 
 \newpage
-\newpage
 * Bibliografía
 
- \begin{thebibliography}{1}
-
-\bibitem{cnn} CNN Español {\em 19 de septiembre, la fecha fatídica que dejó huella entre los mexicanos.} 19 septiembre 2017: https://cnnespanol.cnn.com/2019/09/19/cientos-de-muertos-miles-de-damnificados-y-millones-de-dolares-en-perdidas-asi-fue-el-terremoto-del-19s-en-mexico/. Fecha de consulta: 20 de abril de 2021.
-
-\bibitem{codd} Codd, E. F. {\em A Relational Model of Data for Large Shared Data Banks.} 1970:  Communications of the ACM. 13 (6): 377–387. doi:10.1145/362384.362685.
-
-\bibitem{coord} Ann Majchrzak, Sirkka L. Jarvenpaa, and Andrea B. Hollingshead. {\em Coordinating Expertise Among Emergent Groups
-Responding to Disasters.} 2007: Organization Science 18 (1) 147-161 https://doi.org/10.1287/orsc.1060.0228.
-
-\bibitem{mymap} Ikeda, Yoshiyasu, Yosuke Yoshioka, and Yasuhiko Kitamura. {\em Intercultural collaboration support system using disaster safety map and machine translation.} 2010: Culture and Computing 100-112. Springer, Berlin, Heidelberg, 2010.
-
-\bibitem{ap19s} Animal Político {\em Lo que el \#19S nos dejó: las víctimas, daños y damnificados en México.} 19 de octubre, 2017:
-https://www.animalpolitico.com/2017/10/cifras-oficiales-sismo-19s/. Fecha de consulta: 20 de abril de 2021.
-
-\bibitem{telcom19s} El Economista {\em ¿Por qué fallaron las líneas telefónicas tras el sismo del 19 de septiembre de 2017?} 20 de septiembre de 2017: https://www.eleconomista.com.mx/empresas/Por-que-fallaron-las-lineas-telefonicas-tras-el-sismo-del-19-de-septiembre-de-2017-20170920-0091.html. Fecha de consulta: 20 de abril de 2021.
-
-\bibitem{ift} Instituto Federal de Telecomunicaciones. {\em A 72 horas del sismo, 98\% de las redes públicas de telecomunicaciones se encuentran en funcionamiento.} 22 de septiembre de 2017:
-http://www.ift.org.mx/comunicacion-y-medios/comunicados-ift/es/72-horas-del-sismo-98-de-las-redes-publicas-de-telecomunicaciones-se-encuentran-en-funcionamiento. Fecha de consulta: 20 de abril de 2021.
-
-\bibitem{flood} Department for Environment, Food and Rural Affairs, Flood Risk Management Division, {\em Spontaneous volunteers: Involving citizens in the response and recovery to flood emergencies.} London. Retrieved from \url{http://randd.defra.gov.uk/Document.aspx?Document=13013_FD2666_FinalReport_SpontaneousVolunteers.pdf}
-
-\bibitem{emergentgroups} Twigg J, Mosel I. {\em Emergent groups and spontaneous volunteers in urban disaster response. Environment and Urbanization.}  2017;29(2):443-458. \url{doi:10.1177/0956247817721413}.
-
-\bibitem{harvardhuman} Harvard Humanitarian Initiative (2011) {\em Disaster relief 2.0: the future of information sharing in humanitarian emergencies.} UN Foundation and Vodafone Foundation Technology Partnership, Washington, D.C. and Berkshire.
-
-\bibitem{crowdsourced} Hunt, Amelia, and Doug Specht. {\em Crowdsourced mapping in crisis zones: collaboration, organisation and impact.} Journal of International Humanitarian Action 4.1 (2019): 1-11.
-
-\bibitem{networkshum} Chernobrov, Dmitry. {\em Digital volunteer networks and humanitarian crisis reporting.} Digital Journalism 6.7 (2018): 928-944.
-
-\bibitem{bigdatahum} Meier, Patrick. 2015a. {\em Digital Humanitarians: How Big Data is Changing the Face of Humanitarian Response.} Boca Raton, FL: CRC Press.
-\end{thebibliography}
+#+INCLUDE: "bibliografia.tex" export latex
