@@ -189,7 +189,7 @@ Conforme se hizo la migración se encontraron distintos problemas que bloquearon
 + Conexión con la base de datos.
 El problema con el Crisis Map, desde mi perspectiva es que es una herramienta interna de Google[2]. Se tuvo el apoyo de los equipos de Google y en particular de el equipo de Chile que lo usó durante su respuesta al sismo de Valparaíso de 2017. Y aún con el apoyo de los equipos de Google y el de =#Verificado19s=, tomó 3 días la migración.
 
-** TODO
+** TODO Detalles de implementación
 + Mapa de arquitectura
 + Limpieza de datos
 + Código en python
