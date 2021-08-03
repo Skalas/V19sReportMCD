@@ -239,8 +239,30 @@ La diferencia fundamental entre HOT y ~#Verificado19s~, es que en el caso de la 
 
 
 
-* Caso Ideal
+* Qué tal si ?
+
+Dentro de las preguntas más comunes ante este tipo de situaciones y respuestas es un ¿Qué tal si? o ¿Que se haría en el caso ideal? La respuesta no es clara ni mucho menos directa, ya que como mencionamos arriba cada caso es único y cada situación exige diferentes esfuerzos para resolver.  Tomando en cuenta lo aprendido y lo implementado durante la crísis humanitaria del 19 de Septiembre,  hay algunas cosas que se proponen a manera de mejora y en caso de tener los recursos y el tiempo de preparación para implementarlo.
+
+** Aplicación
+
+Lo primero que se propones es generar una aplicación para unificar la entrada de los reportes, la aplicación propuesta debe de tomar en cuenta capacidades básicas de mapeo y acceso a la ubicación del dispositivo que esté haciendo el reporte. El conectar con una base de datos central, podría ayudar a canalizar actualizar las necesidades en todo momento; uno de las principales limitantes que se enfrentaron durante el mapeo automatizado de las entradas fue el transformar los reportes de direcciones a puntos en un mapa.
+
+Cada usuario debe de tener capacidad de reportar un incidente nuevo y proponer actualizaciones a los datos ya existentes, sin embargo, la diferenciación entre los verificadores y el resto de la ciudadanía es algo que debe ser parte del diseño de la aplicación. El valor de la verificación de la infromación es fundamental para futuras implementaciones de cualquier estilo de respuesta.
+
+En resumen una aplicación que permita el reporte sencillo de incidentes con capacidad de hacer peticiones de ayuda, materiales, o voluntarios. Que tenga también capacidad de editar incidentes ya reportados de tal forma que no se tengan que manejar individualmente, sino agruparlos a manera de simplificar el manejo de la situación por parte de los equipos que decidan conumir esta fuente de datos.
+
+** Manejo de Necesidades
+
+Entender la gravedad y la urgencia de las zonas de desastre es un tema crucial durante las horas posteriores al evento. Sin embargo se tiene que considerar el hecho que conforme evoluciona el fenómeno, también evolucionan las necesidades, en el caso concreto de ~#Verificado19s~, al segundo día
+
+# holi esto no debería salir
+
+
+
+
 * Conclusiones
+
+Como ya se mencionó el objetivo y principal dificultad en caso de una crísis humanitaria es Proveer ayuda en el momento indicado, a la gente indicada en el tiempo indicado\cite{Aiko2014}.
 + Tiempo de actualización
 + Simpleza en la actualización
 + MAlentendido en datos personales
