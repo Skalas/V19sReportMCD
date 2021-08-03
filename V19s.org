@@ -196,6 +196,9 @@ El problema con el Crisis Map, desde mi perspectiva es que es una herramienta in
 + Conexión con google sheets
   \newpage
 * Mapeos en Crísis Humanitarias
+
+=Falta introducción a esta sección=
+
 ** Ushahidi
 
 Ushahidi es una compañía de tecnología sin fines de lucro fundada en Nairobi, Kenia en resupesta a la violencia y a las violaciones a derechos humanos durante las elecciones del 2008. El significado de la palabra es "testimonio" en Swahili\cite{ushahidi}.  La respuesta a la ola de violencia fue un mapa público colaborativo, donde Kenianos alrededor del país mandaron mensajes de texto o correos electrónicos reportando lo que atestiguaron. Estos reportes se agregaron a un mapa en línea que en conjunto compiló una imagen más completa que cualquier otra organización\cite{guardianusha}.
