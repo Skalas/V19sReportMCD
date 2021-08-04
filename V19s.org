@@ -243,24 +243,32 @@ En resumen una aplicación que permita el reporte sencillo de incidentes con cap
 
 ** Manejo de Necesidades
 
-Entender la gravedad y la urgencia de las zonas de desastre es un tema crucial durante las horas posteriores al evento. Sin embargo se tiene que considerar el hecho que conforme evoluciona el fenómeno, también evolucionan las necesidades, en el caso concreto de ~#Verificado19s~, al segundo día
+Entender la gravedad y la urgencia de las zonas de desastre es un tema crucial durante las horas posteriores al evento. Sin embargo se tiene que considerar el hecho que conforme evoluciona el fenómeno, también evolucionan las necesidades, en el caso concreto de ~#Verificado19s~, al tercer día de operaciones se tenía un mapeo bastante bueno de las zonas donde hubo un desastre mayor. Buena parde de ello es gracias a que la cantidad de edificios edificios con collapso total o parcial fue comparativamente menor a digamos, el sismo del 19 de septiembre de 1985. En el sismo del 2017 46 edificios colapsaron en la CDMX\cite{Alberto2018}, mientras que en 1985, colapsaron 202\cite{verde1991}.
 
-# holi esto no debería salir
+Las necesidades para el tercer día de operación migraron rápidamente de ubicar edificios colapsados, a proveer a los equipos de emergencia y rescate con los insumos que requerían para hacer su trabajo de manera efectiva. Estos insumos, aunque pareciera evidente que deberían ser provistos por autoridades, hay evidencia en otros eventos que los planes de respuesta se pueden ver rebasados\cite{coord}.
 
+La población respondió con propuestas y formas de proveer aquello que podía llegar a faltar en los sitios de rescate. No hay documentación registrada respecto a lo que el colectivo proveyó, sin embargo se llegaron a conseguir vuelos de envíos internacionales, cortadoras punta diamante, grúas de 100 toneladas\footnote{Dado que no hay registro, se comenta a manera de anécdota}. Lo que fue el mayor punto de dolor para el colectivo fue mantener el tejido de red de confianza tendido por las /brokers/ de información en campo.
 
+Un sistema que pueda capturar las peticiones de los sitios de desastre, buscarlos automáticamente en una base de datos donde se registre la oferta de materiales y voluntarios, podría ayudar a mejorar considerablemente la asignación de recursos a los diferentes sitios. Más aún se deja de depender de personas que tienen que descansar, durante una emergencia que no se detiene.
 
 
 * Conclusiones
 
-Como ya se mencionó el objetivo y principal dificultad en caso de una crísis humanitaria es Proveer ayuda en el momento indicado, a la gente indicada en el tiempo indicado\cite{Aiko2014}.
-+ Tiempo de actualización
-+ Simpleza en la actualización
-+ MAlentendido en datos personales
-+ Arreglo de mapa
-+ Migración a Google Crisis Map
-+ Screenshot del mapa
-+ Google
-+ Sociedad civil
+Como ya se mencionó el objetivo y principal dificultad en caso de una crísis humanitaria es proveer ayuda en el momento indicado, a la gente indicada en el tiempo indicado\cite{Aiko2014}. Durante las primeras horas de la respuesta al sismo del 2017, esa ayuda en primera instancia fue el proveer información fidedigna de la ubicación de edificios colapsados, centros de acopio y refugios para la Ciudad de México. Conforme avanzó la crísis, las necesidades y peticiones fueron evolucionando; sin embargo el desarrollo tecnológico no pudo mantener el paso. Varios voluntarios comenzaron a resolver problemas que la tecnología en ese punto no pudo.
+
+De las principales ventajas que se pueden enlistar es el poder capturar una cantidad mucho mayor de información, comparado a lo que se tenía en primera instancia: Al automatizar los procesos de ingesta, usando herramientas preconstruídas para captura de información, se hizo un ahorro en tiempo de desarrollo, con lo cual en cuestión de horas se tuvo un flujo de actualización funcional, simple y rápido. El mapeo con base en las direcciones ayudó a que no se requiriera un desarrollo más complejo, ampliando además el espectro de personas que podían proveer información, ya que cualquier persona con un teléfono móvil y acceso a internet podía hacerlo.
+
+El tema de los datos personales es particularmente sensible, una de las primeras consideraciones que se tuvieron a la hora de generar el primer /form/ fue que se tenía que hacer una limpieza de datos personales para publicación. Se tuvo particular cuidado con ello, ya que se tenía muy clara la gravedad de publicar información tan personal como el número de teléfono de alguien que estaba ayudando a reportar incidentes.
+
+Durante el desarrollo se cometió un error de comunicación entre dos colectivos: ~#Verificado19s~ y un grupo de voluntarios que ayudaba con la verificación, ya que al hacer el registro de la información de algunos sitios, los voluntariosregistraron su número personal de teléfono. La capa a la cual estaban agregando información tenía la característica que se publicarían los números asociados a los sitios reportados  para poder darle seguimiento y poder llamar para atender preguntas. No fue claro para los verificadores que el número a registrar era el del responsable del sitio. El malentendido se atendió inmediatamente borrando los números personales del colectivo de verificadores.
+
+Uno de las decisiones más costosas fue el migrar la plataforma a Google Crisis Map. Si bien sostenía la promesa de un mapa mucho más robusto y completo para efectos de la respuesta a la emergencia, el costo de migración en horas tempranas del desarrollo de la emergencia fue muy alto, para el momento en el que la migración se completó, el mapeo de zonas con derrumbe ya no fue tan relevante. El esfuerzo pudo haber sido mejor invertido en optimizar el manejo de la oferta y demanda de inisumos; que como ya mencioné fue resuelta por un equipo de personas que atendieron durante casi 72 horas sin paraar las demandas de los sitios de restate.
+
+Google fue un eje fundamental en el desarrollo de la plataforma, el hecho de contar con el apoyo algunos miembros del equipo de desarrollo, junto con la beca que proporcionaron al colectivo para hacer uso de la API de mapeo sin límite, así como las capacidades de almacenamiento en sus diferentes plataformas, resultaron en que el colectivo pudiera enfocarse en otros problemas e ir resolviendo otras problemáticas que no tuvieron que ver con el mapeo o administración de páginas. La red de contactos que prestaron al colectivo también fue de fundamental ayuda para conseguir más recursos para poderlos dirigir a donde se requirieron.
+
+El apoyo de la comunidad es  algo de lo que ~#Verificado19s~ puede atestiguar de manera muy fuerte; gracias a los esfuerzos hechos por un equipo de más de 300 personas\footnote{Este es un estimado, no hubo registro del número total de voluntarios}, se salvaron vidas. Es muy difícil hacer el recuento preciso y total de lo que se logró durante la duración del esfuerzo, no hubo una contabilidad precisa ya que cada voluntario simplemente trató de resolver la problemática. Sin embargo, el impacto que deja ~#Verificado19s~ fue tangible e imporante para los esfuerzos de rescate.
+
+Lo que queda mencionar es que no importa la complejidad del producto de datos implementado para poder ser de utilidad, en este caso no fue mas que un mapeo automatizado de una serie de encuestas que publicaba posteriormente información en un mapa. Sin embargo el renombre que generó el mapa por la simpleza y  confiabilidad del mismo, no tuvo que ver con la complejidad o lo elaborado de los modelos detrás del mismo. Simplemente fue una herramienta pensada para responder una pregunta difícil, pero clara: ¿Cómo y dónde puedo ayudar?
 
 \newpage
 * Bibliografía
