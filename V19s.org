@@ -147,9 +147,7 @@ Conforme pasó el tiempo, la información en el mapa dejó de ser relevante para
 
 Al final del día 20 de septiembre, ya se tenía una primer versión del ETL funcionando.  Se cargaba de forma manual al mapa final en MyMaps. Con la información que se iba recabando se tenía lo suficiente como para hacer una solución bastante robusta con el objetivo de parear la información de la oferta (recursos) con la de demanda (sitios necesitados).
 
-
 El problema que apareció al tratar de hacer este modelo, es que no se tenía una manera fidedigna de tratar los sitios de desastre y centros de acopio como puntos de información editables de tal forma que pudieran ser actualizados o borrados. No se podía delimitar el sitio $k$ y accionar con respecto a éste. Lo que sí se tenía era una serie de reportes con ligeros cambios en la dirección reportada. Además de las variaciones que había en dicho sitio.
-
 
 Durante la madrugada del 21 de septiembre, una consultora se puso en contacto con el equipo. Ellos comentaron que el problema de unificar puntos y poder editarlos era análogo a una herramienta que tenían hecha para otro propósito. El compromiso fue que en cuestión de 12 horas, se podía adaptar su aplicación para que funcionara para las necesidades de =#Verificado19s=. Conforme pasó el tiempo, fueron retrasando la entrega. Para el final del 24 de septiembre, aún quedó pendiente la entrega del compromiso que se tenía con =#Verificado19s=.
 
@@ -168,6 +166,7 @@ El problema con trabajar con recursos humanos son las necesidades fisiológicas 
 Todo el movimiento =#Verificado19s= inició con un mapa y evolucionó a un sistema de gestión de recursos necesarios para el rescate de las víctimas de la crisis humanitaria que enfrentó México. El énfasis de haber utilizado una herramienta de visualización de esta naturaleza es que a pesar de la opinión que un mapa es una manera muy básica e incompleta de transmitir información, es una de las maneras más sencillas y claras para que la ciudadanía pueda acceder a ella en una situación de crisis.
 
 *** Diversidad de Fuentes
+
 En ese momento había distintos equipos capturando información de la misma índole que =#Verificado19s=. Conforme se contactaron a estos equipos y brindaron el acceso a su base de datos, se tomó la decisión de publicar la información de todas las fuentes que estuvieran abiertas. Las primeras fuentes externas en cargarse fueron:
 + Manos a la obra
 + Coordinación de Estrategia Digital Nacional
@@ -177,23 +176,25 @@ En ese momento había distintos equipos capturando información de la misma índ
 La insistencia de tener todas las capas arriba fue para solidificar a =#Verificado19s= como una plataforma unificadora y no sólo una más en respuesta al desastre. Todas las bases de datos que se recibieron se fueron añadiendo a los puntos del mapa original, sin embargo todo se tenía que unificar en una única capa. Cada punto en la capa se etiquetaba con el origen del dato y la información de cada punto.
 
 El primer mapa, fue hecho y publicado en la plataforma MyMaps de Google. Tras la insistencia del equipo de Google a migrar a una plataforma más robusta, se tomó la decisión de hacer una migración al Google Crisis Map.
-** Crisis Map
-Google Crisis Map es una herramienta hecha para que los usuarios encuentren y usen información crítica de la emergencia que están enfrentando. Las principales características del mapa por lo cual se tomó la decisión de migrar la información son:
-+ Actualización más rápida.
-+ Automatización y conexión con base de datos.
-+ Capas de información filtrables.
-+ Escalabilidad.
-Conforme se hizo la migración se encontraron distintos problemas que bloquearon bastante el desarrollo de los ETL’s. Yo no me hice cargo de esta parte de la migración, pero los problemas reportados fueron:
-+ Problemas de Encoding
-+ TTL (Time-to-live)
-+ Conexión con la base de datos.
-El problema con el Crisis Map, desde mi perspectiva es que es una herramienta interna de Google[2]. Se tuvo el apoyo de los equipos de Google y en particular de el equipo de Chile que lo usó durante su respuesta al sismo de Valparaíso de 2017. Y aún con el apoyo de los equipos de Google y el de =#Verificado19s=, tomó 3 días la migración.
 
+** Crisis Map
+
+Google Crisis Map es una herramienta hecha para que los usuarios encuentren y usen información crítica durante crísis, esta herramienta cuando se activa, era accesible desde Google Search y Maps. Se pensó en un principio como una herramienta para visualizar datos relacionados a las crísis y respecto al clima. Sin embargo el equipo de Google decidió desactivar el sitio de Google Crisis Map y el proyecto ha sido migrado a el resto de los productos de Google\cite{googlecrisis}.
+
+El equipo de Google fue muy insistente con el hecho que la herramienta de Google Crisis Map, sería una opción mucho más robusta y resiliente a todo lo que se requería hacer. Las características principales que hicieron que se tomara la decisión de migrar a esa plataforma fueron: Actualización de información más rápida y automática, posibilidad de conectar con Google Big Query, capas filtrables de información y escalabilidad.
+
+La velocidad de actualización al migrar a Google Crisis Map no tuvo ninguna diferencia, ya que no se pudo hacer la implementación de la actualización automatizada, por lo que al final quedó en una carga manual, al igual que con la herramienta de MyMaps. Las capas de datos, por otro lado si tuvieron una mejora considerable, ya que la herramienta permitió que se pudieran hacer diferentes filtros de manera eficiente. La velocidad de carga también mejoró considerablemente para el usuario final\footnote{No se hicieron pruebas de velocidad, esto viene de la percepción de las personas que usaron el mapa y lo reportaron.}.
+
+Conforme avanzó la migración se encontraron diversos problemas. En primer lugar la herramienta no estaba lista para una internacionalización, ya que se tuvieron problemas de codificación de caracteres, en concreto, los caracteres de común uso en español, no se reconocían y más allá de eso detenían el proceso sin ningún tipo de aviso. En segundo lugar nos encontramos con un problema de TTL\footnote{ Time to Live}, esto es un contador de por cuánto tiempo los datos presentados tienen validez,  Google Crisis Map tenía un valor más alto de lo que era necesario para la visualización automatizada del flujo de datos. Finalmente la conexión a base de datos no se pudo concretar al menos con el equipo de voluntarios y la ayuda de algunos miembros del equipo de Google\footnote{Google Chile y Google México apoyaron con el tema de la implementación}. Cabe mencionar que cada uno de los errores que se presentaron y se atacaron tomaron horas valiosas del equipo de voluntarios para resolverlas.
+
+En resumen Google Crisis Map fue una herramienta que ayudó a la robustez de la visualización de la infromación, sin embargo el costo que conllevó ejecutar la migración fue mucho más alto que el beneficio que se obtuvo. Tomó 3 días hacer la migración de los procesos al Google Crisis Map, y para ese momento, las necesidades de mapeo eran considerablemente menores. No todo estuvo perdido, ya que el hecho que la herramienta fuera accesible desde el buscador de google, ayudó a que se consolidara aún más la confianza en el equipo de ~#Verificado19s~.
 
   \newpage
 * Mapeos en Crísis Humanitarias
 
-=Falta introducción a esta sección=
+El mapeo durante crísis humanitarias es algo que ha venido evolucionando desde hace mucho tiempo, Luis XIV en 1668 comisionó modelos en tres dimensiones para que sus generales tuvieran un mejor planeación. Hay evidencia también de mapeos en respuesta a crisis en la primer y segunda guerra mundial, así como en la guerra Franco-China en la década de 1880\cite{meier2012}.
+
+Se mencionan ahora dos herramientas que pueden ser consideradas como similares al esfuerzo que se hizo durante 2017, mismas que han tenido reconocimiento mundial por parte de los actores humanitarios. Ambas tuvieron un caso de uso muy particular durante el sismo de 2010 en Haití, fenómeno que comparte muchas similitudes al caso de México en 2017, pero con marcadas diferencias que se analizan a continuación.
 
 ** Ushahidi
 
