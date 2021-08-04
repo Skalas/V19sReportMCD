@@ -66,7 +66,7 @@ El mecanismo pensado para verificar la información reportada por los ciudadanos
 
 \newpage
 
-* TODO Solución implementada
+* Solución implementada
 
 Para enumerar las distintas soluciones que se implementaron durante este ejercicio, hablaremos de los pasos del flujo de la información: *ingesta*, *procesamiento*, *inteligencia* y *visualización*.
 
@@ -190,6 +190,7 @@ Conforme avanzó la migración se encontraron diversos problemas. En primer luga
 En resumen Google Crisis Map fue una herramienta que ayudó a la robustez de la visualización de la infromación, sin embargo el costo que conllevó ejecutar la migración fue mucho más alto que el beneficio que se obtuvo. Tomó 3 días hacer la migración de los procesos al Google Crisis Map, y para ese momento, las necesidades de mapeo eran considerablemente menores. No todo estuvo perdido, ya que el hecho que la herramienta fuera accesible desde el buscador de google, ayudó a que se consolidara aún más la confianza en el equipo de ~#Verificado19s~.
 
   \newpage
+
 * Mapeos en Crísis Humanitarias
 
 El mapeo durante crísis humanitarias es algo que ha venido evolucionando desde hace mucho tiempo, Luis XIV en 1668 comisionó modelos en tres dimensiones para que sus generales tuvieran un mejor planeación. Hay evidencia también de mapeos en respuesta a crisis en la primer y segunda guerra mundial, así como en la guerra Franco-China en la década de 1880\cite{meier2012}.
@@ -230,25 +231,25 @@ Esta triada de herramientas ayudó a que se pudieran atender de mejor manera los
 La diferencia fundamental entre HOT y ~#Verificado19s~  es que el mapeo existente, tanto en Google Maps como en OST, es bastante fidedigno ya que es una zona urbana bastante densa. No fue necesario hacer un levantamiento desde cero de la ciudad, porque ya existía. El objetivo fundamental es diferente: mientras que HOT con OST buscaba mejorar el mapeo de calles y edificios; ~#Verificado19s~ buscaba capturar la mayor cantidad de reportes posibles por parte de ciudadanos para mapearlos y hacer evidentes las necesidades que se reportaban.
 
 
-* Qué tal si ?
+* ¿Qué tal si?
 
-Dentro de las preguntas más comunes ante este tipo de situaciones y respuestas es un ¿Qué tal si? o ¿Que se haría en el caso ideal? La respuesta no es clara ni mucho menos directa, ya que como mencionamos arriba cada caso es único y cada situación exige diferentes esfuerzos para resolver.  Tomando en cuenta lo aprendido y lo implementado durante la crísis humanitaria del 19 de Septiembre,  hay algunas cosas que se proponen a manera de mejora y en caso de tener los recursos y el tiempo de preparación para implementarlo.
+Dentro de las preguntas más comunes ante este tipo de situaciones y respuestas es un ¿Qué tal si? o ¿Qué se haría en el caso ideal? La respuesta no es clara ni mucho menos directa, ya que como se mencionó arriba cada caso es único y cada situación exige diferentes esfuerzos para resolver.  Tomando en cuenta lo aprendido y lo implementado durante la crísis humanitaria del 19 de Septiembre,  hay algunas cosas que se proponen a manera de mejora y en caso de tener los recursos y el tiempo de preparación para implementarlo.
 
 ** Aplicación
 
-Lo primero que se propones es generar una aplicación para unificar la entrada de los reportes, la aplicación propuesta debe de tomar en cuenta capacidades básicas de mapeo y acceso a la ubicación del dispositivo que esté haciendo el reporte. El conectar con una base de datos central, podría ayudar a canalizar actualizar las necesidades en todo momento; uno de las principales limitantes que se enfrentaron durante el mapeo automatizado de las entradas fue el transformar los reportes de direcciones a puntos en un mapa.
+Lo primero que se propone es generar una aplicación para unificar la entrada de los reportes, la aplicación propuesta debe de tomar en cuenta capacidades básicas de mapeo y acceso a la ubicación del dispositivo que esté haciendo el reporte. El conectar con una base de datos central, podría ayudar a canalizar actualizar las necesidades en todo momento. Uno de las principales limitantes que se enfrentaron durante el mapeo automatizado de las entradas fue el transformar los reportes de direcciones a puntos en un mapa.
 
-Cada usuario debe de tener capacidad de reportar un incidente nuevo y proponer actualizaciones a los datos ya existentes, sin embargo, la diferenciación entre los verificadores y el resto de la ciudadanía es algo que debe ser parte del diseño de la aplicación. El valor de la verificación de la infromación es fundamental para futuras implementaciones de cualquier estilo de respuesta.
+Cada usuario debe de tener capacidad de reportar un incidente nuevo y proponer actualizaciones a los datos ya existentes. Sin embargo, la diferenciación entre los verificadores y el resto de la ciudadanía es algo que debe ser parte del diseño de la aplicación. El valor de la verificación de la información es fundamental para futuras implementaciones de cualquier estilo de respuesta.
 
-En resumen una aplicación que permita el reporte sencillo de incidentes con capacidad de hacer peticiones de ayuda, materiales, o voluntarios. Que tenga también capacidad de editar incidentes ya reportados de tal forma que no se tengan que manejar individualmente, sino agruparlos a manera de simplificar el manejo de la situación por parte de los equipos que decidan conumir esta fuente de datos.
+En resumen una aplicación que permita el reporte sencillo de incidentes con capacidad de hacer peticiones de ayuda, materiales o voluntarios. Adicionalmente, una aplicación que tenga también capacidad de editar incidentes ya reportados de tal manera que no se tengan que manejar individualmente, sino agruparlos a manera de simplificar el manejo de la situación por parte de los equipos que decidan conumir esta fuente de datos.
 
 ** Manejo de Necesidades
 
-Entender la gravedad y la urgencia de las zonas de desastre es un tema crucial durante las horas posteriores al evento. Sin embargo se tiene que considerar el hecho que conforme evoluciona el fenómeno, también evolucionan las necesidades, en el caso concreto de ~#Verificado19s~, al tercer día de operaciones se tenía un mapeo bastante bueno de las zonas donde hubo un desastre mayor. Buena parde de ello es gracias a que la cantidad de edificios edificios con collapso total o parcial fue comparativamente menor a digamos, el sismo del 19 de septiembre de 1985. En el sismo del 2017 46 edificios colapsaron en la CDMX\cite{Alberto2018}, mientras que en 1985, colapsaron 202\cite{verde1991}.
+Entender la gravedad y la urgencia de las zonas de desastre es un tema crucial durante las horas posteriores al evento. Sin embargo se tiene que considerar el hecho que conforme evoluciona el fenómeno, también evolucionan las necesidades. En el caso concreto de ~#Verificado19s~, al tercer día de operaciones se tenía un mapeo bastante bueno de las zonas donde hubo un desastre mayor. Buena parte de ello es gracias a que la cantidad de edificios edificios con collapso total o parcial fue comparativamente menor a, digamos, el sismo del 19 de septiembre de 1985. En el sismo del 2017, 46 edificios colapsaron en la CDMX \cite{Alberto2018}, mientras que en 1985, colapsaron 202 \cite{verde1991}.
 
-Las necesidades para el tercer día de operación migraron rápidamente de ubicar edificios colapsados, a proveer a los equipos de emergencia y rescate con los insumos que requerían para hacer su trabajo de manera efectiva. Estos insumos, aunque pareciera evidente que deberían ser provistos por autoridades, hay evidencia en otros eventos que los planes de respuesta se pueden ver rebasados\cite{coord}.
+Las necesidades para el tercer día de operación migraron rápidamente. Se pasó de ubicar edificios colapsados, a proveer a los equipos de emergencia y rescate con los insumos que requerían para hacer su trabajo de manera efectiva. Estos insumos, aunque pareciera evidente que deberían ser provistos por autoridades, hay evidencia en otros eventos que los planes de respuesta se pueden ver rebasados \cite{coord}.
 
-La población respondió con propuestas y formas de proveer aquello que podía llegar a faltar en los sitios de rescate. No hay documentación registrada respecto a lo que el colectivo proveyó, sin embargo se llegaron a conseguir vuelos de envíos internacionales, cortadoras punta diamante, grúas de 100 toneladas\footnote{Dado que no hay registro, se comenta a manera de anécdota}. Lo que fue el mayor punto de dolor para el colectivo fue mantener el tejido de red de confianza tendido por las /brokers/ de información en campo.
+La población respondió con propuestas y formas de proveer aquello que podía llegar a faltar en los sitios de rescate. No hay documentación registrada respecto a lo que el colectivo proveyó. Sin embargo, se llegaron a conseguir vuelos de envíos internacionales, cortadoras punta diamante, grúas de 100 toneladas\footnote{Dado que no hay registro, se comenta a manera anecdótica.}. Lo que fue el mayor punto de dolor para el colectivo fue mantener el tejido de red de confianza tendido por las /brokers/ de información en campo.
 
 Un sistema que pueda capturar las peticiones de los sitios de desastre, buscarlos automáticamente en una base de datos donde se registre la oferta de materiales y voluntarios, podría ayudar a mejorar considerablemente la asignación de recursos a los diferentes sitios. Más aún se deja de depender de personas que tienen que descansar, durante una emergencia que no se detiene.
 
