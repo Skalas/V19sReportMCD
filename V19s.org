@@ -1,53 +1,60 @@
 #+Author: Miguel Angel Escalante Serrato
-#+Title: V19s
+#+Title: Mapeo en Respuesta a Emergencias: Caso ~#Verificado19s~
 #+LATEX_HEADER: \documentclass[12pt,spanish,oneside]{book}
 #+LATEX_HEADER: \parskip=10pt
 #+LATEX_HEADER: \parindent=0in
 #+LATEX_HEADER: \usepackage[spanish,mexico]{babel}
 #+LATEX_HEADER: \usepackage{url}
+#+LATEX_HEADER: \usepackage{appendix}
+#+LATEX_HEADER: \usepackage{rotating}
+#+LATEX_HEADER: \usepackage{url}
+#+LATEX_HEADER: \def\UrlBreaks{\do\/\do-}
+#+LATEX_HEADER: \usepackage{breakurl}
+#+LATEX_HEADER: \usepackage[breaklinks]{hyperref}
 
-\newpage
 * Introducción
 
 El 19 de septiembre de 2017 se suscitó un sismo de magnitud 7,1 grados en la escala Richter \cite{cnn}, que si bien fue menor al sismo suscitado unos días antes en la Ciudad de México\footnote{El 7 de septiembre con magnitud 8,1 en la escala Richter.}, tuvo repercusiones que se hicieron inmediatamente presentes.
 
 Los daños generados en toda la ciudad fueron importantes, con edificios afectados en las delegaciones Cuauhtémoc, Benito Juárez, Tlalpan, Iztapalapa, Xochimilco y Coyoacán \cite{ap19s}; esto sin tomar en cuenta las afectaciones  generadas en las entidades aledañas a la Ciudad de México. Los daños abarcaron desde pequeñas afectaciones a los edificios, hasta derrumbes de unidades habitacionales completas.
 
-Dada la densidad poblacional de la zona, y el rango de afectaciones que se presentaron, fue difícil hacer una primer evaluación de lo ocurrido. Las redes telefónicas y de transporte, colapsaron por el incremento repentino de la demanda \cite{telcom19s}. Los ciudadanos tenían total incertidumbre, no había manera de ver si sus hogares aún estaban de pie. Tampoco si sus seres queridos estarían bien. La falta de información y la impotencia fueron un factor importante en cómo se vivieron las siguientes horas. La mayor parte de la población regresó a sus respectivos hogares. Ya fuera en auto, motocicleta, bicicleta o caminando, todos regresaron a sus casas. Poco a poco las diferentes redes fueron aliviando, los bloqueos informáticos cesaron y fue regresando la luz y el internet a las personas \cite{ift}.
+Dada la densidad poblacional de la zona, y el rango de afectaciones que se presentaron, fue difícil hacer una primer evaluación de lo ocurrido. Las redes telefónicas y de transporte, colapsaron por el incremento repentino de la demanda \cite{telcom19s}. Los ciudadanos tenían total incertidumbre, no había manera de ver si sus hogares aún estaban de pie, ni tampoco de si sus seres queridos estarían bien. La falta de información y la impotencia fueron un factor importante en cómo se vivieron las siguientes horas. La mayor parte de la población regresó a sus respectivos hogares. Ya fuera en auto, motocicleta, bicicleta o caminando, todos regresaron a sus casas. Poco a poco las diferentes redes fueron aliviando, los bloqueos informáticos cesaron y fue regresando la luz y el internet a las personas \cite{ift}.
 
 ** Captura de información
 
-Por medio de dispositivos móviles, la mayor parte de la población tiene en sus bolsillos herramientas para grabar y transmitir videos en tiempo real. Por supuesto, en el momento el problema principal fue la falta de red telefónica para transmitirlos. Conforme avanzaba el día había momentos en los que se podía percibir señal que facilitaba el flujo de mensajes. Mismos que llegaban por medio de grupos de /Whatsapp/. La información estaba fragmentada. Había videos alarmantes de diferentes situaciones: personas evacuando edificios con un paneo\footnote{Vistazo previo que se hace con una cámara sobre algo antes de fijar el objetivo.} de la ciudad envuelta en  humo y polvo; tanques estacionarios explotando; edificios derrumbándose. La generación de información fue inmediata y en grandes cantidades.
+Por medio de dispositivos móviles, la mayor parte de la población tiene en sus bolsillos herramientas para grabar y transmitir videos en tiempo real. Por supuesto, en aquel momento el problema principal fue la falta de red telefónica para transmitirlos. Conforme avanzaba el día había periodos en los que se podía percibir señal que facilitaba el flujo de mensajes. Mismos que llegaban por medio de grupos de /Whatsapp/. La información estaba fragmentada. Había videos alarmantes de diferentes situaciones: personas evacuando edificios con un paneo\footnote{Vistazo previo que se hace con una cámara sobre algo antes de fijar el objetivo.} de la ciudad envuelta en  humo y polvo; tanques estacionarios explotando; edificios derrumbándose. La generación de información fue inmediata y en grandes cantidades.
 
 
-El problema principal con tal generación de información es que no tenía ningún orden. Se compartían mensajes reenviados vía /WhatsApp/, publicaciones en /Facebook/ e /Instagram/. Todos sin ninguna información adicional de lo que estaba pasando. La  atención se concentró en los videos más escandalosos\footnote{Una búsqueda realizada por el término =video sismo 19 de septiembre= arroja resultados con alrededor un millón y medio de visualizaciones por resultado.}. Ante este problema Sergio Beltrán, arquitecto de profesión quien utilizaba mapeos de la ciudad para su trabajo, tuvo la idea de utilizar MyMaps de Google\cite{mymap}, para comenzar a puntear la información recibida en un mapa público.
+El problema principal con tal generación de información es que no tenía ningún orden. Se compartían mensajes reenviados vía /WhatsApp/, publicaciones en /Facebook/ e /Instagram/. Todos sin ninguna información adicional de lo que estaba pasando. La  atención se concentró en los videos más escandalosos\footnote{Una búsqueda realizada por el término =video sismo 19 de septiembre= arroja resultados con alrededor un millón y medio de visualizaciones por resultado.}. Ante este problema Sergio Beltrán arquitecto de profesión quien utilizaba mapeos de la ciudad para su trabajo, tuvo la idea de utilizar MyMaps de Google\cite{mymap} para comenzar a puntear la información recibida en un mapa público.
 
-
-Al publicar el mapa, varios ex-compañeros de Beltrán se ofrecieron como voluntarios para seguir agregando información. Conforme la red de colaboradores y usuarios creció, también la carga que tuvo la plataforma para mantener activo el mapa. El 19 de septiembre el sitió recibió alrededor de un millón de visitas. El problema fue que en la madrugada del 20 de septiembre el mapa dejó de funcionar. No se podía editar más. Sin embargo,  aún se podía ver la información pero ya no era posible actualizar el mapa.
+Al publicar el mapa, varios ex-compañeros de Beltrán se ofrecieron como voluntarios para seguir agregando información. Conforme la red de colaboradores y usuarios creció, también lo hizo la carga que tuvo la plataforma para mantener activo el mapa. El 19 de septiembre el sitió recibió alrededor de un millón de visitas. El problema fue que en la madrugada del 20 de septiembre el mapa dejó de funcionar. No se podía editar más. Sin embargo,  aún se podía ver la información pero ya no era posible actualizar el mapa.
 
 ** Grupos emergentes auto-organizados
 
 Ante eventos de esta magnitud, la efectividad de la respuesta a la emergencia, depende en parte, de la velocidad y magnitud de la misma. Una respuesta muy fuerte ante desastres puede salvar muchas vidas; sin embargo hay recursos limitados dentro del gobierno. Los actores gubernamentales no pueden ayudar a todas las personas que lo requieren en el momento adecuado \cite{flood}.
 
-Los desastres estimulan respuestas espontáneas (y previas a que las organizaciones formales se puedan mobilizar), a través de grupos voluntarios auto-organizados, conformados por individuos dentro y fuera de las comunidades afectadas por el desastre. Estos grupos espontáneos y "emergentes"  son una característica común de los deastres \cite{emergentgroups}. La respuesta de los actores gubernamentales es de muchas maneras desconectada e impredecible. Muchas líneas de comunicación están poco articuladas y la información llega a diferentes niveles de detalle y precisión\cite{coord}.
+Los desastres estimulan respuestas espontáneas (que anteceden a la mobilización de organizaciones formales), a través de grupos voluntarios auto-organizados, conformados por individuos dentro y fuera de las comunidades afectadas por el desastre. Estos grupos espontáneos y "emergentes"  son una característica común de los desastres  \cite{emergentgroups}. La respuesta de los actores gubernamentales es de muchas maneras desconectada e impredecible. Muchas líneas de comunicación están poco articuladas y la información llega con diferentes niveles de detalle y precisión\cite{coord}.
 
-El voluntariado, a través de individuos y grupos emergentes, es un recurso importante para la respuesta ante la emergencia. Es muy probable que dado el crecimiento de los centros urbanos, la  poblacion, aunado al incremento en la densidad  y proximidad de poblaciones urbanas este cobre una mayor importancia. La población local es fundamental para la respuesta ante los desastres \cite{coord}.
+El voluntariado, a través de individuos y grupos emergentes, es un recurso importante para la respuesta ante la emergencia. Es muy probable que dado el crecimiento de los centros urbanos, aunado al incremento en la densidad  y proximidad de poblaciones urbanas, este cobre una mayor importancia. La población local es fundamental para la respuesta ante los desastres \cite{coord}.
+
+Durante la respuesta al sismo del 19 de septiembre del 2017, uno de estos grupos emergentes auto-organizados nació y se consolidó como ~#Verificado19s~, dentro de este colectivo tuve la fortuna de liderear al equipo técnico y tecnológico del colectivo. En ese momento coordinaba un equipo de más de 10 personas en la empresa donde laboraba, mismas que se volvieron la espina dorsal de la implementación de los procesos automatizados. Llegando a coordinar a un equipo de más de 40 personas en sitio, fue uno de los esfuerzos más gratificantes que he lidereado, el privilegio de coordinar a tantas personas tan talentosas y con un objetivo tan claro, es algo que difícilmente se olvida.
 
 ** Mapeo de información
 
-Empatar las necesidades de ayuda y los esfuerzos de rescate a tiempo de manera efectiva es de los retos más importantes de la respuesta humanitaria. Gobiernos, organizaciones humanitarias, tienen una demanda explicita de información relevante, accionable y encontrrable. Sin embargo la información es de los recursos más perecederos\cite{bigdatahum}, ya que la información deja de ser relevante, muchas veces, antes de haber tomado alguna acción. De hecho lo que usualmente consideramos como "rápido" es lento: los medios de información usualmente son acusados de sensacionalismo en las crísis y también de reportar información falsa, fuera de tiempo y repetitiva. Los reporteros tienden a ser ajenos a las comunidades locales y sus condiciones\cite{networkshum}.
+Empatar las necesidades de ayuda y los esfuerzos de rescate a tiempo de manera efectiva es uno de los retos más importantes de la respuesta humanitaria. Gobiernos y organizaciones humanitarias tienen una demanda explicita de información relevante, accionable y encontrrable. Sin embargo, la información es de los recursos más perecederos\cite{bigdatahum}, ya que la información deja de ser relevante, muchas veces, antes de haberse tomado alguna acción. De hecho, lo que usualmente consideramos como "rápido" es lento: los medios de información usualmente son acusados de sensacionalismo en las crísis y también de reportar información falsa, fuera de tiempo y repetitiva. Los reporteros tienden a ser ajenos a las comunidades locales y sus condiciones \cite{networkshum}.
 
-Se puede definir un mapa comunitario como un conjunto de servicios via un proveedor internacional y/o una comunidad en línea que recolecta, analyza y mapea información crítica alrededor de poblaciones que fueron afectadas por algún desastre. \cite{crowdsourced} Dentro del sector humanitario el mapeo comunitario ha revolucionado la manera en que se percibe la respuesta a la crísis, en concreto, gracias a la habilitación a las comunidades afectadas por algún desastre para definir la manera en la que reciben ayuda \cite{harvardhuman}.
+Se puede definir un mapa comunitario como un conjunto de servicios via un proveedor internacional y/o una comunidad en línea que recolecta, analisa y mapea información crítica alrededor de poblaciones que fueron afectadas por algún desastre. \cite{crowdsourced} Dentro del sector humanitario el mapeo comunitario ha revolucionado la manera en que se percibe la respuesta a la crísis, en concreto, gracias a la habilitación de las comunidades afectadas por algún desastre para definir la manera en la que reciben ayuda \cite{harvardhuman}.
 
 Se han discutido las virtudes y limitaciones de mapas comunitarios para su uso en projectos no-gubernamentales y humanitarios. Sin embargo, el terremoto del 2010 en Haití,  trajo al frente el proceso de mapeo comunitario de crisis. Durante y después del sismo la población de Haití hacía pedidos de ayuda usando redes sociales y tecnologías móbiles, este esfuerzo fue coordinado por \textit{Humanitarian Open Street Map} y \textit{Ushahidi} usando \textit{OpenStreetMap} \cite{crowdsourced}.
 
+\newpage
 * Problema
 
-El mapa tenía como entrada capturas manuales de diferentes amigos y conocidos de Sergio Beltrán.  Conforme la cantidad de información recabada fue creciendo, la confianza general aumento. Y con esto, más personas aportaron al mapeo de los diferentes puntos. El crecimiento del número de usuarios al agregar puntos de información de manera desorganizada eventualmente rebasó la capacidad de la herramienta. El mapa dejó de permitir nuevas cargas de información. Esto se explica pues la herramienta de la plataform de Google,  MyMaps, está diseñada para uso personal.
+El mapa tenía como entrada capturas manuales de diferentes amigos y conocidos de Sergio Beltrán.  Conforme la cantidad de información recabada fue creciendo, la confianza general aumento. Y con esto, más personas aportaron al mapeo de los diferentes puntos. El crecimiento del número de usuarios al agregar puntos de información de manera desorganizada eventualmente rebasó la capacidad de la herramienta. El mapa dejó de permitir nuevas cargas de información. Esto se explica porque la herramienta de la plataform de Google,  MyMaps, está diseñada para uso personal.
 
 Ante tal situación y aunado a las peticiones de información y recursos que llegaban al colectivo, los voluntarios tomaron por iniciativa capturar lo que llegaba en papel. Esto hizo problemático el manejo de todas las capturas que se seguían recabando, ya que posteriormente a escribirlos en papel, había que encontrar la manera de digitalizarlos. Todo esto para poder compartir la información. 
 
-El objetivo principal fue encontrar una manera de capturar todos los puntos de información que llegaran al colectivo, digitalizarlos y volverlos disponibles a diferentes actores. Se propuso implementar una automatización de la ingesta de datos, para luego publicarla en el mapa previamente mencionado, de tal forma que hubiera una fuente de información con todo lo recabado y lo que se estaba por recabar. Una de las decisiones tomadas fue el hecho de tomar en cuenta todas las fuentes confiables\footnote{Con esto nos referimos a fuentes de información con instituciones respaldándolas.} de información que se encontraran para agregar a las sábanas de información del mapa.
+El objetivo principal fue encontrar una manera de capturar todos los puntos de información que llegaran al colectivo, digitalizarlos y volverlos disponibles a diferentes actores. Se propuso implementar una automatización de la ingesta de datos, para luego publicarla en el mapa previamente mencionado, de tal forma que hubiera una fuente de información con todo lo recabado y lo que se estaba por recabar. Una de las decisiones tomadas fue el  tomar en cuenta todas las fuentes confiables de información\footnote{Con esto nos referimos a fuentes de información con instituciones respaldándolas.} que se encontraran para agregar a las sábanas de información del mapa.
 
 Al momento de comenzar la colaboración se tuvieron que resolver diferentes temas, en concreto:
 
@@ -56,13 +63,13 @@ Al momento de comenzar la colaboración se tuvieron que resolver diferentes tema
 3. Unificación entrada de información
 4. Unificación de salida de información.
 
-Uno de las principales problemas enfrentados conforme fue creciendo el movimiento, fue el hecho que la población no tiene el entrenamiento para reportar incidentes o puntos de información. Por lo que se encontró una serie de puntos de información falsos. Estos eventos se verificaron como falsos al momento de atender los  reportes y encontrar que no existía tal problema. Al automatizar la entrada de información, estos puntos tenían el riesgo de aumentar bastante.
+Uno de las principales problemas enfrentados conforme fue creciendo el movimiento, fue el hecho de que la población no tiene el entrenamiento para reportar incidentes o puntos de información. Por lo que se encontraron una serie de puntos de información falsos. Estos eventos se verificaron como falsos al momento de atender los  reportes y encontrar que no existía tal problema. Al automatizar la entrada de información, estos puntos tenían el riesgo de aumentar considerablemente.
 
 El mecanismo pensado para verificar la información reportada por los ciudadanos fue el generar una capa de verificación humana. Esto es, para cada punto reportado, un voluntario del colectivo se aproximaba al lugar para verificar que el hecho efectivamente estuviera ocurriendo. Con ello, se generó una fuente de información mucho más confiable que los reportes en bruto de todos los ciudadanos.
 
 Uno de las principales problemáticas enfrentadas conforme fue creciendo el movimiento, fue el hecho que la población no tiene el entrenamiento para reportar incidentes o puntos de información, se vuelve evidente tras encontrar diversos reportes falsos; se verificaron como falsos al atender el problema reportado para encontrar que no existía tal problema. Al automatizar la cantidad entradas reportadas, estos puntos tenían el riesgo de aumentar bastante.
 
-El mecanismo pensado para verificar la información reportada por los ciudadanos fue el generar una capa de verificación humana, esto es, para cada punto reportado, un voluntario del colectivo se aproximaba al lugar para verificar que el hecho de hecho estuviera ocurriendo. Con ello, se generó una fuente de información mucho más confiable que los reportes en bruto de todos los ciudadanos.
+El mecanismo pensado para verificar la información reportada por los ciudadanos fue el generar una capa de verificación humana, esto es, para cada punto reportado, un voluntario del colectivo se aproximaba al lugar para verificar que el hecho genuinamente estuviera ocurriendo. Con ello, se generó una fuente de información mucho más confiable que los reportes en bruto de todos los ciudadanos.
 
 \newpage
 
@@ -76,7 +83,7 @@ El primer punto a resolver dentro de todos los problemas que surgieron fue el mi
 
 *** Formulario
 
-Lo primero que vino a la mesa, fue hacer una app (ya fuera móvil o para navegador) que conectara con una base de datos y pudiera hacer ediciones, verificaciones, agregar puntos de información. Sin embargo el problema fue la restricción de tiempo, además del hecho que en ese momento los voluntarios con los que se contaban no tenían la experiencia necesaria como para desarrollar tal herramienta con la velocidad requerida.
+Lo primero que vino a la mesa, fue hacer una app (ya fuera móvil o para navegador) que conectara con una base de datos y pudiera hacer ediciones, verificaciones, agregar puntos de información. Sin embargo el problema fue la restricción de tiempo, además de que en ese momento los voluntarios con los que se contaba no tenían la experiencia necesaria como para desarrollar tal herramienta con la velocidad requerida.
 
 Ante las limitantes de tiempo y buscando la flexibilidad para poder distribuir nuestro método de ingesta a una gran cantidad de personas, se buscó una herramienta que tuviera la capacidad de capturar el volumen necesario. Se tomó la decisión de usar Google Forms\footnote{https://www.google.com/forms/about/.}. Esta herramienta tiene todo lo necesario para hacer una ingesta rápida de información. Tiene campos de selección de opciones, texto libre, /checkboxes/, carga de imágenes, etc. La información ingerida en estos formatos automáticamente se puede ver reflejada en una base de datos en Google Sheets\footnote{https://www.google.com/sheets/about/.}. La última, una plataforma que tiene la capacidad de guardar toda la información junto con la robustez de los servicios de Google en el formato de tabla (unidad de almacenamiento básica en un modelo relacional, \cite{codd}).
 
@@ -86,7 +93,7 @@ La información que inicialmente se pensaba recibir tenía que ver con los sitio
 
 La necesidad de verificar la información se hizo más evidente y lo que se implementó fue una capa de verificación intermedia. Gracias a todos los voluntarios, el foco que obtuvo la herramienta y el mapa que se viralizó, existían equipos grandes de voluntarios en distintas modalidades de transporte: a pie, en bicicleta o motocicleta.
 
-Todos los voluntarios eran un par de ojos que ayudaron a visitar cada lugar reportado y verificar si el incidente fue verdadero. Con esto también surgió la necesidad de definir lo que significa que algo esté verificado. La definición que se acordó entre el equipo fue
+Todos los voluntarios eran un par de ojos que ayudaban a visitar cada lugar reportado y verificar si el incidente fue verdadero. Con esto también surgió la necesidad de definir lo que significa que algo esté verificado. La definición que se acordó entre el equipo fue
 
 #+begin_quote
 
@@ -101,21 +108,21 @@ Desde el punto de vista de la información que llegaba, se dejaron los mismos fo
 
 *** Unificación
 
-La última iteración de los formularios fue una unificación de los tres formatos en un punto de entrada.  El objetivo es aliviar la necesidad de tener tres diferentes enlaces para cada tipo de información. Esto incorporaba una capa adicional de complejidad y entablaba barreras para el flujo de la información. En el formulario unificado, se agregaron además otros dos tipos de puntos de información: transportes y voluntarios. Mismos que brindaron una mayor capacidad de proveer ayuda. 
+La última iteración de los formularios fue una unificación de los tres formatos en un punto de entrada.  El objetivo era aliviar la necesidad de tener tres diferentes enlaces para cada tipo de información. Esto incorporaba una capa adicional de complejidad y entablaba barreras para el flujo de la información. En el formulario unificado, se agregaron además otros dos tipos de puntos de información: transportes y voluntarios. Mismos que brindaron una mayor capacidad de proveer ayuda.
 
-Los enlaces de los distintos formularios fueron publicados a través de redes sociales. En cuanto se tuvo una página web, los enlaces fueron migrados junto con instrucciones de cómo ser llenados. Esto con el objetivo de mayor claridad y tener un proceso de captura mas sencillo.
+Los enlaces de los distintos formularios fueron publicados a través de redes sociales. En cuanto se tuvo una página web, los enlaces fueron migrados junto con instrucciones de cómo ser llenados con el objetivo de mayor claridad y tener un proceso de captura mas sencillo.
 
 ** Procesamiento
 
-La información que se obtuvo durante todo el tiempo que estuvo activo ~#Verificado19s~, era de naturaleza delicada. Pues en la captura se incluyeron teléfono, nombre y ubicación de la persona que reportaba. Mismos que son sensibles y  no podían ser publicados en ningún momento.
+La información que se obtuvo durante todo el tiempo que estuvo activo ~#Verificado19s~, era de naturaleza delicada, pues en la captura se incluyeron teléfono, nombre y ubicación de la persona que reportaba. Mismos que son privados y  no podían ser publicados en ningún momento.
 
 *** Ubicación
 
-Google Forms, fue una herramienta vital para la solución que se concretó. Sin embargo, tuvo ciertas limitantes en las entradas que podrían ser registradas por los formularios. En particular, no se puede hacer la captura de la ubicación del teléfono con el que se está haciendo el formulario, esto añade un grado de complejidad no previsto y con alta probabilidad de error durante el proceso de captura. 
+Google Forms, fue una herramienta vital para la solución que se concretó. Sin embargo, tuvo ciertas limitantes en las entradas que podrían ser re-gistradas por los formularios. En particular, no se puede hacer la captura de la ubicación del teléfono con el que se está haciendo el formulario, esto añade un grado de complejidad no previsto y con alta probabilidad de error durante el proceso de captura.
 
-La estimación de la ubicación se realizó a través de la interfaz de programación de aplicaciones (API, por sus siglas en inglés) de Google Maps\footnote{https://www.google.com/maps/about/#!/.}. Se mandaba a ésta la dirección con atributos: calle, número, colonia y ciudad. La API responde con las coordenadas estimadas para una dirección dada y con ello un punto geográfico que podemos visualizar y registrar en un mapa.
+La estimación de la ubicación se realizó a través de la interfaz de programación de aplicaciones (API, por sus siglas en inglés) de Google Maps\footnote{https://www.google.com/maps/about/#!/.}. Se mandaba a ésta la dirección con atributos: calle, número, colonia y ciudad. La API respondía con las coordenadas estimadas para una dirección dada y con ello un punto geográfico que podíamos visualizar y registrar en un mapa.
 
-Uno de los problemas con este acercamiento es que cuando la información estaba incompleta, la API daba coordenadas bastante lejanas al punto. Un ejemplo de esto es la calle de Escocia en la colonia Del Valle. En dicha dirección hubo dos derrumbes y cuando se reportó con la información incompleta, se recibió de la API coordenadas en el país de Escocia. 
+Uno de los problemas con este acercamiento es que cuando la información estaba incompleta, la API daba coordenadas bastante lejanas al punto. Un ejemplo de esto es la calle de Escocia en la colonia Del Valle. En dicha dirección hubo dos derrumbes y cuando se reportó con la información incompleta, se recibieron de la API coordenadas en el país de Escocia.
 
 Para eliminar el problema de los datos que la API identificaba fuera de las áreas demarcadas, aunado al corto tiempo que se tenía, se decidió eliminar los puntos lejanos a la Ciudad de México. El criterio fue utilizar la demarcación regional del resultado de la API. El mismo filtro fue aplicado cuando se incorporaron los reportes de los demás estados de la república. 
 
@@ -133,9 +140,9 @@ El fenómeno que se observó durante la respuesta al sismo evolucionó cada minu
 
 En particular, en redes sociales se encontró un problema fundamental con la publicación de las necesidades que se presentaron. Las publicaciones con fecha del 19 de septiembre seguían teniendo eco el 23 de septiembre. La falta de una hora y fecha de publicación entorpeció también la optimización de recursos.
 
-Google Forms a diferencia de una aplicación que permitiera manejo de información, no tiene manera de actualizar alguna entrada determinada. Por lo que se tuvo que encontrar una manera de que esto se resolviera.
+Google Forms, a diferencia de una aplicación que permitiera manejo de información, no tiene manera de actualizar  entradas determinadas. Por lo que se tuvo que encontrar una manera de que esto se resolviera.
 
-Se tomó la decisión de hacer actualizaciones de los distintos puntos con una nueva entrada en los formularios. Esto con el objetivo para que con cada actualización se llenara un  nuevo registro con la misma ubicación. La diferencia es que tenía  la información de las distintas necesidades de manera actualizada. Si se quería borrar algún punto, se tenía que mandar un formulario con las necesidades vacías y los mismos datos de ubicación.
+Se tomó la decisión de hacer actualizaciones de los distintos puntos con una nueva entrada en los formularios. Esto con el objetivo de que con cada actualización se llenara un  nuevo registro con la misma ubicación. La diferencia es que tenía  la información de las distintas necesidades de manera actualizada. Si se quería borrar algún punto, se tenía que mandar un formulario con las necesidades vacías y los mismos datos de ubicación.
 
 El sistema de actualización planteado posee muchas fallas que son evidentes. Por ejemplo, era tedioso volver a escribir toda la información geográfica para actualizar los datos. Además, los errores de captura que se  podía cometer con la urgencia para los voluntarios eran abundantes. Esto generó problemas de punteo ya que todos los voluntarios fueron suceptibles a este fallo y la capa verificadora tampoco tenía un mecanismo para identificarlos.
 
@@ -145,21 +152,21 @@ Conforme pasó el tiempo, la información en el mapa dejó de ser relevante para
 
 ** Inteligencia
 
-Al final del día 20 de septiembre, ya se tenía una primer versión del ETL funcionando.  Se cargaba de forma manual al mapa final en MyMaps. Con la información que se iba recabando se tenía lo suficiente como para hacer una solución bastante robusta con el objetivo de parear la información de la oferta (recursos) con la de demanda (sitios necesitados).
+Al final del día 20 de septiembre, ya se tenía una primera versión del ETL funcionando.  Se cargaba de forma manual al mapa final en MyMaps. Con la información que se iba recabando se tenía lo suficiente como para hacer una solución bastante robusta con el objetivo de parear la información de la oferta (recursos) con la de demanda (sitios necesitados).
 
 El problema que apareció al tratar de hacer este modelo, es que no se tenía una manera fidedigna de tratar los sitios de desastre y centros de acopio como puntos de información editables de tal forma que pudieran ser actualizados o borrados. No se podía delimitar el sitio $k$ y accionar con respecto a éste. Lo que sí se tenía era una serie de reportes con ligeros cambios en la dirección reportada. Además de las variaciones que había en dicho sitio.
 
 Durante la madrugada del 21 de septiembre, una consultora se puso en contacto con el equipo. Ellos comentaron que el problema de unificar puntos y poder editarlos era análogo a una herramienta que tenían hecha para otro propósito. El compromiso fue que en cuestión de 12 horas, se podía adaptar su aplicación para que funcionara para las necesidades de ~#Verificado19s~. Conforme pasó el tiempo, fueron retrasando la entrega. Para el final del 24 de septiembre, aún quedó pendiente la entrega del compromiso que se tenía con ~#Verificado19s~.
 
-En el momento se tomó la decisión de esperar esta herramienta para poder automatizar el pareo de oferta y demanda. Conforme pasó el tiempo esta necesidad se fue erosionando, ya que la optimización de los voluntarios fue más rápida y contundente ante las necesidades.
+En el momento se tomó la decisión de esperar esta herramienta para poder automatizar el pareo de oferta y demanda. Conforme pasó el tiempo esta necesidad se fue erosionando, ya que la optimización de los voluntarios fue más rápida y contundente ante las necesidades existentes.
 
 *** Coordinación Logística
 
-Las voluntarias que estuvieron a cargo de unir las necesidades y los recursos les llamamos /brokers/, fueron un equipo de 3 personas. Cada una de ellas, a través de grupos de confianza en /WhatsApp/ y /Telegram/, se encargó de ir buscando para cada necesidad reportada alguien que pudiera suplir el material requerido.
+Las voluntarias que estuvieron a cargo de unir las necesidades y los recursos (/brokers/), fueron un equipo de 3 personas. Cada una de ellas, a través de grupos de confianza en /WhatsApp/ y /Telegram/, se encargó de ir buscando para cada necesidad reportada alguien que pudiera suplir el material requerido.
 
 En ese momento la organización humana se simplificó de tal forma que sólo había un encargado por sitio de derrumbe para reportar todo lo que se necesitaba al momento. Estas /brokers/ fueron centrales en el movimiento ya que gracias a ellas se agilizó bastante la velocidad con lo que se entregaron los materiales.
 
-El problema con trabajar con recursos humanos son las necesidades fisiológicas como el descanso. Conforme pasaron las horas y eventualmente los días, este equipo se enfrentó con el cansancio y la falta de horas de sueño. Por un lado, se volvieron indispensables y, por otro, eso fue profundamente problemático tanto de manera interna como externa. El estrés al que este equipo estuvo sujeto era impresionante y eventualmente tuvieron que descansar. En este momento se volvió mucho más evidente la necesidad de generar un sistema robusto y redundante; ya sea con una herramienta automatizada o un equipo de personas que puedan suplir a las personas dentro de las redes de confianza. Cuidar la salud tanto física como mental de los voluntarios es fundamental en un esfuerzo como ~#Verificado19s~.
+El problema de trabajar con recursos humanos son las necesidades fisiológicas como el descanso. Conforme pasaron las horas y eventualmente los días, este equipo se enfrentó con el cansancio y la falta de horas de sueño. Por un lado, se volvieron indispensables y, por otro, eso fue profundamente problemático tanto de manera interna como externa. El estrés al que este equipo estuvo sujeto era impresionante y eventualmente tuvieron que descansar. En este momento se volvió mucho más evidente la necesidad de generar un sistema robusto y redundante; ya sea con una herramienta automatizada o un equipo de personas que pudieran suplir a las personas dentro de las redes de confianza. Cuidar la salud tanto física como mental de los voluntarios es fundamental en un esfuerzo como ~#Verificado19s~.
 
 ** Visualización
 
@@ -179,9 +186,9 @@ El primer mapa, fue hecho y publicado en la plataforma MyMaps de Google. Tras la
 
 ** Crisis Map
 
-Google Crisis Map es una herramienta hecha para que los usuarios encuentren y usen información crítica durante una crisis. Esta herramienta cuando se activa, es accesible desde Google Search y Google Maps. Al momento de atender el sismo de México en 2017, se pensó en un principio como una herramienta para visualizar datos relacionados a las crísis y respecto al clima. Sin embargo, el equipo de Google decidió desactivar el sitio de Google Crisis Map y el proyecto ha sido migrado al resto de los productos de Google\cite{googlecrisis}.
+Google Crisis Map es una herramienta hecha para que los usuarios encuentren y usen información crítica durante una crisis. Esta herramienta, cuando se activa, es accesible desde Google Search y Google Maps. Al momento de atender el sismo de México en 2017, se pensó en un principio como una herramienta para visualizar datos relacionados a las crísis y respecto al clima. Sin embargo, el equipo de Google decidió desactivar el sitio de Google Crisis Map y el proyecto ha sido migrado al resto de los productos de Google \cite{googlecrisis}.
 
-El equipo de Google fue muy insistente con el hecho que la herramienta de Google Crisis Map, sería una opción mucho más robusta y resiliente a todo lo que se requería hacer. Las características principales que hicieron que se tomara la decisión de migrar a esa plataforma fueron: actualización de información más rápida y automática, posibilidad de conectar con Google Big Query, capas filtrables de información y escalabilidad.
+El equipo de Google fue muy insistente con el hecho de que la herramienta de Google Crisis Map, sería una opción mucho más robusta y resiliente a todo lo que se requería hacer. Las características principales que hicieron que se tomara la decisión de migrar a esa plataforma fueron: actualización de información más rápida y automática, posibilidad de conectar con Google Big Query, capas filtrables de información y escalabilidad.
 
 La velocidad de actualización al migrar a Google Crisis Map no tuvo ninguna diferencia, ya que no se pudo hacer la implementación de la actualización automatizada, por lo que al final quedó en una carga manual, al igual que con la herramienta de MyMaps. Las capas de datos, por otro lado si tuvieron una mejora considerable, ya que la herramienta permitió que se pudieran hacer diferentes filtros de manera eficiente. La velocidad de carga también mejoró considerablemente para el usuario final\footnote{No se hicieron pruebas de velocidad, esto viene de la percepción de las personas que usaron el mapa y lo reportaron.}.
 
@@ -189,11 +196,12 @@ Conforme avanzó la migración se encontraron diversos problemas. En primer luga
 
 En resumen Google Crisis Map fue una herramienta que ayudó a la robustez de la visualización de la información, sin embargo el costo que conllevó ejecutar la migración fue mucho más alto que el beneficio que se obtuvo. Tomó 3 días hacer la migración de los procesos al Google Crisis Map, y para ese momento, las necesidades de mapeo eran considerablemente menores. No todo estuvo perdido, ya que el hecho que la herramienta fuera accesible desde el buscador de google, ayudó a que se consolidara aún más la confianza en el equipo de ~#Verificado19s~.
 
-  \newpage
+\newpage
+
 
 * Mapeos en Crisis Humanitarias
 
-El mapeo durante crisis humanitarias es algo que ha evolucionado a lo largo del tiempo. Luis XIV, en 1668, comisionó modelos en tres dimensiones para que sus generales tuvieran un mejor planeación. Hay evidencia también de mapeos en respuesta a crisis en la primera y segunda guerra mundial, así como en la guerra Franco-China en la década de 1880 \cite{meier2012}.
+El mapeo durante crisis humanitarias es algo que ha evolucionado a lo largo del tiempo. Luis XIV, en 1668, comisionó modelos en tres dimensiones para que sus generales tuvieran una mejor planeación. Hay evidencia también de mapeos en respuesta a crisis en la primera y segunda guerra mundial, así como en la guerra Franco-China en la década de 1880 \cite{meier2012}.
 
 A continuación se mencionan dos herramientas que pueden ser consideradas similares al esfuerzo que se hizo durante 2017. Estos dos esfuerzos, han tenido reconocimiento mundial por parte de actores humanitarios. Ambos tuvieron un caso de uso muy particular durante el sismo de 2010 en Haití; un fenómeno que comparte muchas similitudes con el caso de México en 2017. Aun así existen marcadas diferencias que se analizan a continuación.
 
@@ -205,24 +213,24 @@ El código de Ushahidi es libre y abierto, lo que significa que es fácilmente a
 
 Por ejemplo, el equipo de ayuda humanitaria al responder al terremoto del 12 de Enero del 2010 en Haití se encontró sin una fuente confiable que les proveyera de la ubicación de ciertos puntos de interés como hospitales, demográficos de la población, calles o  edificios. Aunado a esto, la situación cambiaba constantemente y se requerían esfuerzos muy fuertes para procesar la información capturada y obtener una imagen de lo que pasaba \cite{mora2011}.
 
-En este contexto, la plataforma de Ushahidi es un esfuerzo muy similar en sus orígenes a la solución implementada en ~#Verificado19s~.  Ambas soluciones hacen uso de un grupo de voluntarios que con sus teléfonos móviles proveen información para un ente centralizador que luego publica la información en un mapa en línea. La recolección de información por parte de Ushahidi es mucho más diversa: información de SMS's, correos electrónicos, páginas /web/, aplicaciones móviles y Twitter. Por otro lado, la capa de recolección de  ~#Verificado19s~, fue mucho más limitada. Sólo se recibían puntos de información a través de los Google Forms. En comparación, el tiempo de respuesta que se tuvo por parte del colectivo, fue de unas cuantas horas, mientras que el equipo de Ushahidi tomó 4 días para activar la capacidad de recibir SMS's \cite{mora2011}. Otro punto a considerar es que gracias a que el mapeo de la ciudad es considerablemente mejor al que se contaba en Haití en el 2010, el mapeo se pudo automatizar con la API de Google Maps.
+En este contexto, la plataforma de Ushahidi es un esfuerzo muy similar en sus orígenes a la solución implementada en ~#Verificado19s~.  Ambas soluciones hacen uso de un grupo de voluntarios que con sus teléfonos móviles proveen información para un ente centralizador que luego publica la información en un mapa en línea. La recolección de información por parte de Ushahidi es mucho más diversa: información de SMS's, correos electrónicos, páginas /web/, aplicaciones móviles y Twitter. Por otro lado, la capa de recolección de  ~#Verificado19s~, fue mucho más limitada. Sólo se recibían puntos de información a través de los Google Forms. En comparación, el tiempo de respuesta que se tuvo por parte del colectivo fue de unas cuantas horas, mientras que el equipo de Ushahidi tomó 4 días para activar la capacidad de recibir SMS's \cite{mora2011}. Otro punto a considerar es que gracias a que el mapeo de la ciudad es considerablemente mejor al que se contaba en Haití en el 2010, el mapeo se pudo automatizar con la API de Google Maps.
 
-El origen de Ushahidi surge con  un grupo de voluntarios estudiantes de Fletcher School. En su momento crearon \url{haiti.ushahid i.com}\footnote{Este sitio ya no funciona, y redirecciona a la página base de Ushahidi.}, una herramienta para ayudar a la respuesta post-sismo en Haití \cite{meier2010}. La principal diferencia de este despliegue, comparado con el resto de los mapeos que se generaron a raíz de la crisis, es el hecho que se podían agregar reportes via mensajes de texto SMS\footnote{abreviado así por las siglas en inglés de Short Message System.}. Sin embargo, la plataforma no fue suficiente y  se tuvo que desplegar otra platforma conocida como FrontlineSMS. Esto sucedió el día 16 de Enero que en conjunto con Ushahid se denominó  ~Mission4636~ \cite{mora2011}. El proceso a grandes rasgos es como sigue. Llegaba un SMS al sistema de Ushahidi. Un grupo de voluntarios traducía los mensajes. Si el mensaje no tenía suficiente información, los voluntarios podían responder al número, pidiendo más detalles \cite{meier2010}. Con esto, otro grupo de voluntarios, usaban este insumo para localizar las coordenadas GPS\footnote{Sistema de posicionamiento global satelital, GPS por sus siglas en inglés} exactas. Este proceso era manual y complicado dada la falta de mapas confiables de Haití\footnote{Más de esto, en la siguiente sección =OpenStreetMap=.} \cite{mora2011}. Cuando encontraban las coordenadas GPS, se generaba un reporte en la plataforma de Ushahidi, en el cual se reportaban factores especificando la urgencia, el tamaño de la población, el mensaje original, la ubicación y lo categorizaba según fuera el caso \cite{meier2010}.
+El origen de Ushahidi surge con  un grupo de voluntarios estudiantes de Fletcher School. En su momento crearon \url{haiti.ushahid i.com}\footnote{Este sitio ya no funciona, y redirecciona a la página base de Ushahidi.}, una he-rramienta para ayudar a la respuesta post-sismo en Haití \cite{meier2010}. La principal diferencia de este despliegue, comparado con el resto de los mapeos que se generaron a raíz de la crisis, es el hecho de que se podían agregar reportes via mensajes de texto SMS\footnote{abreviado así por las siglas en inglés de Short Message System.}. Sin embargo, la plataforma no fue suficiente y  se tuvo que desplegar otra platforma conocida como FrontlineSMS. Esto sucedió el día 16 de Enero que en conjunto con Ushahid se denominó  ~Mission4636~ \cite{mora2011}. El proceso a grandes rasgos es como sigue. Llegaba un SMS al sistema de Ushahidi. Un grupo de voluntarios traducía los mensajes. Si el mensaje no tenía suficiente información, los voluntarios podían responder al número, pidiendo más detalles \cite{meier2010}. Con esto, otro grupo de voluntarios, usaban este insumo para localizar las coordenadas GPS\footnote{Sistema de posicionamiento global satelital, GPS por sus siglas en inglés} exactas. Este proceso era manual y complicado dada la falta de mapas confiables de Haití\footnote{Más de esto, en la siguiente sección =OpenStreetMap=.} \cite{mora2011}. Cuando encontraban las coordenadas GPS, se generaba un reporte en la plataforma de Ushahidi, en el cual se reportaban factores especificando la urgencia, el tamaño de la población, el mensaje original, la ubicación y lo categorizaba según fuera el caso \cite{meier2010}.
 
 En el contexto de este trabajo, Ushahidi fue considerada como una posible alternativa tecnológica a lo que se estaba planteando. Sin embargo, el precio por el despliegue -que en ese momento era alrededor de 500 USD por mes \cite{previouscost}- no permitió ser considerado.  Ushahidi evolucionó a una empresa que hace despliegues de la plataforma con costo \cite{costushahidi}.  El código abierto fue consultado y resultó ser demasiado complejo para el equipo que se tenía disponible. El tiempo estimado que se tuvo de implementación era mucho más de una semana, lo cual resultó en no considerar la adopción de dicha herramienta. 
 
 Las diferentes circunstancias con las que se contaron en las dos situaciones (Haíti y México), hacen que las implementaciones sean diferentes, aunque tengan el mismo objetivo: Proveer ayuda en el momento indicado, a la gente indicada en el tiempo indicado \cite{Aiko2014}. Las necesidades cubiertas por Ushahidi, probablemente pudieron haber sido de gran ayuda para el despliegue de ayuda en ~#Verificado19s~, sin embargo por temas de complejidad de implementación aunado al elevado costo, se decidió no desplegarlo.
 
-\newpage
+
 ** Humanitarian OpenStreetMap
 
-/OpenStreetMap/ (OSM) es un mapa editable y libre del mundo entero. Es un esfuerzo global que está siendo poco a poco construído por voluntarios. Fue fundado en el 2004 en University College London (UCL) por Steve Coast \cite{chilton}. Permite el el acceso gratuito a toda la información a todos los niveles del mapa. Es un proyecto comunitario de mapeo, donde se utiliza un formato estilo ~wiki~ para editar y agregar información. Lo cual lo hace un proyecto que crece y aunque aún no está completamente terminado, se han realizado avances impresionantes. Diferentes individuos, gobiernos, y compañías han hecho uso de los datos provistos para diferentes aplicaciones, es una alternativa muy viable a los principales proveedores de mapas \cite{osmwiki}.
+/OpenStreetMap/ (OSM) es un mapa editable y libre del mundo entero. Es un esfuerzo global que está siendo poco a poco construído por voluntarios. Fue fundado en el 2004 en University College London (UCL) por Steve Coast \cite{chilton}. Permite el acceso gratuito a toda la información a todos los niveles del mapa. Es un proyecto comunitario de mapeo, donde se utiliza un formato estilo ~wiki~ para editar y agregar información. Lo cual lo hace un proyecto que crece y aunque aún no está completamente terminado, se han realizado avances impresionantes. Diferentes individuos, gobiernos, y compañías han hecho uso de los datos provistos para diferentes aplicaciones, es una alternativa muy viable a los principales proveedores de mapas \cite{osmwiki}.
 
 Humanitarian OpenStreetMap Team (HOT) es una comunidad construída con voluntarios, líderes locales y profesionales para ayudar a través de la generación de mapas. Trabajan en generar mapas abiertos para revolucionar el manejo de desastres y reducir riesgos \cite{hotosmorg}.  El objetivo de HOT, es generar la información necesaria en los casos donde no existe un mapeo confiable del terreno y de las necesidades que se requieren en cada uno de los sitios de desastre.
 
-Este objetivo fue mucho más evidente durante el terremoto de Haití en 2010. De hecho, gracias a este incidente es que el equipo de HOT se formaliza como una ONG \cite{sorden2014}. En el momento del terremoto de Haití el mapa de Google Maps, del área de Puerto Príncipe, estaba muy incompleto. Esto obstaculizó bastante el encontrar nombres de calles, más aún direcciones completas cuando se trataba de ubicar puntos \cite{meier2012}. Alrededor de 600 voluntarios de diferentes países, tomaron imágenes satelitales y registraron el mapeo de las zonas en las capas públicas de OSM \cite{meier2012}. Además del mapeo remoto por parte de los voluntarios, el equipo de HOT organizó y facilitó sesiones de trabajo para capacitar alrededor de 70 personas en el uso y manejo de OSM así como de Sistemas de Información Geográfica (GIS, por sus siglas en inglés). Estas sesiones ayudaron a tejer una red de comunicación entre OSM y el equipo que requería la infomación en campo \cite{soden2014}.
+Este objetivo fue mucho más evidente durante el terremoto de Haití en 2010. De hecho, gracias a este incidente es que el equipo de HOT se formaliza como una ONG \cite{sorden2014}. En el momento del terremoto de Haití el mapa de Google Maps, del área de Puerto Príncipe, estaba muy incompleto. Esto obstaculizó bastante el encontrar nombres de calles, más aún direcciones completas cuando se trataba de ubicar puntos \cite{meier2012}. Alrededor de 600 voluntarios de diferentes países, tomaron imágenes satelitales y registraron el mapeo de las zonas en las capas públicas de OSM \cite{meier2012}. Además del mapeo remoto por parte de los voluntarios, el equipo de HOT organizó y facilitó sesiones de trabajo para capacitar alrededor de 70 personas en el uso y manejo de OSM así como de Sistemas de Información Geográfica (GIS, por sus siglas en inglés). Estas sesiones ayudaron a tejer una red de comunicación entre OSM y el equipo que requería la infomación en campo \cite{sorden2014}.
 
-Gracias a los esfuerzos de los voluntarios de HOT, OSM se volvió el mapa más detallado que existía de la zona afectada por el Terremoto \cite{soden2014}. A pesar de que es difícil medir el uso de los mapas en la respuesta, sabemos lo siguiente: OCHA y UNICEF usaron la información del OSM \cite{batty2010}.
+Gracias a los esfuerzos de los voluntarios de HOT, OSM se volvió el mapa más detallado que existía de la zona afectada por el Terremoto \cite{sorden2014}. A pesar de que es difícil medir el uso de los mapas en la respuesta, sabemos lo siguiente: OCHA y UNICEF usaron la información del OSM \cite{batty2010}.
 
 Como se ha mencionado antes,  los esfuerzos de mapeo del equipo de HOT, estuvieron acompañados del despliegue de la herramienta Ushahidi, así como de Mision4636. Gracias al apoyo de Digicel, cualquiera en Haití podía mandar un mensaje de texto al número 4636 de manera gratuita para comunicar sus necesidades más urgentes y ubicación \cite{meier2012}.
 
@@ -230,14 +238,14 @@ Esta triada de herramientas ayudó a que se pudieran atender de mejor manera los
 
 La diferencia fundamental entre HOT y ~#Verificado19s~  es que el mapeo existente, tanto en Google Maps como en OST, es bastante fidedigno ya que es una zona urbana bastante densa. No fue necesario hacer un levantamiento desde cero de la ciudad, porque ya existía. El objetivo fundamental es diferente: mientras que HOT con OST buscaba mejorar el mapeo de calles y edificios; ~#Verificado19s~ buscaba capturar la mayor cantidad de reportes posibles por parte de ciudadanos para mapearlos y hacer evidentes las necesidades que se reportaban.
 
-
+\newpage
 * ¿Qué tal si?
 
 Dentro de las preguntas más comunes ante este tipo de situaciones y respuestas es un ¿Qué tal si? o ¿Qué se haría en el caso ideal? La respuesta no es clara ni mucho menos directa, ya que como se mencionó arriba cada caso es único y cada situación exige diferentes esfuerzos para resolver.  Tomando en cuenta lo aprendido y lo implementado durante la crisis humanitaria del 19 de Septiembre,  hay algunas cosas que se proponen a manera de mejora y en caso de tener los recursos y el tiempo de preparación para implementarlo.
 
 ** Aplicación
 
-Lo primero que se propone es generar una aplicación para unificar la entrada de los reportes, la aplicación propuesta debe de tomar en cuenta capacidades básicas de mapeo y acceso a la ubicación del dispositivo que esté haciendo el reporte. El conectar con una base de datos central, podría ayudar a canalizar actualizar las necesidades en todo momento. Uno de las principales limitantes que se enfrentaron durante el mapeo automatizado de las entradas fue el transformar los reportes de direcciones a puntos en un mapa.
+Lo primero que se propone es generar una aplicación para unificar la entrada de los reportes, la aplicación propuesta debe de tomar en cuenta capacidades básicas de mapeo y acceso a la ubicación del dispositivo que esté haciendo el reporte. El conectar con una base de datos central, podría ayudar a canalizar actualizar las necesidades en todo momento. Una de las principales limitantes que se enfrentaron durante el mapeo automatizado de las entradas fue el transformar los reportes de direcciones a puntos en un mapa.
 
 Cada usuario debe de tener capacidad de reportar un incidente nuevo y proponer actualizaciones a los datos ya existentes. Sin embargo, la diferenciación entre los verificadores y el resto de la ciudadanía es algo que debe ser parte del diseño de la aplicación. El valor de la verificación de la información es fundamental para futuras implementaciones de cualquier estilo de respuesta.
 
@@ -249,14 +257,38 @@ Entender la gravedad y la urgencia de las zonas de desastre es un tema crucial d
 
 Las necesidades para el tercer día de operación migraron rápidamente. Se pasó de ubicar edificios colapsados, a proveer a los equipos de emergencia y rescate con los insumos que requerían para hacer su trabajo de manera efectiva. Estos insumos, aunque pareciera evidente que deberían ser provistos por autoridades, hay evidencia en otros eventos que los planes de respuesta se pueden ver rebasados \cite{coord}.
 
-La población respondió con propuestas y formas de proveer aquello que podía llegar a faltar en los sitios de rescate. No hay documentación registrada respecto a lo que el colectivo proveyó. Sin embargo, se llegaron a conseguir vuelos de envíos internacionales, cortadoras punta diamante, grúas de 100 toneladas\footnote{Dado que no hay registro, se comenta a manera anecdótica.}. Lo que fue el mayor punto de dolor para el colectivo fue mantener el tejido de red de confianza tendido por las /brokers/ de información en campo.
+La población respondió con propuestas y formas de proveer aquello que podía llegar a faltar en los sitios de rescate. No hay documentación registrada res-pecto a lo que el colectivo proveyó. Sin embargo, se llegaron a conseguir vuelos de envíos internacionales, cortadoras punta diamante, grúas de 100 toneladas\footnote{Dado que no hay registro, se comenta a manera anecdótica.}. Lo que fue el mayor punto de dolor para el colectivo fue mantener el tejido de red de confianza tendido por las /brokers/ de información en campo.
 
 Un sistema que pueda capturar las peticiones de los sitios de desastre, buscarlos automáticamente en una base de datos donde se registre la oferta de materiales y voluntarios, podría ayudar a mejorar considerablemente la asignación de recursos a los diferentes sitios. Más aún se deja de depender de personas que tienen que descansar, durante una emergencia que no se detiene.
 
+\newpage
+** Caso Ideal
+Una pregunta más es suponiendo que no se tienen recursos para invertir y se quiere replicar el esfuerzo, ¿Cuál es el mejor camino? ¿Qué aprendieron con respecto al producto de datos? A continuación se describe desde la opinión del autor, lo que hubiese sido el producto suficiente para las necesidades básicas de mapeo de lugares y eventos.
+
+*** Google Forms
+Google forms pidiendo información lo más detallada posible es una gran herramienta para capturar varios cientos de entradas de manera eficiente y rápida. Las instrucciones incluídas en el formulario son fundamentales para el correcto llenado del mismo. La longitud es un componente muy importante, ya que entre más largo sea el formulario, más complicado se vuelve el llenado del mismo.
+*** Mapeo
+Tanto la conexión para descarga de las bases de datos de Google Sheets, como el punteo através de la API de Google Maps están contenidas en el repositorio \url{https://github.com/parismend/temblor}. No es el repositorio más limpio ni mejor documentado, pero puede dar una ayuda para no empezar desde cero.
+*** Almacenaje de Información
+La manera más sencilla para hacer la carga de una capa de datos a MyMaps, es através de un archivo CSV, por lo que se recomienda que los pasos que se requieran para el mapeo y limpieza de información termine con una última transformación al formato CSV que requiere el mapa para trabajar y actualizar.
+
+Realmente no se vió ninguna necesidad de establecer o mantener un motor de base de datos para la carga de la información, cosa que sin duda hubiese cambiado si el volumen fuera mucho más grande; sin embargo, tomando en cuenta el volumen que se esperaba y que llegó, no fue necesario hacer ninguna capa intermedia.
+
+En caso que eso fuera necesario, se podría establecer un proceso de carga a una base de
+datos, respaldando la información obtenida durante un determinado tiempo; posteriormente borrar la información ya respaldada de las hojas de Google Sheets para que no se sobrecarguen. El resto del procedimiento requiere cambios menores para conectar a una base de datos, en lugar de al Google Sheets.
+*** Actualización del mapa
+Para que el mapa se actualice de manera correcta, el proceso más sencillo se encontró fue:
+
+1. Establecer tiempo de actualización
+2. Ejecutar los ETL's de manera Manual, cada hora por ejemplo.
+3. Con el resultado en csv, cargar los datos al mapa de MyMaps.
+4. Repetir.
+
+Ya no se menciona el Crisis Map, ya que google archivó este proyecto, dejando inactiva la página autónoma de Google Crisis Map \cite{googlecrisis}, misma razón por la cual ya no se puede acceder al mapa generado durante los esfuerzos del 2017.
 
 * Conclusiones
 
-Como ya se mencionó el objetivo y principal dificultad en caso de una crisis humanitaria es proveer ayuda en el momento indicado, a la gente indicada en el tiempo indicado\cite{Aiko2014}. Durante las primeras horas de la respuesta al sismo del 2017, esa ayuda en primera instancia fue el proveer información fidedigna de la ubicación de edificios colapsados, centros de acopio y refugios para la Ciudad de México. Conforme avanzó la crisis, las necesidades y peticiones fueron evolucionando; sin embargo el desarrollo tecnológico no pudo mantener el paso. Varios voluntarios comenzaron a resolver problemas que la tecnología en ese punto no pudo.
+Como ya se mencionó el objetivo y principal dificultad en caso de una crisis humanitaria es proveer ayuda en el momento indicado, a la gente indicada en el tiempo indicado \cite{Aiko2014}. Durante las primeras horas de la respuesta al sismo del 2017, esa ayuda en primera instancia fue el proveer información fidedigna de la ubicación de edificios colapsados, centros de acopio y refugios para la Ciudad de México. Conforme avanzó la crisis, las necesidades y peticiones fueron evolucionando; sin embargo el desarrollo tecnológico no pudo mantener el paso. Varios voluntarios comenzaron a resolver problemas que la tecnología en ese punto no pudo.
 
 De las principales ventajas que se pueden enlistar es el poder capturar una cantidad mucho mayor de información, comparado a lo que se tenía en primera instancia: Al automatizar los procesos de ingesta, usando herramientas preconstruídas para captura de información, se hizo un ahorro en tiempo de desarrollo, con lo cual en cuestión de horas se tuvo un flujo de actualización funcional, simple y rápido. El mapeo con base en las direcciones ayudó a que no se requiriera un desarrollo más complejo, ampliando además el espectro de personas que podían proveer información, ya que cualquier persona con un teléfono móvil y acceso a internet podía hacerlo.
 
@@ -271,8 +303,22 @@ Google fue un eje fundamental en el desarrollo de la plataforma, el hecho de con
 El apoyo de la comunidad es  algo de lo que ~#Verificado19s~ puede atestiguar de manera muy fuerte; gracias a los esfuerzos hechos por un equipo de más de 300 personas\footnote{Este es un estimado, no hubo registro del número total de voluntarios}, se salvaron vidas. Es muy difícil hacer el recuento preciso y total de lo que se logró durante la duración del esfuerzo, no hubo una contabilidad precisa ya que cada voluntario simplemente trató de resolver la problemática. Sin embargo, el impacto que deja ~#Verificado19s~ fue tangible e imporante para los esfuerzos de rescate.
 
 Lo que queda mencionar es que no importa la complejidad del producto de datos implementado para poder ser de utilidad, en este caso no fue mas que un mapeo automatizado de una serie de encuestas que publicaba posteriormente información en un mapa. Sin embargo el renombre que generó el mapa por la simpleza y  confiabilidad del mismo, no tuvo que ver con la complejidad o lo elaborado de los modelos detrás del mismo. Simplemente fue una herramienta pensada para responder una pregunta difícil, pero clara: ¿Cómo y dónde puedo ayudar?
-
 \newpage
+
 * Bibliografía
 
 #+INCLUDE: "bibliografia.tex" export latex
+\newpage
+\begin{appendices}
+* Diagramas de flujo
+** Estado Original que llevó al bloqueo del mapa.
+[[./img/original.jpeg]]
+** Primer mejora en MyMaps con Google Forms.
+[[./img/mymaps.jpeg]]
+** Estado final de la solución con CrisisMap
+[[./img/crisismap.jpeg]]
+
+** Capa de Verificación.
+[[./img/verificacion.jpeg]]
+
+\end{appendices}
