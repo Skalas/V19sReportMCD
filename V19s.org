@@ -1,5 +1,7 @@
+
 #+Author: Miguel Angel Escalante Serrato
 #+Title: Mapeo en Respuesta a Emergencias: Caso ~#Verificado19s~
+#+Language: Es
 #+LATEX_HEADER: \documentclass[12pt,spanish,oneside]{book}
 #+LATEX_HEADER: \parskip=10pt
 #+LATEX_HEADER: \parindent=0in
@@ -262,13 +264,16 @@ La población respondió con propuestas y formas de proveer aquello que podía l
 Un sistema que pueda capturar las peticiones de los sitios de desastre, buscarlos automáticamente en una base de datos donde se registre la oferta de materiales y voluntarios, podría ayudar a mejorar considerablemente la asignación de recursos a los diferentes sitios. Más aún se deja de depender de personas que tienen que descansar, durante una emergencia que no se detiene.
 
 \newpage
-** Caso Ideal
+** ¿Qué hacer en caso de réplica?
 Una pregunta más es suponiendo que no se tienen recursos para invertir y se quiere replicar el esfuerzo, ¿Cuál es el mejor camino? ¿Qué aprendieron con respecto al producto de datos? A continuación se describe desde la opinión del autor, lo que hubiese sido el producto suficiente para las necesidades básicas de mapeo de lugares y eventos.
 
 *** Google Forms
 Google forms pidiendo información lo más detallada posible es una gran herramienta para capturar varios cientos de entradas de manera eficiente y rápida. Las instrucciones incluídas en el formulario son fundamentales para el correcto llenado del mismo. La longitud es un componente muy importante, ya que entre más largo sea el formulario, más complicado se vuelve el llenado del mismo.
 *** Mapeo
 Tanto la conexión para descarga de las bases de datos de Google Sheets, como el punteo através de la API de Google Maps están contenidas en el repositorio \url{https://github.com/parismend/temblor}. No es el repositorio más limpio ni mejor documentado, pero puede dar una ayuda para no empezar desde cero.
+*** Verificación
+La capa de verificación de información es de los componentes angulares de todo el proceso, ya que es fundamental que se pueda confiar en los datos que se están visualizando. El tener un equipo de verificadores es fundamental ya que no hay una herramienta automatizada que pueda ayudar a este proceso. Se debe poder contar con personas que ayuden a verificar la información que va entrando al mapa.
+
 *** Almacenaje de Información
 La manera más sencilla para hacer la carga de una capa de datos a MyMaps, es através de un archivo CSV, por lo que se recomienda que los pasos que se requieran para el mapeo y limpieza de información termine con una última transformación al formato CSV que requiere el mapa para trabajar y actualizar.
 
@@ -305,20 +310,24 @@ El apoyo de la comunidad es  algo de lo que ~#Verificado19s~ puede atestiguar de
 Lo que queda mencionar es que no importa la complejidad del producto de datos implementado para poder ser de utilidad, en este caso no fue mas que un mapeo automatizado de una serie de encuestas que publicaba posteriormente información en un mapa. Sin embargo el renombre que generó el mapa por la simpleza y  confiabilidad del mismo, no tuvo que ver con la complejidad o lo elaborado de los modelos detrás del mismo. Simplemente fue una herramienta pensada para responder una pregunta difícil, pero clara: ¿Cómo y dónde puedo ayudar?
 \newpage
 
-* Bibliografía
-
 #+INCLUDE: "bibliografia.tex" export latex
 \newpage
 \begin{appendices}
 * Diagramas de flujo
-** Estado Original que llevó al bloqueo del mapa.
+En esta sección agrego los diferentes diagramas de flujo conforme avanzó la implementación de la solución.
+** Original.
+Este fue el estado que acabó por bloquear el mapa, ya que MyMaps no estuvo preparado para recibir tantos editores a la vez.
 [[./img/original.jpeg]]
-** Primer mejora en MyMaps con Google Forms.
+** MyMaps con Google Forms.
+Este es el primer flujo automatizado de información, aquí ya se toma en cuenta el Google Forms y la capa de automatización para el punteo de los incidentes
 [[./img/mymaps.jpeg]]
-** Estado final de la solución con CrisisMap
+
+** CrisisMap
+Se sigue manteniendo la capa de Google Forms para el proceso, sin embargo se usa una capa adicional de Google Big Query que en principio debería conectar automáticamente con Google Crisis Map. Esto no se pudo hacer funcionar, y se tuvo que seguir haciendo la carga manual de los datos.
 [[./img/crisismap.jpeg]]
 
 ** Capa de Verificación.
+Esta es un diagrama que ilustra la "Capa de Verificación" que se menciona en el documento, esto hace evidente que habían dos formularios a llenar, uno público y uno más privado para los colaboradores más cercanos
 [[./img/verificacion.jpeg]]
 
 \end{appendices}
