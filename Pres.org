@@ -1,0 +1,126 @@
+#+Author: Miguel Angel Escalante Serrato
+#+Title: #Verificado19s
+#+Date: 13.08.21
+#+Language: Es
+#+OPTIONS: toc:nil
+#+OPTIONS: reveal_mathjax:t
+#+OPTIONS: timestamp:nil
+#+REVEAL_THEME: serif
+
+* Introducción
+
+** Sismo en CDMX
+#+ATTR_REVEAL: :frag (appear)
+- Sismo con 7.1 grados de magnitud escala de Richter.
+- Daños generalizados en la CDMX.
+- Área con alta densidad poblacional.
+** Tecnología en respuesta
+#+ATTR_REVEAL: :frag (appear)
+- Buena parte de la población urbana tiene un teléfono celular.
+- Independientemente de la conectividad, son cámaras de bolsillo.
+- Se generó mucha información al instante:
+  - Videos de edificios en movimiento.
+  - Cadenas de Whatsapp.
+  - Videos de edificios colapsando.
+** Desinformación
+El proncipal problema con la información que la población compartió en el momento fue que no tenía orden.
+#+ATTR_REVEAL: :frag (appear)
+- Falta de especificidad
+- No contiene ubicaciones
+- Fragmento de información
+** Desinformación
+Las publicaciones en redes sociales
+#+ATTR_REVEAL: :frag (appear)
+- Información Falsa
+- Conenido Tendencioso
+- Información Vieja
+** Respuesta Ciudadana
+#+ATTR_REVEAL: :frag (appear)
+[[./img/sismoimg.jpeg]]
+
+
+* Verificado 19s
+** ¿Qué fue #Verificado19s?
+Verificado19s fue un colectivo que activó la respuesta a las peticiones de ayuda por parte de buena parte de la población. Llegamos a ser más de 300 voluntarios racabando información y redirigiendo ayuda.
+#+ATTR_REVEAL: :frag (appear)
+Tuve el privilegio de tomar el liderazgo de todo lo relacionado a la tecnología del colectivo
+
+** Mapa Original
+#+ATTR_REVEAL: :frag (appear)
+- Sergio Beltrán genera un mapa con información que a él le parece pertinente
+- Comparte el mapa con un grupo cercano
+- Tiene que atender una emergencia
+- El mapa se vuelve viral.
+** Mapa Congelado
+Dada la cantidad de personas accediendo al mapa, y editándolo el mapa dejó de funcionar, aunque seguía siendo accesible para visualizar. Las personas aún podían ver la información pero no podían agregar más.
+
+** 20 de septiembre
+
+Ante la sobrecarga del mapa, los voluntarios comenazaron a guardar la información que se iba reportando al colectivo en papel y lápiz.
+* Objetivo
+
+Encontrar una manera de:
+#+ATTR_REVEAL: :frag (appear)
+- Capturar reportes ciudadanos
+- Unificar ingesta de información
+- Unificar diversas fuentes
+- Limpiar información
+- Verificar información
+
+* Soución
+** Ingesta
+#+ATTR_REVEAL: :frag (appear)
+- Google Forms
+- Diversas fuentes de información
+** Procesamiento
+#+ATTR_REVEAL: :frag (appear)
+- Limpieza de datos personales
+- Mecanismo de actualización
+** Inteligencia
+#+ATTR_REVEAL: :frag (appear)
+- Capa de verificación
+- Ubicación automática en con la dirección
+- Coordinación logística
+** Visualización
+#+ATTR_REVEAL: :frag (appear)
+- La capa final fue MyMaps en un principio
+- Movimos el mapa a Google Crisis Map
+** Crisis Map
+#+ATTR_REVEAL: :frag (appear)
+- Decisión muy costosa.
+- Mapa mucho más robusto.
+- Ya no disponible.
+
+
+* Caso Haití 2010
+
+** Ushahidi
+Nace de las elecciones de 2008 en Nairobi, Kenia.
+Plataforma para mapeo masivo de información, recabando datos de diversas fuentes:
+#+ATTR_REVEAL: :frag (appear)
+- SMS
+- Twitter
+** Ushahidi - Haití
+Se requirieron diversas herramientas extras para el manejo de la crísis humanitaria en 2010.
+#+ATTR_REVEAL: :frag (appear)
+- SMS
+- Equipo Verificadores
+- Humanitarian OpenStreetMap
+** Humanitarian OpenStreetMape
+#+ATTR_REVEAL: :frag (appear)
+- Es un sistema de crowsourcing para mapeo de zonas que están en algun riesgo.
+- Se hace a manera de Wikipedia un manejo de proyecto y necesidades de mapeo que luego publican a cualquier voluntario para que pueda suplira.
+** Humanitarian OpenStreetMap -Haití
+#+ATTR_REVEAL: :frag (appear)
+- El principal problema que se encontraron durante la respuesta al sismo del 2010, fue que no existían mapas lo suficientemente confiables.
+- Para ello desplegaron una serie de peticiones sobre la zona y conforme fueron pasando las semanas, se fueron mejorando los mapas.
+
+
+* ¿Qué tal si ?
+
+** Aplicación móbil
+Una aplicación que permita el reporte sencillo de incidentes con capacidad de hacer peticiones de ayuda, materiales o voluntarios.
+** Asignación inteligente de recursos.
+Un sistema que pueda capturar las peticiones de los sitios de desastre, buscarlos automáticamente en una base de datos donde se registre la oferta de materiales y voluntarios, podría ayudar a mejorar considerablemente la asignación de recursos a los diferentes sitios.
+
+* Conclusiones

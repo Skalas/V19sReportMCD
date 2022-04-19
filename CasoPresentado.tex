@@ -1,6 +1,6 @@
-% Created 2021-10-27 Wed 19:17
+% Created 2021-08-10 Tue 13:32
 % Intended LaTeX compiler: pdflatex
-\documentclass[11pt]{article}
+\documentclass[12pt,spanish,oneside,breaklinks]{book}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{graphicx}
@@ -14,7 +14,7 @@
 \usepackage{amssymb}
 \usepackage{capt-of}
 \usepackage{hyperref}
-\documentclass[12pt,spanish,oneside]{book}
+
 \parskip=10pt
 \parindent=0in
 \usepackage[spanish, mexico]{babel}
@@ -24,168 +24,19 @@
 \usepackage{url}
 \def\UrlBreaks{\do\/\do-}
 \usepackage{breakurl}
-\usepackage[breaklinks]{hyperref}
-\author{Miguel Angel Escalante Serrato}
-\date{\today}
-\title{Mapeo en Respuesta a Emergencias: Caso \texttt{\#Verificado19s}}
-\hypersetup{
- pdfauthor={Miguel Angel Escalante Serrato},
- pdftitle={Mapeo en Respuesta a Emergencias: Caso \texttt{\#Verificado19s}},
- pdfkeywords={},
- pdfsubject={},
- pdfcreator={Emacs 27.2 (Org mode 9.4.4)}, 
- pdflang={Spanish}}
+%\usepackage[breaklinks]{hyperref}
 \begin{document}
 
-\newpage
+\include{portadas.tex}
 
-\newpage
-
-\thispagestyle{empty}
-
-\setcounter{page}{1}
-\begin{center}
-\begin{tabular}{c}
-\hline
- \large \emph{\textsc{Instituto Tecnológico Autónomo de México}} \\
-
-\hline
-\end{tabular}
-
-\vspace{10pt}
-
-\centering
-\includegraphics[width=0.8\linewidth]{img/Logo_ITAM.jpeg}
-
-\vspace{20pt}
-
-
-\Large Mapeo en Respuesta a Emergencias: Caso \texttt{\#Verificado19s}
-
-
-
-\vspace{30pt}
-
-\normalsize Caso
-
-\vspace{12pt}
-
-que para obtener el grado de
-
-\vspace{12pt}
-
-Maestro en Ciencia de Datos
-
-\vspace{12pt}
-
-presenta
-
-\vspace{12pt}
-
-Miguel Angel Escalante Serrato
-
-\vspace{32pt}
-
-\begin{tabular}{lcr}
-Ciudad de México. & \hspace{80pt} & 2021
-\end{tabular}
-
-\end{center}
-
-
-\newpage
-\setcounter{page}{1}
-\pagenumbering{roman}
-\mbox{ }
-\vspace{80pt}
-\mbox{ }
-
-Con fundamento en los artículos 21 y 27 de la Ley Federal del Derecho de Autor y como titular de los derechos moral y patrimonial de la obtra titulada ``\textbf{Mapeo en Respuesta a Emergencias: Caso \texttt{\#Verificado19s}.}'', otorgo de manera gratuita y permanente al Instituto Tecnológico Autónomo de México y a la Biblioteca Raúl Bailléres Jr., autorización para que fijen la obra en cualquier medio, incluido el electrónico, y la divulguen entre sus usuarios, profesores, estudiantes o terceras personas, sin que pueda percibir por tal divulgación una contraprestación.
-\vspace{20pt}
-\begin{center}
-\textbf{Miguel Angel Escalante Serrato}
-\vspace{80pt}
-
-\begin{tabular}{p{2cm}cp{2cm}}
-
-\hline \\
-
-
-&Fecha & \\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\hline \\
-
- & Firma &
-
-\end{tabular}
-\end{center}
-
-
-
-\newpage
-\thispagestyle{empty}
-
-\begin{center}
-
-\vspace{40pt}
-\[\]
-\[\]
-\[\]
-\begin{tabular}{c}
-\hline
- \\[.2cm]
-\Huge
-\textbf{Mapeo en Respuesta a Emergencias:  }\\
-\Huge\textbf{Caso \texttt{\#Verificado19s}}\\[14pt]
-\normalsize
-Miguel Angel Escalante Serrato \\[.2cm]
-
-\hline
-\end{tabular}
-\end{center}
-
-
-
-\newpage
-\vspace*{\fill}
-\begin{flushright}
-A mi familia, que sin ellos nada de esto sería posible.
-\vfill
-\end{flushright}
-\newpage
-\mbox{ }
-\vspace{80pt}
-\begin{flushright}
-\textsc{\large Agradecimientos} \\
-\vspace{12pt}
-A mis padres ya que de ellos aprendo los fundamentos para enfrentar esto y todos los retos de la vida.
-
-A Alfredo Garbuno que tuvo un impacto particular en la escritura de este documento.
-
-A Andrea García Tapia, ya que gracias a ella comenzó el esfuerzo real de documentar este esfuerzo.
-
-A mis sinodales Beatriz Rumbos y Fernando Esponda, por sus prontos y atinados comentarios.
-
-A mis amigos y mi red de soporte, Irving, Paris, Nivi, Nano, Andy, Animalito, Fer.
-
-A Luly por su apoyo, cariño y empuje con este proceso.
-
-\end{flushright}
-\newpage
 \frontmatter
 
 \tableofcontents
 
 \mainmatter
-\section*{Introducción}
-\label{sec:orgce94de9}
+
+\chapter{Introducción}
+\label{sec:org504c50c}
 
 El 19 de septiembre de 2017 se suscitó un sismo de magnitud 7,1 grados en la escala Richter \cite{cnn}, que si bien fue menor al sismo suscitado unos días antes en la Ciudad de México\footnote{El 7 de septiembre con magnitud 8,1 en la escala Richter.}, tuvo repercusiones que se hicieron inmediatamente presentes.
 
@@ -193,8 +44,8 @@ Los daños generados en toda la ciudad fueron importantes, con edificios afectad
 
 Dada la densidad poblacional de la zona, y el rango de afectaciones que se presentaron, fue difícil hacer una primer evaluación de lo ocurrido. Las redes telefónicas y de transporte, colapsaron por el incremento repentino de la demanda \cite{telcom19s}. Los ciudadanos tenían total incertidumbre, no había manera de ver si sus hogares aún estaban de pie, ni tampoco de si sus seres queridos estarían bien. La falta de información y la impotencia fueron un factor importante en cómo se vivieron las siguientes horas. La mayor parte de la población regresó a sus respectivos hogares. Ya fuera en auto, motocicleta, bicicleta o caminando, todos regresaron a sus casas. Poco a poco las diferentes redes fueron aliviando, los bloqueos informáticos cesaron y fue regresando la luz y el internet a las personas \cite{ift}.
 
-\subsection*{Captura de información}
-\label{sec:orgc0507ee}
+\section{Captura de información}
+\label{sec:org8aaf370}
 
 Por medio de dispositivos móviles, la mayor parte de la población tiene en sus bolsillos herramientas para grabar y transmitir videos en tiempo real. Por supuesto, en aquel momento el problema principal fue la falta de red telefónica para transmitirlos. Conforme avanzaba el día había periodos en los que se podía percibir señal que facilitaba el flujo de mensajes. Mismos que llegaban por medio de grupos de \emph{Whatsapp}. La información estaba fragmentada. Había videos alarmantes de diferentes situaciones: personas evacuando edificios con un paneo\footnote{Vistazo previo que se hace con una cámara sobre algo antes de fijar el objetivo.} de la ciudad envuelta en  humo y polvo; tanques estacionarios explotando; edificios derrumbándose. La generación de información fue inmediata y en grandes cantidades.
 
@@ -203,8 +54,8 @@ El problema principal con tal generación de información es que no tenía ning�
 
 Al publicar el mapa, varios ex-compañeros de Beltrán se ofrecieron como voluntarios para seguir agregando información. Conforme la red de colaboradores y usuarios creció, también lo hizo la carga que tuvo la plataforma para mantener activo el mapa. El 19 de septiembre el sitió recibió alrededor de un millón de visitas. El problema fue que en la madrugada del 20 de septiembre el mapa dejó de funcionar. No se podía editar más. Sin embargo,  aún se podía ver la información pero ya no era posible actualizar el mapa.
 
-\subsection*{Grupos emergentes auto-organizados}
-\label{sec:orgcb3677c}
+\section{Grupos emergentes auto-organizados}
+\label{sec:org2f13d98}
 
 Ante eventos de esta magnitud, la efectividad de la respuesta a la emergencia, depende en parte, de la velocidad y magnitud de la misma. Una respuesta muy fuerte ante desastres puede salvar muchas vidas; sin embargo hay recursos limitados dentro del gobierno. Los actores gubernamentales no pueden ayudar a todas las personas que lo requieren en el momento adecuado \cite{flood}.
 
@@ -214,8 +65,8 @@ El voluntariado, a través de individuos y grupos emergentes, es un recurso impo
 
 Durante la respuesta al sismo del 19 de septiembre del 2017, uno de estos grupos emergentes auto-organizados nació y se consolidó como \texttt{\#Verificado19s}, dentro de este colectivo tuve la fortuna de liderear al equipo técnico y tecnológico del colectivo. En ese momento coordinaba un equipo de más de 10 personas en la empresa donde laboraba, mismas que se volvieron la espina dorsal de la implementación de los procesos automatizados. Llegando a coordinar a un equipo de más de 40 personas en sitio, fue uno de los esfuerzos más gratificantes que he lidereado, el privilegio de coordinar a tantas personas tan talentosas y con un objetivo tan claro, es algo que difícilmente se olvida.
 
-\subsection*{Mapeo de información}
-\label{sec:orga85812f}
+\section{Mapeo de información}
+\label{sec:org748f04e}
 
 Empatar las necesidades de ayuda y los esfuerzos de rescate a tiempo de manera efectiva es uno de los retos más importantes de la respuesta humanitaria. Gobiernos y organizaciones humanitarias tienen una demanda explicita de información relevante, accionable y encontrrable. Sin embargo, la información es de los recursos más perecederos\cite{bigdatahum}, ya que la información deja de ser relevante, muchas veces, antes de haberse tomado alguna acción. De hecho, lo que usualmente consideramos como "rápido" es lento: los medios de información usualmente son acusados de sensacionalismo en las crísis y también de reportar información falsa, fuera de tiempo y repetitiva. Los reporteros tienden a ser ajenos a las comunidades locales y sus condiciones \cite{networkshum}.
 
@@ -224,8 +75,8 @@ Se puede definir un mapa comunitario como un conjunto de servicios via un provee
 Se han discutido las virtudes y limitaciones de mapas comunitarios para su uso en projectos no-gubernamentales y humanitarios. Sin embargo, el terremoto del 2010 en Haití,  trajo al frente el proceso de mapeo comunitario de crisis. Durante y después del sismo la población de Haití hacía pedidos de ayuda usando redes sociales y tecnologías móbiles, este esfuerzo fue coordinado por \textit{Humanitarian Open Street Map} y \textit{Ushahidi} usando \textit{OpenStreetMap} \cite{crowdsourced}.
 
 \newpage
-\section*{Problema}
-\label{sec:orgb39bafc}
+\chapter{Problema}
+\label{sec:org7ca56db}
 
 El mapa tenía como entrada capturas manuales de diferentes amigos y conocidos de Sergio Beltrán.  Conforme la cantidad de información recabada fue creciendo, la confianza general aumento. Y con esto, más personas aportaron al mapeo de los diferentes puntos. El crecimiento del número de usuarios al agregar puntos de información de manera desorganizada eventualmente rebasó la capacidad de la herramienta. El mapa dejó de permitir nuevas cargas de información. Esto se explica porque la herramienta de la plataform de Google,  MyMaps, está diseñada para uso personal.
 
@@ -252,18 +103,18 @@ El mecanismo pensado para verificar la información reportada por los ciudadanos
 
 \newpage
 
-\section*{Solución implementada}
-\label{sec:org175209b}
+\chapter{Solución implementada}
+\label{sec:orgca60366}
 
 Para enumerar las distintas soluciones que se implementaron durante este ejercicio, hablaremos de los pasos del flujo de la información: \textbf{ingesta}, \textbf{procesamiento}, \textbf{inteligencia} y \textbf{visualización}.
 
-\subsection*{Ingesta}
-\label{sec:orge642243}
+\section{Ingesta}
+\label{sec:orgfa5099b}
 
 El primer punto a resolver dentro de todos los problemas que surgieron fue el migrar de las hojas de papel a un medio electrónico que pudiera ser escalable y fácil de distribuir.
 
-\subsubsection*{Formulario}
-\label{sec:org4c59a8f}
+\subsection{Formulario}
+\label{sec:orgabe6006}
 
 Lo primero que vino a la mesa, fue hacer una app (ya fuera móvil o para navegador) que conectara con una base de datos y pudiera hacer ediciones, verificaciones, agregar puntos de información. Sin embargo el problema fue la restricción de tiempo, además de que en ese momento los voluntarios con los que se contaba no tenían la experiencia necesaria como para desarrollar tal herramienta con la velocidad requerida.
 
@@ -271,8 +122,8 @@ Ante las limitantes de tiempo y buscando la flexibilidad para poder distribuir n
 
 La información que inicialmente se pensaba recibir tenía que ver con los sitios de derrumbe para encontrar los distintos bienes que pudieran faltar o sobrar en cada uno de ellos. Inmediatamente surgió la necesidad de tener la ubicación de centros de acopio y albergues. Con ello nos dimos cuenta que teníamos que generar más de un flujo de ingesta de información. Se hicieron tres formularios para recibir información de sitios con daños, albergues y centros de acopio.
 
-\subsubsection*{Verificación de Información}
-\label{sec:org7bdd341}
+\subsection{Verificación de Información}
+\label{sec:org77833d3}
 
 La necesidad de verificar la información se hizo más evidente y lo que se implementó fue una capa de verificación intermedia. Gracias a todos los voluntarios, el foco que obtuvo la herramienta y el mapa que se viralizó, existían equipos grandes de voluntarios en distintas modalidades de transporte: a pie, en bicicleta o motocicleta.
 
@@ -291,31 +142,31 @@ Para que un evento esté verificado se requiere que se cumpla al menos una de la
 
 Desde el punto de vista de la información que llegaba, se dejaron los mismos formularios públicos, pero se agregaron otros tres formularios sólo para los verificadores. Los segundos formularios son los que finalmente se publicaban en el mapa y con los que el colectivo trabajó.
 
-\subsubsection*{Unificación}
-\label{sec:orgd124235}
+\subsection{Unificación}
+\label{sec:org21dde91}
 
 La última iteración de los formularios fue una unificación de los tres formatos en un punto de entrada.  El objetivo era aliviar la necesidad de tener tres diferentes enlaces para cada tipo de información. Esto incorporaba una capa adicional de complejidad y entablaba barreras para el flujo de la información. En el formulario unificado, se agregaron además otros dos tipos de puntos de información: transportes y voluntarios. Mismos que brindaron una mayor capacidad de proveer ayuda.
 
 Los enlaces de los distintos formularios fueron publicados a través de redes sociales. En cuanto se tuvo una página web, los enlaces fueron migrados junto con instrucciones de cómo ser llenados con el objetivo de mayor claridad y tener un proceso de captura mas sencillo.
 
-\subsection*{Procesamiento}
-\label{sec:org3370dda}
+\section{Procesamiento}
+\label{sec:org592dfbe}
 
 La información que se obtuvo durante todo el tiempo que estuvo activo \texttt{\#Verificado19s}, era de naturaleza delicada, pues en la captura se incluyeron teléfono, nombre y ubicación de la persona que reportaba. Mismos que son privados y  no podían ser publicados en ningún momento.
 
-\subsubsection*{Ubicación}
-\label{sec:orge57840e}
+\subsection{Ubicación}
+\label{sec:org3479344}
 
 Google Forms, fue una herramienta vital para la solución que se concretó. Sin embargo, tuvo ciertas limitantes en las entradas que podrían ser re-gistradas por los formularios. En particular, no se puede hacer la captura de la ubicación del teléfono con el que se está haciendo el formulario, esto añade un grado de complejidad no previsto y con alta probabilidad de error durante el proceso de captura.
 
-La estimación de la ubicación se realizó a través de la interfaz de programación de aplicaciones (API, por sus siglas en inglés) de Google Maps\footnote{https://www.google.com/maps/about/#!/.}. Se mandaba a ésta la dirección con atributos: calle, número, colonia y ciudad. La API respondía con las coordenadas estimadas para una dirección dada y con ello un punto geográfico que podíamos visualizar y registrar en un mapa.
+La estimación de la ubicación se realizó a través de la interfaz de programación de aplicaciones (API, por sus siglas en inglés) de Google Maps\footnote{\url{https://www.google.com/maps/about/}.}. Se mandaba a ésta la dirección con atributos: calle, número, colonia y ciudad. La API respondía con las coordenadas estimadas para una dirección dada y con ello un punto geográfico que podíamos visualizar y registrar en un mapa.
 
 Uno de los problemas con este acercamiento es que cuando la información estaba incompleta, la API daba coordenadas bastante lejanas al punto. Un ejemplo de esto es la calle de Escocia en la colonia Del Valle. En dicha dirección hubo dos derrumbes y cuando se reportó con la información incompleta, se recibieron de la API coordenadas en el país de Escocia.
 
 Para eliminar el problema de los datos que la API identificaba fuera de las áreas demarcadas, aunado al corto tiempo que se tenía, se decidió eliminar los puntos lejanos a la Ciudad de México. El criterio fue utilizar la demarcación regional del resultado de la API. El mismo filtro fue aplicado cuando se incorporaron los reportes de los demás estados de la república. 
 
-\subsubsection*{Datos Personales}
-\label{sec:org6be1115}
+\subsection{Datos Personales}
+\label{sec:org0178856}
 
 Para poder publicar la información al mapa se requiere que no haya datos personales dentro de los puntos de información; en concreto, buscamos borrar el nombre y el teléfono de las personas que reportaron incidentes. Esto en conjunto con la geolocalización de las direcciones dió pie al primer proceso de extracción, transformación y carga (ETL, por sus siglas en el inglés) que se generó para \texttt{\#Verificado19s}.
 
@@ -323,8 +174,8 @@ En particular, se acordó que sólo los números telefónicos de los albergues y
 
 Este último punto es uno de los puntos importantes a tomar en cuenta para futuras replicaciones en situaciones de emergencia. Es decir,  tomar todas las precauciones para que los datos de los voluntarios no sean expuestos, comprometiendo así tanto el crecimiento como la credibilidad del movimiento.
 
-\subsubsection*{Actualización}
-\label{sec:orgecfd275}
+\subsection{Actualización}
+\label{sec:org6103da2}
 
 El fenómeno que se observó durante la respuesta al sismo evolucionó cada minuto. Por lo que tener un mecanismo de actualización de las distintas necesidades se volvió parte fundamental. Cada punto cambiaba dependiendo de nuevos descubrimientos o la llegada de recursos que fueron necesarios en alguna otra ubicación.
 
@@ -340,8 +191,8 @@ Por otro lado, un problema adicional fue que distintos voluntarios reportaron el
 
 Conforme pasó el tiempo, la información en el mapa dejó de ser relevante para efectos prácticos. Se decidió hacer un filtro temporal de un día a los puntos reportados. Lo que significa que  en cuanto se reportaba un incidente, se tenían que seguir haciendo reportes diarios para que los puntos no desaparecieran del mapa.
 
-\subsection*{Inteligencia}
-\label{sec:org789e38f}
+\section{Inteligencia}
+\label{sec:org3fe1785}
 
 Al final del día 20 de septiembre, ya se tenía una primera versión del ETL funcionando.  Se cargaba de forma manual al mapa final en MyMaps. Con la información que se iba recabando se tenía lo suficiente como para hacer una solución bastante robusta con el objetivo de parear la información de la oferta (recursos) con la de demanda (sitios necesitados).
 
@@ -351,8 +202,8 @@ Durante la madrugada del 21 de septiembre, una consultora se puso en contacto co
 
 En el momento se tomó la decisión de esperar esta herramienta para poder automatizar el pareo de oferta y demanda. Conforme pasó el tiempo esta necesidad se fue erosionando, ya que la optimización de los voluntarios fue más rápida y contundente ante las necesidades existentes.
 
-\subsubsection*{Coordinación Logística}
-\label{sec:orgece4181}
+\subsection{Coordinación Logística}
+\label{sec:org60a454e}
 
 Las voluntarias que estuvieron a cargo de unir las necesidades y los recursos (\emph{brokers}), fueron un equipo de 3 personas. Cada una de ellas, a través de grupos de confianza en \emph{WhatsApp} y \emph{Telegram}, se encargó de ir buscando para cada necesidad reportada alguien que pudiera suplir el material requerido.
 
@@ -360,13 +211,13 @@ En ese momento la organización humana se simplificó de tal forma que sólo hab
 
 El problema de trabajar con recursos humanos son las necesidades fisiológicas como el descanso. Conforme pasaron las horas y eventualmente los días, este equipo se enfrentó con el cansancio y la falta de horas de sueño. Por un lado, se volvieron indispensables y, por otro, eso fue profundamente problemático tanto de manera interna como externa. El estrés al que este equipo estuvo sujeto era impresionante y eventualmente tuvieron que descansar. En este momento se volvió mucho más evidente la necesidad de generar un sistema robusto y redundante; ya sea con una herramienta automatizada o un equipo de personas que pudieran suplir a las personas dentro de las redes de confianza. Cuidar la salud tanto física como mental de los voluntarios es fundamental en un esfuerzo como \texttt{\#Verificado19s}.
 
-\subsection*{Visualización}
-\label{sec:org744443b}
+\section{Visualización}
+\label{sec:orgf9d31d7}
 
 Todo el movimiento \texttt{\#Verificado19s} inició con un mapa y evolucionó a un sistema de gestión de recursos necesarios para el rescate de las víctimas de la crisis humanitaria que enfrentó México. El énfasis de haber utilizado una herramienta de visualización de esta naturaleza es que a pesar de la opinión que un mapa es una manera muy básica e incompleta de transmitir información, es una de las maneras más sencillas y claras para que la ciudadanía pueda acceder a ella en una situación de crisis.
 
-\subsubsection*{Diversidad de Fuentes}
-\label{sec:org4c4633a}
+\subsection{Diversidad de Fuentes}
+\label{sec:org4ed6ab2}
 
 En ese momento había distintos equipos capturando información de la misma índole que \texttt{\#Verificado19s}. Conforme se contactaron a estos equipos y brindaron el acceso a su base de datos, se tomó la decisión de publicar la información de todas las fuentes que estuvieran abiertas. Las primeras fuentes externas en cargarse fueron:
 \begin{itemize}
@@ -380,8 +231,8 @@ La insistencia de tener todas las capas arriba fue para solidificar a \texttt{\#
 
 El primer mapa, fue hecho y publicado en la plataforma MyMaps de Google. Tras la insistencia del equipo de Google a migrar a una plataforma más robusta, se tomó la decisión de hacer una migración al Google Crisis Map.
 
-\subsection*{Crisis Map}
-\label{sec:org915a2b1}
+\section{Crisis Map}
+\label{sec:orgc02fc55}
 
 Google Crisis Map es una herramienta hecha para que los usuarios encuentren y usen información crítica durante una crisis. Esta herramienta, cuando se activa, es accesible desde Google Search y Google Maps. Al momento de atender el sismo de México en 2017, se pensó en un principio como una herramienta para visualizar datos relacionados a las crísis y respecto al clima. Sin embargo, el equipo de Google decidió desactivar el sitio de Google Crisis Map y el proyecto ha sido migrado al resto de los productos de Google \cite{googlecrisis}.
 
@@ -396,15 +247,15 @@ En resumen Google Crisis Map fue una herramienta que ayudó a la robustez de la 
 \newpage
 
 
-\section*{Mapeos en Crisis Humanitarias}
-\label{sec:org9c7b17f}
+\chapter{Mapeos en Crisis Humanitarias}
+\label{sec:orga363301}
 
 El mapeo durante crisis humanitarias es algo que ha evolucionado a lo largo del tiempo. Luis XIV, en 1668, comisionó modelos en tres dimensiones para que sus generales tuvieran una mejor planeación. Hay evidencia también de mapeos en respuesta a crisis en la primera y segunda guerra mundial, así como en la guerra Franco-China en la década de 1880 \cite{meier2012}.
 
 A continuación se mencionan dos herramientas que pueden ser consideradas similares al esfuerzo que se hizo durante 2017. Estos dos esfuerzos, han tenido reconocimiento mundial por parte de actores humanitarios. Ambos tuvieron un caso de uso muy particular durante el sismo de 2010 en Haití; un fenómeno que comparte muchas similitudes con el caso de México en 2017. Aun así existen marcadas diferencias que se analizan a continuación.
 
-\subsection*{Ushahidi}
-\label{sec:org9ede197}
+\section{Ushahidi}
+\label{sec:org1fede6a}
 
 Ushahidi es una compañía de tecnología sin fines de lucro fundada en Nairobi, Kenia en resupesta a la violencia y a las violaciones a derechos humanos durante las elecciones del 2008. El significado de la palabra es "testimonio" en Swahili\cite{ushahidi}.  La respuesta a la ola de violencia fue un mapa público colaborativo, donde Kenianos alrededor del país mandaron mensajes de texto o correos electrónicos reportando lo que atestiguaron. Estos reportes se agregaron a un mapa en línea que en conjunto compiló una imagen más completa que cualquier otra organización \cite{guardianusha}.
 
@@ -421,8 +272,8 @@ En el contexto de este trabajo, Ushahidi fue considerada como una posible altern
 Las diferentes circunstancias con las que se contaron en las dos situaciones (Haíti y México), hacen que las implementaciones sean diferentes, aunque tengan el mismo objetivo: Proveer ayuda en el momento indicado, a la gente indicada en el tiempo indicado \cite{Aiko2014}. Las necesidades cubiertas por Ushahidi, probablemente pudieron haber sido de gran ayuda para el despliegue de ayuda en \texttt{\#Verificado19s}, sin embargo por temas de complejidad de implementación aunado al elevado costo, se decidió no desplegarlo.
 
 
-\subsection*{Humanitarian OpenStreetMap}
-\label{sec:org7cb5a63}
+\section{Humanitarian OpenStreetMap}
+\label{sec:org9a167f8}
 
 \emph{OpenStreetMap} (OSM) es un mapa editable y libre del mundo entero. Es un esfuerzo global que está siendo poco a poco construído por voluntarios. Fue fundado en el 2004 en University College London (UCL) por Steve Coast \cite{chilton}. Permite el acceso gratuito a toda la información a todos los niveles del mapa. Es un proyecto comunitario de mapeo, donde se utiliza un formato estilo \texttt{wiki} para editar y agregar información. Lo cual lo hace un proyecto que crece y aunque aún no está completamente terminado, se han realizado avances impresionantes. Diferentes individuos, gobiernos, y compañías han hecho uso de los datos provistos para diferentes aplicaciones, es una alternativa muy viable a los principales proveedores de mapas \cite{osmwiki}.
 
@@ -439,13 +290,13 @@ Esta triada de herramientas ayudó a que se pudieran atender de mejor manera los
 La diferencia fundamental entre HOT y \texttt{\#Verificado19s}  es que el mapeo existente, tanto en Google Maps como en OST, es bastante fidedigno ya que es una zona urbana bastante densa. No fue necesario hacer un levantamiento desde cero de la ciudad, porque ya existía. El objetivo fundamental es diferente: mientras que HOT con OST buscaba mejorar el mapeo de calles y edificios; \texttt{\#Verificado19s} buscaba capturar la mayor cantidad de reportes posibles por parte de ciudadanos para mapearlos y hacer evidentes las necesidades que se reportaban.
 
 \newpage
-\section*{¿Qué tal si?}
-\label{sec:org0d73c2f}
+\chapter{¿Qué tal si?}
+\label{sec:org2c90b8b}
 
 Dentro de las preguntas más comunes ante este tipo de situaciones y respuestas es un ¿Qué tal si? o ¿Qué se haría en el caso ideal? La respuesta no es clara ni mucho menos directa, ya que como se mencionó arriba cada caso es único y cada situación exige diferentes esfuerzos para resolver.  Tomando en cuenta lo aprendido y lo implementado durante la crisis humanitaria del 19 de Septiembre,  hay algunas cosas que se proponen a manera de mejora y en caso de tener los recursos y el tiempo de preparación para implementarlo.
 
-\subsection*{Aplicación}
-\label{sec:orga28ed2b}
+\section{Aplicación}
+\label{sec:org780c80a}
 
 Lo primero que se propone es generar una aplicación para unificar la entrada de los reportes, la aplicación propuesta debe de tomar en cuenta capacidades básicas de mapeo y acceso a la ubicación del dispositivo que esté haciendo el reporte. El conectar con una base de datos central, podría ayudar a canalizar actualizar las necesidades en todo momento. Una de las principales limitantes que se enfrentaron durante el mapeo automatizado de las entradas fue el transformar los reportes de direcciones a puntos en un mapa.
 
@@ -453,8 +304,8 @@ Cada usuario debe de tener capacidad de reportar un incidente nuevo y proponer a
 
 En resumen una aplicación que permita el reporte sencillo de incidentes con capacidad de hacer peticiones de ayuda, materiales o voluntarios. Adicionalmente, una aplicación que tenga también capacidad de editar incidentes ya reportados de tal manera que no se tengan que manejar individualmente, sino agruparlos a manera de simplificar el manejo de la situación por parte de los equipos que decidan conumir esta fuente de datos.
 
-\subsection*{Manejo de Necesidades}
-\label{sec:org2d80e6a}
+\section{Manejo de Necesidades}
+\label{sec:orgb4f03ad}
 
 Entender la gravedad y la urgencia de las zonas de desastre es un tema crucial durante las horas posteriores al evento. Sin embargo se tiene que considerar el hecho que conforme evoluciona el fenómeno, también evolucionan las necesidades. En el caso concreto de \texttt{\#Verificado19s}, al tercer día de operaciones se tenía un mapeo bastante bueno de las zonas donde hubo un desastre mayor. Buena parte de ello es gracias a que la cantidad de edificios edificios con collapso total o parcial fue comparativamente menor a, digamos, el sismo del 19 de septiembre de 1985. En el sismo del 2017, 46 edificios colapsaron en la CDMX \cite{Alberto2018}, mientras que en 1985, colapsaron 202 \cite{verde1991}.
 
@@ -465,30 +316,30 @@ La población respondió con propuestas y formas de proveer aquello que podía l
 Un sistema que pueda capturar las peticiones de los sitios de desastre, buscarlos automáticamente en una base de datos donde se registre la oferta de materiales y voluntarios, podría ayudar a mejorar considerablemente la asignación de recursos a los diferentes sitios. Más aún se deja de depender de personas que tienen que descansar, durante una emergencia que no se detiene.
 
 \newpage
-\subsection*{¿Qué hacer en caso de réplica?}
-\label{sec:orgaf7b40a}
+\section{¿Qué hacer en caso de réplica?}
+\label{sec:orgf71479c}
 Una pregunta más es suponiendo que no se tienen recursos para invertir y se quiere replicar el esfuerzo, ¿Cuál es el mejor camino? ¿Qué aprendieron con respecto al producto de datos? A continuación se describe desde la opinión del autor, lo que hubiese sido el producto suficiente para las necesidades básicas de mapeo de lugares y eventos.
 
-\subsubsection*{Google Forms}
-\label{sec:orgb06c5e4}
+\subsection{Google Forms}
+\label{sec:org18d6845}
 Google forms pidiendo información lo más detallada posible es una gran herramienta para capturar varios cientos de entradas de manera eficiente y rápida. Las instrucciones incluídas en el formulario son fundamentales para el correcto llenado del mismo. La longitud es un componente muy importante, ya que entre más largo sea el formulario, más complicado se vuelve el llenado del mismo.
-\subsubsection*{Mapeo}
-\label{sec:org2627753}
+\subsection{Mapeo}
+\label{sec:org50e16f7}
 Tanto la conexión para descarga de las bases de datos de Google Sheets, como el punteo através de la API de Google Maps están contenidas en el repositorio \url{https://github.com/parismend/temblor}. No es el repositorio más limpio ni mejor documentado, pero puede dar una ayuda para no empezar desde cero.
-\subsubsection*{Verificación}
-\label{sec:orga03ff27}
+\subsection{Verificación}
+\label{sec:org34e2ee1}
 La capa de verificación de información es de los componentes angulares de todo el proceso, ya que es fundamental que se pueda confiar en los datos que se están visualizando. El tener un equipo de verificadores es fundamental ya que no hay una herramienta automatizada que pueda ayudar a este proceso. Se debe poder contar con personas que ayuden a verificar la información que va entrando al mapa.
 
-\subsubsection*{Almacenaje de Información}
-\label{sec:org72bfc25}
+\subsection{Almacenaje de Información}
+\label{sec:org67f4d4b}
 La manera más sencilla para hacer la carga de una capa de datos a MyMaps, es através de un archivo CSV, por lo que se recomienda que los pasos que se requieran para el mapeo y limpieza de información termine con una última transformación al formato CSV que requiere el mapa para trabajar y actualizar.
 
 Realmente no se vió ninguna necesidad de establecer o mantener un motor de base de datos para la carga de la información, cosa que sin duda hubiese cambiado si el volumen fuera mucho más grande; sin embargo, tomando en cuenta el volumen que se esperaba y que llegó, no fue necesario hacer ninguna capa intermedia.
 
 En caso que eso fuera necesario, se podría establecer un proceso de carga a una base de
 datos, respaldando la información obtenida durante un determinado tiempo; posteriormente borrar la información ya respaldada de las hojas de Google Sheets para que no se sobrecarguen. El resto del procedimiento requiere cambios menores para conectar a una base de datos, en lugar de al Google Sheets.
-\subsubsection*{Actualización del mapa}
-\label{sec:org520f228}
+\subsection{Actualización del mapa}
+\label{sec:org8bf1035}
 Para que el mapa se actualice de manera correcta, el proceso más sencillo se encontró fue:
 
 \begin{enumerate}
@@ -500,8 +351,8 @@ Para que el mapa se actualice de manera correcta, el proceso más sencillo se en
 
 Ya no se menciona el Crisis Map, ya que google archivó este proyecto, dejando inactiva la página autónoma de Google Crisis Map \cite{googlecrisis}, misma razón por la cual ya no se puede acceder al mapa generado durante los esfuerzos del 2017.
 
-\section*{Conclusiones}
-\label{sec:orgaeeeb91}
+\chapter{Conclusiones}
+\label{sec:org4153bc4}
 
 Como ya se mencionó el objetivo y principal dificultad en caso de una crisis humanitaria es proveer ayuda en el momento indicado, a la gente indicada en el tiempo indicado \cite{Aiko2014}. Durante las primeras horas de la respuesta al sismo del 2017, esa ayuda en primera instancia fue el proveer información fidedigna de la ubicación de edificios colapsados, centros de acopio y refugios para la Ciudad de México. Conforme avanzó la crisis, las necesidades y peticiones fueron evolucionando; sin embargo el desarrollo tecnológico no pudo mantener el paso. Varios voluntarios comenzaron a resolver problemas que la tecnología en ese punto no pudo.
 
@@ -583,31 +434,31 @@ Responding to Disasters.} 2007: Organization Science 18 (1) 147-161 \url{https:/
 \end{thebibliography}
 \newpage
 \begin{appendices}
-\section*{Diagramas de flujo}
-\label{sec:orgf345a11}
+\chapter{Diagramas de flujo}
+\label{sec:org6631f26}
 En esta sección agrego los diferentes diagramas de flujo conforme avanzó la implementación de la solución.
-\subsection*{Original.}
-\label{sec:orgd8615aa}
+\section{Original.}
+\label{sec:orgc082fc1}
 Este fue el estado que acabó por bloquear el mapa, ya que MyMaps no estuvo preparado para recibir tantos editores a la vez.
 \begin{center}
 \includegraphics[width=.9\linewidth]{./img/original.jpeg}
 \end{center}
-\subsection*{MyMaps con Google Forms.}
-\label{sec:orgab46687}
+\section{MyMaps con Google Forms.}
+\label{sec:org4483fe6}
 Este es el primer flujo automatizado de información, aquí ya se toma en cuenta el Google Forms y la capa de automatización para el punteo de los incidentes
 \begin{center}
 \includegraphics[width=.9\linewidth]{./img/mymaps.jpeg}
 \end{center}
 
-\subsection*{CrisisMap}
-\label{sec:org4fa7bea}
+\section{CrisisMap}
+\label{sec:org7146125}
 Se sigue manteniendo la capa de Google Forms para el proceso, sin embargo se usa una capa adicional de Google Big Query que en principio debería conectar automáticamente con Google Crisis Map. Esto no se pudo hacer funcionar, y se tuvo que seguir haciendo la carga manual de los datos.
 \begin{center}
 \includegraphics[width=.9\linewidth]{./img/crisismap.jpeg}
 \end{center}
 
-\subsection*{Capa de Verificación.}
-\label{sec:org1f0bbca}
+\section{Capa de Verificación.}
+\label{sec:orgf261fd7}
 Esta es un diagrama que ilustra la "Capa de Verificación" que se menciona en el documento, esto hace evidente que habían dos formularios a llenar, uno público y uno más privado para los colaboradores más cercanos
 \begin{center}
 \includegraphics[width=.9\linewidth]{./img/verificacion.jpeg}
